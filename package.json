@@ -1,0 +1,10 @@
+{
+  "name": "elt-phosphor",
+  "version": "0.0.1",
+  "repository": "https://github.com/elementjs/elt-phosphor",
+  "description": "Phosphor icons for Elt",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.7.15"
+  }
+}
