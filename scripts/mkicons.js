@@ -59,7 +59,7 @@ for (let dir of fs.readdirSync(path.join(root, "SVGs"))) {
       .replace(/([0-9A-Za-z-]+)="([^"]+)"/g, "\"$1\": \"$2\",")
 
     const fnname = "Ph" + mksnake(icon.replace(".svg", ""))
-    res.push(`export let ${fnname} = /** @__PURE__ */ () => _(${contents})`)
+    res.push(`export let ${fnname} = /** @__PURE__ */ () => _(${contents})\n`)
     dts.push(`export function ${fnname}(attrs?: Attrs): SVGElement`)
     // console.log(dir, icon, fnname)
   }
