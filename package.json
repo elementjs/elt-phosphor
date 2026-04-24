@@ -3,5 +3,8 @@
   "version": "2.1.1",
   "repository": "https://github.com/elementjs/elt-phosphor",
   "description": "Phosphor icons for Elt",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "^1.3.13"
+  }
 }

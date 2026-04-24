@@ -1,0 +1,3087 @@
+
+
+import "./style"
+
+let c = "circle"
+let cc = "currentColor"
+let cx = "cx"
+let cy = "cy"
+let d = "d"
+let e = "ellipse"
+let f = "fill"
+let g = "g"
+let h = "height"
+let l = "line"
+let n = "none"
+let o = "opacity"
+let p = "path"
+let ps = "points"
+let pl = "polygon"
+let py = "polyline"
+let r = "r"
+let rt = "rect"
+let ro = "round"
+let rx = "rx"
+let ry = "ry"
+let sc = "stroke-linecap"
+let sj = "stroke-linejoin"
+let sl = "stroke-miterlimit"
+let sw = "stroke-width"
+let st = "stroke"
+let v = "svg"
+let t = "transform"
+let vb = "viewBox"
+let vd = "0 0 256 256"
+let w = "width"
+let x = "x"
+let x1 = "x1"
+let x2 = "x2"
+let y = "y"
+let y1 = "y1"
+let y2 = "y2"
+
+function _(...args) {
+  const sp = document.createElement("span")
+  sp.classList.add("eltph")
+  const svg = s(v, ...args)
+  sp.appendChild(svg)
+  return sp
+}
+
+function s(tag, ...args) {
+  const e = document.createElementNS("http://www.w3.org/2000/svg", tag)
+  for (let i = 0, l = args.length; i < l; i++) {
+    const key = args[i]
+    if (typeof key === "string") {
+      const value = args[++i]
+      e.setAttribute(key, value)
+    } else {
+      e.appendChild(key)
+    }
+  }
+  return e
+}
+
+export const Code = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 88 16 128 64 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 88 240 128 192 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"40",x2,"96",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NuclearPlant = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,24a16,16,0,0,1-16,16H152a16,16,0,0,0-16,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,8h-8a48,48,0,0,0-48,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M37.67,216C51.16,189.65,70,144.55,71.86,95.64a8,8,0,0,1,8-7.64h56.3a8,8,0,0,1,8,7.64c1.83,48.91,20.7,94,34.19,120.36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136.15,88h32a8,8,0,0,1,8,7.63c2.35,53.58,28.62,103.25,38.64,120.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLinesUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"32 120 128 24 224 120 176 120 176 152 80 152 80 120 32 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"216",x2,"80",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"184",x2,"80",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileArchive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,224a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"224",x2,"104",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"160",x2,"120",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"120",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"192",x2,"120",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cardholder = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"56",w,"192",h,"144",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,120H96a32,32,0,0,0,64,0h64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"88",x2,"224",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Asclepius = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"24",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,166.11A24,24,0,0,1,168,184h0a24,24,0,0,1-24,24H96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,48h17a31,31,0,0,1,31,31v1a32,32,0,0,1-32,32H96a24,24,0,0,0-24,24h0a24,24,0,0,0,24,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,48v8A32,32,0,0,1,56,88H32V80A32,32,0,0,1,64,48H96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Crane = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"168",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200V96a8,8,0,0,1,8-8h72l24,80v32a8,8,0,0,1-8,8H32A8,8,0,0,1,24,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"88",x2,"56",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,88,224,24V160a8,8,0,0,1-8,8H200a8,8,0,0,1-8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirplaneLanding = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"216",x2,"248",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M60,75.46,104,88V48a8,8,0,0,1,10.53-7.59L120,42.24l24,57.2,64.56,18A32,32,0,0,1,232,148.32V184L55.37,134.54A32,32,0,0,1,32,103.73V48a8,8,0,0,1,10.53-7.59L48,42.24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ToiletPaper = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"64",cy,"120",r,"12"),s(e,cx,"64",cy,"120",rx,"40",ry,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,120v88a8,8,0,0,0,8,8H224a8,8,0,0,0,8-8V120c0-44.18-17.91-80-40-80H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"120",x2,"128",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"120",x2,"176",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"120",x2,"232",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cigarette = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"136",w,"208",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"184",x2,"88",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,104s-18-8,0-40,0-40,0-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,104s-18-8,0-40,0-40,0-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WaveformSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"96",x2,"48",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"84",x2,"88",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"32",x2,"88",y2,"36.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"80.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"168",y2,"124.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"80",x2,"208",y2,"168.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GameController = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"104",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"104",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"88",x2,"88",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M105.91,152,63.8,199.8a28,28,0,0,1-47.37-24.66L32.79,91a52,52,0,0,1,51.1-43H172a52,52,0,1,1,0,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M150.09,152l42.11,47.8a28,28,0,0,0,47.37-24.66L223.21,91",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PianoKeys = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"216",x2,"96",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"216",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 40 184 144 144 144 144 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 40 112 144 72 144 72 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceTablet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"64",x2,"208",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"192",x2,"208",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bug = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"156",cy,"92",r,"12"),s(c,cx,"100",cy,"92",r,"12"),s(l,x1,"128",y1,"128",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,144a80,80,0,0,1-160,0V112a80,80,0,0,1,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"184",x2,"203.18",y2,"171.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"72",x2,"203.18",y2,"84.59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"72",x2,"52.82",y2,"84.59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"184",x2,"52.82",y2,"171.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"240",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaperPlane = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"120",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,184l93.28,31.51A8,8,0,0,0,231,204.07l-96.09-168a8,8,0,0,0-14,0l-95.85,168a8,8,0,0,0,9.67,11.44Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UsersFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"80",cy,"168",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"64",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"168",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,224a60,60,0,0,1,96,0,60,60,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"64",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,120a60,60,0,0,1,96,0h0a60,60,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rss = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,136a64,64,0,0,1,64,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,88A112,112,0,0,1,168,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,40A160,160,0,0,1,216,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"60",cy,"196",r,"12"))
+
+export const ChartDonut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"168",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M44.85,80A96,96,0,1,0,128,32V88a40,40,0,1,1-34.65,20Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"89.35",y1,"138.36",x2,"35.25",y2,"152.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RowsPlusBottom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"120",w,"176",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"48",w,"176",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"216",x2,"152",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Couch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,112V72a8,8,0,0,1,8-8H224a8,8,0,0,1,8,8v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"176",x2,"216",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,144V120a8,8,0,0,1,8-8h16a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H24a8,8,0,0,1-8-8V120a8,8,0,0,1,8-8H40a8,8,0,0,1,8,8v24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerHifi = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"56",w,"192",h,"144",rx,"8",t,"translate(256 0) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"76",r,"12"),s(c,cx,"128",cy,"152",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Link = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M141.38,64.68l11-11a46.62,46.62,0,0,1,65.94,0h0a46.62,46.62,0,0,1,0,65.94L193.94,144,183.6,154.34a46.63,46.63,0,0,1-66-.05h0A46.48,46.48,0,0,1,104,120.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M114.62,191.32l-11,11a46.63,46.63,0,0,1-66-.05h0a46.63,46.63,0,0,1,.06-65.89L72.4,101.66a46.62,46.62,0,0,1,65.94,0h0A46.45,46.45,0,0,1,152,135.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Moped = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"136 40 168 40 216 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"216",cy,"168",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,168a32,32,0,0,1-64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,96v26.73A48,48,0,0,0,8,168H184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"24 96 104 96 131 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignTop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"40",x2,"40",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"116",y,"100",w,"112",h,"56",rx,"8",t,"translate(300 -44) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"56",y,"72",w,"56",h,"152",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrosoftExcelLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"96",x2,"208",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"160",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,72V40a8,8,0,0,1,8-8H200a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H72a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"184",x2,"136",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"32",x2,"136",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"72",w,"120",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"112",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"104",x2,"72",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsSixVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"92",cy,"60",r,"12"),s(c,cx,"164",cy,"60",r,"12"),s(c,cx,"92",cy,"128",r,"12"),s(c,cx,"164",cy,"128",r,"12"),s(c,cx,"92",cy,"196",r,"12"),s(c,cx,"164",cy,"196",r,"12"))
+
+export const Image = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"100",r,"12"),s(p,d,"M147.31,164,173,138.34a8,8,0,0,1,11.31,0L224,178.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,168.69l54.34-54.35a8,8,0,0,1,11.32,0L191.31,208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rainbow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,184V168a48,48,0,0,0-96,0v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,184V168a80,80,0,0,0-160,0v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,184V168a112,112,0,0,0-224,0v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrashSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"56",x2,"40",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"24",x2,"168",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandTap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,76a52,52,0,0,1,104,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,224,42.68,174a20,20,0,0,1,34.64-20L96,184V76a20,20,0,0,1,40,0v56a20,20,0,0,1,40,0v16a20,20,0,0,1,40,0v36c0,24-8,40-8,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PipeWrench = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M125.66,145.66a8,8,0,0,0,0-11.32L77,85a17,17,0,0,1,0-24h0a17,17,0,0,1,24,0l72.69,73.37a8,8,0,0,1,0,11.32L85,235a17,17,0,0,1-24,0h0a17,17,0,0,1,0-24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M132.28,92.58,150.9,74.34a8,8,0,0,1,11.25-.06l37.45,35.38a8,8,0,0,0,11.31,0l3.72-3.72a32,32,0,0,0,0-45.25l-45-42.35a8,8,0,0,0-11.32,0L108.12,68.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M84,92.12,58.34,117.66a8,8,0,0,0,0,11.31L71,141.66a8,8,0,0,0,11.31,0L108,116.4",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Database = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"80",rx,"88",ry,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,80v48c0,26.51,39.4,48,88,48s88-21.49,88-48V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,128v48c0,26.51,39.4,48,88,48s88-21.49,88-48V128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCenteredSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M55.27,48H40a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8h65.07l16,28a8,8,0,0,0,13.9,0l16-28h35.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,186V56a8,8,0,0,0-8-8H98.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PawPrint = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"212",cy,"108",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"44",cy,"108",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"60",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"164",cy,"60",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,104A36,36,0,0,0,93.43,130a43.49,43.49,0,0,1-20.67,25.9,32,32,0,0,0,27.73,57.62,72.49,72.49,0,0,1,55,0,32,32,0,0,0,27.73-57.62A43.46,43.46,0,0,1,162.57,130,36,36,0,0,0,128,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BaseballHelmet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"88",cy,"156",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,128a96,96,0,0,0-192,0v24a64,64,0,0,0,128,0V128h96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,216h40a64,64,0,0,0,64-64V128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"56",x2,"200",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"56",x2,"152",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsOut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 48 208 48 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"104",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 208 48 208 48 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"152",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 160 208 208 160 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"152",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 96 48 48 96 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"104",x2,"48",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Siren = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"16",x2,"128",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"40",x2,"208",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"40",x2,"48",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,168V128a80,80,0,0,1,80.61-80c44.11.33,79.39,36.89,79.39,81v39",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,80c22.7,3.81,40,24.22,40,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"168",w,"192",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SelectionAll = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"40",x2,"112",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40h24a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"144",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,216h24a8,8,0,0,0,8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216H48a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,40H48a8,8,0,0,0-8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"80",y,"80",w,"96",h,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HeartStraight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224l89.36-90.64a50,50,0,1,0-70.72-70.72L128,80,109.36,62.64a50,50,0,0,0-70.72,70.72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquareLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"96",y,"96",w,"64",h,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GooglePlayLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,224.14a8,8,0,0,0,12.06,6.77L235.9,134.84a7.75,7.75,0,0,0,0-13.68L68.06,25.09A8,8,0,0,0,56,31.86Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.33",y1,"26.33",x2,"192",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.33",y1,"229.67",x2,"191.98",y2,"96.02",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FalloutShelter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"96 80 160 80 128 128 96 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 128 192 128 160 176 128 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"64 128 128 128 96 176 64 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,136l96,96,96-96H176V48a8,8,0,0,0-8-8H88a8,8,0,0,0-8,8v88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Notches = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"128",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"40",x2,"40",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EjectSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"200",x2,"32",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M33.82,138.8,115.48,38a16.1,16.1,0,0,1,25,0L222.18,138.8a8.1,8.1,0,0,1-6.26,13.2H40.08A8.1,8.1,0,0,1,33.82,138.8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockKey = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"140",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,80,0V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Plant = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M138.54,149.46C106.62,96.25,149.18,43.05,239.63,48.37,245,138.82,191.75,181.38,138.54,149.46Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88.47,160.47c22.8-38-7.6-76-72.21-72.21C12.46,152.87,50.47,183.27,88.47,160.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"128",x2,"120",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,88l-61.25,61.25A64,64,0,0,0,120,194.51V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCircleDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,35a95.51,95.51,0,0,1,48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M35.49,102.3a95.54,95.54,0,0,1,24-41.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,221a95.51,95.51,0,0,1-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M196.51,60.73a95.54,95.54,0,0,1,24,41.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M220.52,153.7a96,96,0,0,1-28.32,45.67,72,72,0,0,0-128.4,0A96,96,0,0,1,35.48,153.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Books = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"40",w,"64",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M217.67,205.77l-46.81,10a8,8,0,0,1-9.5-6.21L128.18,51.8a8.07,8.07,0,0,1,6.15-9.57l46.81-10a8,8,0,0,1,9.5,6.21L223.82,196.2A8.07,8.07,0,0,1,217.67,205.77Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"72",x2,"112",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"184",x2,"112",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"133.16",y1,"75.48",x2,"195.61",y2,"62.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"139.79",y1,"107.04",x2,"202.25",y2,"93.62",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"156.39",y1,"185.94",x2,"218.84",y2,"172.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignCenterHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"32",x2,"128",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"200",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"56",w,"128",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"144",w,"176",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"163.2",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"72",x2,"160",y2,"115.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"200",y2,"159.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"119.2",x2,"120",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rewind = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,71.85v112.3a7.91,7.91,0,0,1-12.18,6.59l-88.19-56.15a7.8,7.8,0,0,1,0-13.18l88.19-56.15A7.91,7.91,0,0,1,224,71.85Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,71.85v112.3a7.91,7.91,0,0,1-12.18,6.59L19.63,134.59a7.8,7.8,0,0,1,0-13.18l88.19-56.15A7.91,7.91,0,0,1,120,71.85Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"32",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 112 128 184 200 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"216",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StackPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32 128 128 184 224 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"32 80 128 136 224 80 128 24 32 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"200",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"176",x2,"208",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 176 128 232 144 222.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserSwitch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 128 224 152 248 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"8 128 32 104 56 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,104v24a96,96,0,0,0,174,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,152V128A96,96,0,0,0,50,72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gauge = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,176V153.13C24,95.65,70.15,48.2,127.63,48A104,104,0,0,1,232,152v24a8,8,0,0,1-8,8H32A8,8,0,0,1,24,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"184",x2,"168",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"136",x2,"230.78",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"25.39",y1,"136",x2,"56",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bandaids = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M49.37,94.63A32,32,0,0,1,94.63,49.37l112,112a32,32,0,0,1-45.26,45.26Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M161.37,49.37a32,32,0,0,1,45.26,45.26l-112,112a32,32,0,0,1-45.26-45.26Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"4",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"12"))
+
+export const Island = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,224s40-32,104-32,104,32,104,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,72c-80,40-48,120-48,120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,72s-17.2-8.58-36-8c-17.46.57-36.3,9.19-44,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,72S160,9.5,104,40.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,136c0-64-56-64-56-64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,72s16-52.9,56-22.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,136s22.61-32-7.95-64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"140",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Student = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"64",x2,"32",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,216c15.7-24.08,41.11-40,72-40s56.3,15.92,72,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"224 64 128 96 32 64 128 32 224 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M169.34,82.22a56,56,0,1,1-82.68,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlugCharging = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,64H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,64v96a32,32,0,0,0,32,32h80a32,32,0,0,0,32-32V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"16",x2,"168",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,16V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,192v48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"132 160 144 128 112 128 124 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Chair = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"32",w,"144",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"144",w,"176",h,"32",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"96",x2,"88",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"168",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"176",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"176",x2,"64",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ladder = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"40",x2,"88",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"40",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"216",x2,"168",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"69.09",y1,"136",x2,"133.09",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"86.55",y1,"88",x2,"150.55",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"51.64",y1,"184",x2,"115.64",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"156",y1,"73",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"124.36",y1,"160",x2,"187.64",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,84h48l-28,40a28,28,0,1,1-20,47.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const OfficeChair = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,232h0a24,24,0,0,1,24-24h64a24,24,0,0,1,24,24h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,128H40a40,40,0,0,0,40,40h96a40,40,0,0,0,40-40h24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M93.72,24a8,8,0,0,0-7.92,6.87l-13.72,96A8,8,0,0,0,80,136h96a8,8,0,0,0,7.92-9.13l-13.72-96A8,8,0,0,0,162.28,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Star = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,189.09l54.72,33.65a8.4,8.4,0,0,0,12.52-9.17l-14.88-62.79,48.7-42A8.46,8.46,0,0,0,224.27,94L160.36,88.8,135.74,29.2a8.36,8.36,0,0,0-15.48,0L95.64,88.8,31.73,94a8.46,8.46,0,0,0-4.79,14.83l48.7,42L60.76,213.57a8.4,8.4,0,0,0,12.52,9.17Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Strategy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"76",cy,"188",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"72",x2,"88",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"72",x2,"48",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"168",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"168",x2,"184",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 80 144 40 184 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,40l16,16c40,40,8,88-24,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WashingMachine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"68",r,"12"),s(l,x1,"120",y1,"112",x2,"104",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"152",x2,"152",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleHike = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"152",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 232 152 176 109.54 145.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,232V144c-40,0-38.06-24.33-56-39.91a32.47,32.47,0,0,0-6.47-4.4L72,232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"39.54",y,"94.77",w,"60.93",h,"30.46",t,"translate(-58.68 131.01) rotate(-66.8)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Calendar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 128 104 120 104 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M138.14,128a16,16,0,1,1,26.64,17.63L136,184h32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Fingerprint = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M50.69,184.92A127.52,127.52,0,0,0,64,128a63.85,63.85,0,0,1,24-50",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128a191.11,191.11,0,0,1-24,93",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,128a32,32,0,0,1,64,0,223.12,223.12,0,0,1-21.28,95.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M218.56,184A289.45,289.45,0,0,0,224,128a96,96,0,0,0-192,0,95.8,95.8,0,0,1-5.47,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.81,160a158.92,158.92,0,0,1-18.12,47.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,64.5a66,66,0,0,1,8-.49,64,64,0,0,1,64,64,259.86,259.86,0,0,1-2,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M183.94,192q-2.28,8.88-5.18,17.5",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Farm = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,142a255,255,0,0,1,104-22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M164.89,162.23A223.75,223.75,0,0,1,232,152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M196.89,187.2A193.47,193.47,0,0,1,232,184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,184a191.09,191.09,0,0,1,106.17,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,152a223.28,223.28,0,0,1,156.77,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,120a255.5,255.5,0,0,1,199.85,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 126.14 80 80 144 32 208 80 208 121.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 138.61 120 96 168 96 168 128.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHFive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,112H200l-8,48a27.57,27.57,0,0,1,20-8,28,28,0,0,1,0,56,27.57,27.57,0,0,1-20-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlugsConnected = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"63.03",y,"88.4",w,"129.94",h,"79.2",rx,"24",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"88",x2,"168",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"24",x2,"173.94",y2,"82.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"82.06",y1,"173.94",x2,"24",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"32",x2,"104",y2,"52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"96",x2,"52",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"204",y1,"152",x2,"224",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"204",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FloppyDiskBack = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,83.31V208a8,8,0,0,0,8,8H208a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H83.31a8,8,0,0,0-5.65,2.34L42.34,77.66A8,8,0,0,0,40,83.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,40.72V80a8,8,0,0,0,8,8h80a8,8,0,0,0,8-8V40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pentagon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M35.27,93.93a8,8,0,0,0-2.88,8.9l32,107.62A8,8,0,0,0,72,216H184a8,8,0,0,0,7.62-5.55l32-107.62a8,8,0,0,0-2.88-8.9l-88-68.38a8,8,0,0,0-9.46,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquareHalfBottom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"128",x2,"80",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"128",x2,"112",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"128",x2,"144",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"128",x2,"176",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCloud = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,224h24a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M65.66,168H60a28,28,0,0,0,0,56h48a44,44,0,1,0-43.82-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 144 128 120 152 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BowlingBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"132",cy,"116",r,"12"),s(c,cx,"164",cy,"92",r,"12"),s(c,cx,"172",cy,"132",r,"12"))
+
+export const DropboxLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"76 48 24 84 76 120 128 84 76 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"180 48 128 84 180 120 232 84 180 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"76 120 24 156 76 192 128 156 76 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"180 120 128 156 180 192 232 156 180 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104.11 211.46 128 228 151.89 211.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudWarning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,128a80,80,0,1,1,80,80H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"160",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"164",r,"12"))
+
+export const GlobeStand = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"136",cy,"104",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"240",x2,"168",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"208",x2,"136",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,179.05A104,104,0,0,1,61,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Users = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"84",cy,"108",r,"52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M10.23,200a88,88,0,0,1,147.54,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M172,160a87.93,87.93,0,0,1,73.77,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152.69,59.7A52,52,0,1,1,172,160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Percent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"56",x2,"56",y2,"200",st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"76",cy,"76",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"180",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CameraSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.14,156.75a36,36,0,1,1-48.3-53.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M94,43l2-3h64l16,24h32a16,16,0,0,1,16,16V186",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200.73,208H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64H69.82",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TidalLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"19.72",y,"67.72",w,"56.57",h,"56.57",t,"translate(-53.82 62.06) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"99.72",y,"67.72",w,"56.57",h,"56.57",t,"translate(-30.39 118.63) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"99.72",y,"147.72",w,"56.57",h,"56.57",t,"translate(-86.96 142.06) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"179.72",y,"67.72",w,"56.57",h,"56.57",t,"translate(-6.96 175.2) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Clipboard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,40h40a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72V64a40,40,0,0,1,80,0v8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MatrixLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 40 40 40 40 216 64 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 40 216 40 216 216 192 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,160V120a24,24,0,0,0-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,160V120a24,24,0,0,0-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"96",x2,"80",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Coffee = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"24",x2,"88",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"24",x2,"120",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"24",x2,"152",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"216",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M83.3,216A88,88,0,0,1,32,136V88H208v48a88,88,0,0,1-51.3,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,88h0a32,32,0,0,1,32,32v8a32,32,0,0,1-32,32h-3.38",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitCommit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"128",x2,"80",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"128",x2,"248",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileAudio = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"48 200 48 160 72 160 96 136 96 224 72 200 48 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,152a32.5,32.5,0,0,1,0,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,224h32a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PintGlass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,32H200L176.85,225A8,8,0,0,1,168.9,232H87.1A8,8,0,0,1,79.15,225Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.8",y1,"72",x2,"195.2",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ranking = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,208V104a8,8,0,0,1,8-8H88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,208V56a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8V208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,208V144a8,8,0,0,0-8-8H168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 100 132 96 132 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"208",x2,"240",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSimpleNone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,168H40a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H88l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Seal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ColumnsPlusLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"28",y,"108",w,"176",h,"40",rx,"8",t,"translate(244 12) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"100",y,"108",w,"176",h,"40",rx,"8",t,"translate(316 -60) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"64",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"40",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhonePause = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"48",x2,"200",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"48",x2,"160",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleDoubleLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 160 136 128 168 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 160 80 128 112 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"128",x2,"40",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 56 40 128 112 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNotesMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"48",x2,"176",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"164",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"196",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 196 80 56 136 42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"88",x2,"208",y2,"164",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"84",x2,"80",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FingerprintSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,128a239.33,239.33,0,0,1-17.94,91.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M163.78,96A48,48,0,0,0,80,128a143.41,143.41,0,0,1-18,69.73",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,37.46A96.07,96.07,0,0,1,224,128a288.93,288.93,0,0,1-7.14,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M23.3,168A95.66,95.66,0,0,0,32,128,95.78,95.78,0,0,1,64,56.45",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M110.58,208q-3,6.63-6.56,13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128a192.77,192.77,0,0,1-6,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sliders = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"56",cy,"136",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"88",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"168",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"40",x2,"56",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"40",x2,"200",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"40",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"160",x2,"56",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"192",x2,"200",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PushPin = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M229.66,98.34a8,8,0,0,0,0-11.31L169,26.34a8,8,0,0,0-11.31,0L100.39,83.8S72.64,69.93,43,93.85a8,8,0,0,0-.65,11.91l107.9,107.89a8,8,0,0,0,12-.83c8.39-11.16,21.57-34.09,10.11-57Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96.29",y1,"159.71",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCircleGear = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"200",cy,"56",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"40",x2,"200",y2,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"186.14",y1,"48",x2,"175.75",y2,"42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"186.14",y1,"64",x2,"175.75",y2,"70",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"72",x2,"200",y2,"84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"213.86",y1,"64",x2,"224.25",y2,"70",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"213.86",y1,"48",x2,"224.25",y2,"42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M222.67,112A95.92,95.92,0,1,1,144,33.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BoxingGlove = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,104V72a48,48,0,0,1,48-48h48a48,48,0,0,1,48,48v46.88a7.85,7.85,0,0,1-.31,2.2L200,176v40a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V176L33.75,138.19a8,8,0,0,1-1.75-5V104A24,24,0,0,1,56,80H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"160",x2,"168",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"160",x2,"104",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareFive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,80H112l-8,48a27.57,27.57,0,0,1,20-8,28,28,0,0,1,0,56,27.57,27.57,0,0,1-20-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const House = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,216V152h48v64h64V120a8,8,0,0,0-2.34-5.66l-80-80a8,8,0,0,0-11.32,0l-80,80A8,8,0,0,0,40,120v96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M50.36,53.66A8,8,0,0,1,56,40H200a8,8,0,0,1,5.66,13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.36,202.34A8,8,0,0,0,56,216H200a8,8,0,0,0,5.66-13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsInLineVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"128",x2,"40",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 64 128 96 96 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"240",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 192 128 160 160 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scribble = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,40,46.63,81.37a22.62,22.62,0,0,0,0,32h0a22.62,22.62,0,0,0,32,0l66.74-66.74a22.62,22.62,0,0,1,32,0h0a22.62,22.62,0,0,1,0,32L78.63,177.37a22.62,22.62,0,0,0,0,32h0a22.62,22.62,0,0,0,32,0l66.74-66.74a22.62,22.62,0,0,1,32,0h0a22.62,22.62,0,0,1,0,32L200,184a22.62,22.62,0,0,0,0,32h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryWarning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"116",y1,"96",x2,"116",y2,"124",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"116",cy,"156",r,"12"))
+
+export const Tag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M42.34,138.34A8,8,0,0,1,40,132.69V40h92.69a8,8,0,0,1,5.65,2.34l99.32,99.32a8,8,0,0,1,0,11.31L153,237.66a8,8,0,0,1-11.31,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"84",r,"12"))
+
+export const EyeClosed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,104c16.81,20.81,47.63,48,96,48s79.19-27.19,96-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"168",x2,"200.62",y2,"127.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"192",x2,"152.91",y2,"149.45",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"192",x2,"103.09",y2,"149.45",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"168",x2,"55.38",y2,"127.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bluetooth = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 32 192 80 128 128 128 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 128 192 176 128 224 128 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"80",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"176",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SkipBack = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"40",x2,"56",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,47.88V208.12a8,8,0,0,1-12.19,6.65L59.7,134.65a7.83,7.83,0,0,1,0-13.3L187.81,41.23A8,8,0,0,1,200,47.88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Football = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M186.54,186.54c-43,43-102.66,39.55-131.35,34.69a24.92,24.92,0,0,1-20.42-20.42c-4.86-28.69-8.29-88.37,34.69-131.35S172.12,29.91,200.81,34.77a24.92,24.92,0,0,1,20.42,20.42C226.09,83.88,229.52,143.56,186.54,186.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"128",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"152",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"145.45",y1,"33.45",x2,"222.55",y2,"110.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"33.45",y1,"145.45",x2,"110.55",y2,"222.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderNonbinary = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"168",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"72",x2,"168",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"24",x2,"168",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Radical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"240 104 240 80 128 80 80 208 32 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(256 0) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 96 96 96 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserSound = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"108",cy,"108",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,208c20.55-24.45,49.56-40,84-40s63.45,15.55,84,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,68.74a100.33,100.33,0,0,1,0,78.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M229.36,56a132.39,132.39,0,0,1,0,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandHeart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,208H16a8,8,0,0,1-8-8V160a8,8,0,0,1,8-8H48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,160h32l67-15.41a16.61,16.61,0,0,1,21,16h0a16.59,16.59,0,0,1-9.18,14.85L184,192l-64,16H48V152l25-25a24,24,0,0,1,17-7H140a20,20,0,0,1,20,20h0a20,20,0,0,1-20,20Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96.73,120C87,107.72,80,94.56,80,80c0-21.69,17.67-40,39.46-40A39.12,39.12,0,0,1,156,64a39.12,39.12,0,0,1,36.54-24C214.33,40,232,58.31,232,80c0,29.23-28.18,55.07-50.22,71.32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileTxt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"108",y1,"152",x2,"148",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"148",y1,"152",x2,"108",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"84",y1,"152",x2,"44",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"152",x2,"64",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"212",y1,"152",x2,"172",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"152",x2,"192",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CodepenLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"232",y1,"96",x2,"232",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"96",x2,"24",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"40",x2,"128",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"24 160 128 104 232 160 128 216 24 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"24 96 128 40 232 96 128 152 24 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,32V145.37a16,16,0,0,1-4.69,11.32l-68.4,68.4a50.92,50.92,0,0,1-72,0h0a50.92,50.92,0,0,1,0-72L96,112V32a8,8,0,0,1,8-8h88A8,8,0,0,1,200,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"56",x2,"96",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,112a48,48,0,0,0-37.71,77.71",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Octagon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M164.45,32H91.55a8,8,0,0,0-5.66,2.34L34.34,85.89A8,8,0,0,0,32,91.55v72.9a8,8,0,0,0,2.34,5.66l51.55,51.55A8,8,0,0,0,91.55,224h72.9a8,8,0,0,0,5.66-2.34l51.55-51.55a8,8,0,0,0,2.34-5.66V91.55a8,8,0,0,0-2.34-5.66L170.11,34.34A8,8,0,0,0,164.45,32Z",f,n,st,cc,sl,"10",sw,"16"))
+
+export const TagChevron = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,200H187.72a8,8,0,0,0,6.65-3.56L240,128,194.37,59.56A8,8,0,0,0,187.72,56H32l48,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockLaminated = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"120",x2,"216",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"152",x2,"216",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"216",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,80,0V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrophoneStage = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"168",cy,"88",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"213.25",y1,"133.25",x2,"122.75",y2,"42.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M105,99.5,33.55,197a8,8,0,0,0,.79,10.38l14.3,14.3a8,8,0,0,0,10.38.79L156.5,151",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Numpad = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"64",cy,"48",r,"16"),s(c,cx,"128",cy,"48",r,"16"),s(c,cx,"192",cy,"48",r,"16"),s(c,cx,"64",cy,"104",r,"16"),s(c,cx,"128",cy,"104",r,"16"),s(c,cx,"192",cy,"104",r,"16"),s(c,cx,"64",cy,"160",r,"16"),s(c,cx,"128",cy,"160",r,"16"),s(c,cx,"128",cy,"216",r,"16"),s(c,cx,"192",cy,"160",r,"16"))
+
+export const ArrowsOutSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 48 208 48 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"112",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 208 48 208 48 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"144",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Headset = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,200v8a32,32,0,0,1-32,32H136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,128H192a16,16,0,0,0-16,16v40a16,16,0,0,0,16,16h32V128a96,96,0,1,0-192,0v56a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V144a16,16,0,0,0-16-16H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSimpleHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,168H40a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H88l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"104",x2,"200",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"88",x2,"232",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WhatsappLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,104a32,32,0,0,1,32-32l16,32-12.32,18.47a48.19,48.19,0,0,0,25.85,25.85L152,136l32,16a32,32,0,0,1-32,32A80,80,0,0,1,72,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SortAscending = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"128",x2,"120",y2,"128",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"64",x2,"184",y2,"64",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"192",x2,"104",y2,"192",st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 168 184 208 224 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"208",x2,"184",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Package = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"129.09",x2,"128",y2,"231.97",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32.7 76.92 128 129.08 223.3 76.92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M219.84,182.84l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18a8,8,0,0,1,7.68,0l88,48.18a8,8,0,0,1,4.16,7v95.64A8,8,0,0,1,219.84,182.84Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"81.56 48.31 176 100 176 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LegoSmiley = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"100",cy,"112",r,"12"),s(c,cx,"156",cy,"112",r,"12"),s(p,d,"M156,152a53,53,0,0,1-56,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"56",w,"160",h,"144",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,56V32a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,200v24a8,8,0,0,0,8,8h96a8,8,0,0,0,8-8V200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileTs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M135.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,224h24a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"40",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60",y1,"152",x2,"60",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FediverseLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"148",cy,"44",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"212",cy,"124",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"212",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"56",cy,"184",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"84",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"201.26",y1,"140.88",x2,"166.74",y2,"195.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160.49",y1,"59.62",x2,"199.51",y2,"108.38",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"70.47",y1,"76.31",x2,"129.53",y2,"51.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192.02",y1,"124.95",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"143.37",y2,"63.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"69.31",y1,"94.02",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"149.67",y2,"193.02",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136.74",y1,"206.61",x2,"75.26",y2,"189.39",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"71.79",y1,"171.72",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"55.2",y1,"164.02",x2,"52.8",y2,"103.98",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const IntersectSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"96",y,"96",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpotifyLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,166a51,51,0,0,1,48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,110a119,119,0,0,1,112,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,138a85,85,0,0,1,80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"104",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"176",x2,"104",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilmScript = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"32",w,"160",h,"192",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"76",r,"12"),s(c,cx,"84",cy,"180",r,"12"),s(c,cx,"84",cy,"128",r,"12"))
+
+export const Grains = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224h0a80,80,0,0,1-80-80V120h0a80,80,0,0,1,80,80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,120h0a0,0,0,0,1,0,0v24a80,80,0,0,1-80,80h0a0,0,0,0,1,0,0V200a80,80,0,0,1,80-80Z",t,"translate(336 344) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,120V64h0a80,80,0,0,0-80,80v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,120V64h0a80,80,0,0,1,80,80v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M84.05,72.57C95.62,40.19,128,24,128,24S160.38,40.19,172,72.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirplaneTaxiing = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144,104h64a32,32,0,0,1,32,32v24H61.06a32,32,0,0,1-30.65-22.8L16.34,90.3A8,8,0,0,1,24,80h8l24,24H92.91L80.42,66.53A8,8,0,0,1,88,56h8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"208",cy,"200",r,"16"),s(c,cx,"112",cy,"200",r,"16"))
+
+export const Vault = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"192",y1,"200",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"200",x2,"64",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"152",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"152",cy,"128",r,"16"),s(l,x1,"152",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"152",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSimpleX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,168H40a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H88l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"104",x2,"200",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"152",x2,"200",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Binary = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"94",cy,"72",rx,"30",ry,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"166",cy,"184",rx,"30",ry,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 112 176 32 152 45.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 224 96 144 72 157.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CirclesThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"76",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"172",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"172",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShuffleSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 48 208 48 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 168 208 208 168 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"150.63",y1,"105.37",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"105.37",y2,"150.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCircleMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"56",x2,"224",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M218.54,96A95.93,95.93,0,1,1,144,33.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlowerLotus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,200s40-22,40-80.82c0-46-24.55-69.54-35.19-77.56a8,8,0,0,0-9.62,0C112.55,49.64,88,73.14,88,119.18,88,178,128,200,128,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M94.6,80.8C81.28,70,68.56,65.79,61,64.18a8.2,8.2,0,0,0-9.52,5.52c-3.88,12-8.78,39.66,11.11,74.27s53.07,53.4,65.37,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M161.4,80.8c13.32-10.82,26-15,33.56-16.62a8.2,8.2,0,0,1,9.52,5.52c3.88,12,8.78,39.66-11.11,74.27S140.3,197.37,128,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,200c15.37,0,40.77-.18,70-17.64s38.69-39.34,41.72-50.54a7.94,7.94,0,0,0-5.46-9.78,69.59,69.59,0,0,0-30.82-.64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M52.56,121.4a69.59,69.59,0,0,0-30.82.64,7.94,7.94,0,0,0-5.46,9.78c3,11.2,12.49,33.07,41.72,50.54S112.63,200,128,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DesktopTower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144,184H32a16,16,0,0,1-16-16V96A16,16,0,0,1,32,80H144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"64",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"72",x2,"176",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"104",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"144",y,"40",w,"96",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"184",x2,"88",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"180",r,"12"))
+
+export const AddressBook = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"136",cy,"112",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"72",x2,"56",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"56",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"56",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,168a60,60,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"48",w,"192",h,"160",rx,"8",t,"translate(264 -8) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextSubscript = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M240,208H192l43.17-57.56A24,24,0,1,0,193.37,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TelevisionSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 24 128 72 176 24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Broom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,224a95.2,95.2,0,0,1-29-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,152c0,31.67,13.31,59,40,72H61A103.65,103.65,0,0,1,32,152c0-28.21,11.23-50.89,29.47-69.64a8,8,0,0,1,8.67-1.81L95.52,90.83a16,16,0,0,0,20.82-9l21-53.11c4.15-10,15.47-15.32,25.63-11.53a20,20,0,0,1,11.51,26.4L153.13,96.69a16,16,0,0,0,8.93,20.76L187,127.29a8,8,0,0,1,5,7.43Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"43.93",y1,"105.57",x2,"192.8",y2,"165.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretLineRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 48 144 128 64 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"48",x2,"184",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WaveSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"232 128 232 184 128 184 128 72 24 72 24 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleFive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,80H112l-8,48a27.57,27.57,0,0,1,20-8,28,28,0,0,1,0,56,27.57,27.57,0,0,1-20-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VectorThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"232 136 120 136 120 24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"136",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 104 232 136 200 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 56 120 24 152 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 160 48 208 96 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StandardDefinition = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144,176h24a48,48,0,0,0,0-96H144Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"48",x2,"224",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,152c0,13.25,14.33,24,32,24s32-10.75,32-24c0-32-62.22-20-62.22-48,0-13.25,12.55-24,30.22-24,13.25,0,23.63,6,28,14.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TreeView = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"168",y,"96",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"168",y,"184",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"120",x2,"168",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,72V192a16,16,0,0,0,16,16h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquaresFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"144",y,"48",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"144",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"144",y,"144",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyKzt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"96",x2,"200",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"56",x2,"200",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TumblrLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,184v48H152a56,56,0,0,1-56-56V112H64V72h0a48,48,0,0,0,48-48h32V72h48v40H144v56a16,16,0,0,0,16,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCSharp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,200.87A22.12,22.12,0,0,1,64,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,224V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"160",x2,"176",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"192",x2,"176",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"144",x2,"160",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tooth = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"64",x2,"168",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"64",x2,"88",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,79.76C39.93,151.18,63.48,208,84,222.54a8,8,0,0,0,12.52-6C98,196.31,104,160,128,160s30,36.31,31.51,56.53a8,8,0,0,0,12.52,6c20.49-14.55,44-71.36,44-142.78A47.94,47.94,0,0,0,168,32H88A47.94,47.94,0,0,0,40,79.76Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RectangleDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,72V56a8,8,0,0,1,8-8H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"144",x2,"32",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,208H40a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"208",x2,"112",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,184v16a8,8,0,0,1-8,8H184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"112",x2,"224",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,48h32a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"48",x2,"144",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WarningOctagon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"136",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M164.45,32H91.55a8,8,0,0,0-5.66,2.34L34.34,85.89A8,8,0,0,0,32,91.55v72.9a8,8,0,0,0,2.34,5.66l51.55,51.55A8,8,0,0,0,91.55,224h72.9a8,8,0,0,0,5.66-2.34l51.55-51.55a8,8,0,0,0,2.34-5.66V91.55a8,8,0,0,0-2.34-5.66L170.11,34.34A8,8,0,0,0,164.45,32Z",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"172",r,"12"))
+
+export const MapPinPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,104c0,72-80,128-80,128S48,176,48,104a80,80,0,0,1,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"104",x2,"160",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M205.15,165.3C211.76,150.66,216,133.06,216,112V56a8,8,0,0,0-8-8H98.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M55.27,48H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120s33.59-9.16,59.27-38.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Certificate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"136",x2,"120",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"120",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"196",cy,"124",r,"44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,192H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V90.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 157.94 168 224 196 208 224 224 224 157.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"40",x2,"216",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"192",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 104 192 200 96 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EarSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M87,35.3A80,80,0,0,1,208,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,216c-8.07,9.77-18.34,16-32,16a44,44,0,0,1-44-44c0-41.49-36-28-36-84A79.63,79.63,0,0,1,63.34,56.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M91.43,87.77A39.76,39.76,0,0,0,88,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M164,120a34,34,0,0,0,4-16,40,40,0,0,0-53-37.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M169.07,173.18A16,16,0,0,1,144,160a33.16,33.16,0,0,1,2.2-12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AmazonLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"208 168 240 168 240 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"124",cy,"132",r,"44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,168l-16,16s-36,40-96,40-96-40-96-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,176V84A44,44,0,0,0,84.8,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GraduationCap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"8 96 128 32 248 96 128 160 8 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 96 184 125.87 184 240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,113.07v53.22a8,8,0,0,1-2,5.31c-11.3,12.59-38.9,36.4-86,36.4s-74.68-23.81-86-36.4a8,8,0,0,1-2-5.31V113.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Usb = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"136",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"128",x2,"200",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"200 96 200 160 248 128 200 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"112",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,64H72a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8h40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Faders = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"120",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"40",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"200",x2,"200",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"40",x2,"200",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"168",x2,"176",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"168",x2,"56",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"40",x2,"56",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"136",x2,"80",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"88",x2,"104",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tipi = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"104 16 232 216 24 216 152 16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"71.68 216 128 128 184.32 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WaveSine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,128c104-221.7,104,221.7,208,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"160",y1,"72",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"112",x2,"120",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Envelope = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"224 56 128 144 32 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"110.55",y1,"128",x2,"34.47",y2,"197.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"221.53",y1,"197.74",x2,"145.45",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Laptop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,176V72A16,16,0,0,1,56,56H200a16,16,0,0,1,16,16V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,176H232a0,0,0,0,1,0,0v16a16,16,0,0,1-16,16H40a16,16,0,0,1-16-16V176A0,0,0,0,1,24,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"88",x2,"112",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 120 128 88 160 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SignIn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"128",x2,"136",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 88 136 128 96 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 40 200 40 200 216 136 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DropHalf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,144c0-72-80-128-80-128S48,72,48,144a80,80,0,0,0,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"224",x2,"128",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"206.7",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"196.63",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"206.4",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"192",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"176.98",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Elevator = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 216 184 104 72 104 72 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"72",x2,"144",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsOutCardinal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"160",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 56 128 24 160 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 200 128 232 160 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"24",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 96 232 128 200 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 96 24 128 56 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SubtitlesSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"136",x2,"72",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"178.52",y1,"136",x2,"200",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"136",x2,"135.27",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"168",x2,"164.36",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M105.79,56H224a8,8,0,0,1,8,8V194.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M193.45,200H32a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H62.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 160 128 184 152 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 96 160 96 160 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VideoConference = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"48",x2,"160",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"88",r,"12"),s(c,cx,"192",cy,"168",r,"12"),s(c,cx,"96",cy,"120",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,168c3.55-13.8,17.09-24,32-24s28.46,10.19,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CoffeeBean = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"128",rx,"110.47",ry,"78.91",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M206.11,49.89c-24.51,5-66.9,22-78.11,78.11s-53.6,73.09-78.11,78.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextH = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"56",x2,"56",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"128",x2,"56",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"56",x2,"200",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilmReel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"224",x2,"232",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"80",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"176",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"128",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"128",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"136",x2,"248",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"112",x2,"224",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"108",cy,"100",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200c20.55-24.45,49.56-40,84-40s63.45,15.55,84,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAa = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"144 192 80 56 16 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"200",cy,"164",rx,"32",ry,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,192V132c0-15.46-14.33-28-32-28-9.56,0-18.14,2.18-24,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"125.18",y1,"152",x2,"34.82",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128,67.2,82.4A8,8,0,0,1,64,76V40a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8V75.64A8,8,0,0,1,188.82,82L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128,67.2,173.6A8,8,0,0,0,64,180v36a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V180.36a8,8,0,0,0-3.18-6.38L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"74.67",y1,"88",x2,"180.92",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AppWindow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"84",r,"12"),s(c,cx,"108",cy,"84",r,"12"))
+
+export const AppleLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,73.52C204.53,62.66,185,56,168,56a63.72,63.72,0,0,0-40,14h0A63.71,63.71,0,0,0,88.88,56C52,55.5,23.06,86.3,24,123.19a119.62,119.62,0,0,0,37.65,84.12A31.92,31.92,0,0,0,83.6,216h87.7a31.75,31.75,0,0,0,23.26-10c15.85-17,21.44-33.2,21.44-33.2h0c-16.79-11.53-24-30.87-24-52.78,0-18.3,11.68-34.81,24-46.48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,8h-1a32,32,0,0,0-31,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarBlank = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MarkerCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,211.16V176a8,8,0,0,0-8-8H88a8,8,0,0,0-8,8v35.16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,168V144a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M147.84,136l-12-57.63c-1.77-8.49-13.89-8.49-15.66,0l-12,57.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"128",x2,"72",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 56 72 128 144 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WaveTriangle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"24 128 76 56 180 200 232 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HeadCircuit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"72",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"144",cy,"136",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,216H72a8,8,0,0,1-8-8V171.81L36.42,159.18a8,8,0,0,1-3.77-10.3L56,104a80,80,0,1,1,128,64l8,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"56",x2,"128",y2,"24.39",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"214.38 88 184 88 154.24 123.71",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrosoftOutlookLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"112",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,112h24v96a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 72 104 40 200 40 200 129.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"221.26",y1,"214.02",x2,"144",y2,"158.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"112",x2,"152",y2,"164",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleEight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"100",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FireExtinguisher = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,240H104a8,8,0,0,1-8-8V104a40,40,0,0,1,40-40h0a40,40,0,0,1,40,40V232A8,8,0,0,1,168,240Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"176",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"136",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 8 136 32 216 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,208V104a72,72,0,0,1,72-72h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserList = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"80",cy,"104",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"80",x2,"248",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"248",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"176",x2,"248",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,192c7.1-27.6,34.18-48,64-48s56.9,20.4,64,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"96",x2,"136",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"56",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eyeglasses = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"68",cy,"164",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"164",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"160",x2,"152",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,164V72A24,24,0,0,1,56,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,48a24,24,0,0,1,24,24v92",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ScanSmiley = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"180 40 216 40 216 76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"180 216 216 216 216 180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"76 216 40 216 40 180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"76 40 40 40 40 76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"104",cy,"116",r,"12"),s(c,cx,"152",cy,"116",r,"12"),s(p,d,"M152,152c-5.64,5-15.88,8-24,8s-18.36-3-24-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"96",x2,"224",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"40",x2,"80",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"160",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyDollarSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"24",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,88a40,40,0,0,0-40-40H112a40,40,0,0,0,0,80h40a40,40,0,0,1,0,80H104a40,40,0,0,1-40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Volleyball = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"44.86",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"211.14",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"128",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M116.58,32.66A96,96,0,0,1,173.06,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M51.14,185.56A96,96,0,0,1,105.47,89",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216.28,165.78A96,96,0,0,1,105.47,167",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Queue = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"136",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"136",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"240 160 176 200 176 120 240 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilePlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"152",x2,"152",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EnvelopeOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,96V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96L128,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"110.55",y1,"152",x2,"34.47",y2,"205.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"221.53",y1,"205.74",x2,"145.45",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 96 145.46 152 110.55 152 32 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FastForward = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,71.85v112.3a7.91,7.91,0,0,0,12.18,6.59l88.19-56.15a7.8,7.8,0,0,0,0-13.18L52.18,65.26A7.91,7.91,0,0,0,40,71.85Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,71.85v112.3a7.91,7.91,0,0,0,12.18,6.59l88.19-56.15a7.8,7.8,0,0,0,0-13.18L156.18,65.26A7.91,7.91,0,0,0,144,71.85Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHOne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 208 224 112 200 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShootingStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M164,129.66l35.78,21.53a5.46,5.46,0,0,0,8.19-5.86l-9.73-40.19,31.84-26.88A5.38,5.38,0,0,0,227,68.78l-41.79-3.31-16.1-38.14a5.51,5.51,0,0,0-10.12,0l-16.1,38.14-41.79,3.31a5.38,5.38,0,0,0-3.13,9.48l31.84,26.88L120,145.33a5.46,5.46,0,0,0,8.19,5.86Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"82.45",y1,"117.55",x2,"24",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"93.26",y1,"178.74",x2,"40",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"166.28",y1,"177.72",x2,"112",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const QuestionMark = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,160V144c30.93,0,56-21.49,56-48s-25.07-48-56-48S72,69.49,72,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"208",r,"16"))
+
+export const StopCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(rt,x,"96",y,"96",w,"64",h,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CursorText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,80a32,32,0,0,1,32-32h16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,208H160a32,32,0,0,1-32-32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,208H96a32,32,0,0,0,32-32V80A32,32,0,0,0,96,48H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"128",x2,"152",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M120,32,24,128l96,96V176h88a8,8,0,0,0,8-8V88a8,8,0,0,0-8-8H120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalNone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const XCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Shovel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"192",y1,"16",x2,"240",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"40",x2,"88",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,232a8,8,0,0,1-8-8V144a8,8,0,0,1,2.34-5.66l56-56a8,8,0,0,1,11.32,0l80,80a8,8,0,0,1,0,11.32l-56,56A8,8,0,0,1,112,232Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"128",x2,"152",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"104",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Microscope = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"216",x2,"224",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"176",x2,"136",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"72",y,"24",w,"64",h,"120",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,72a80,80,0,0,1,48,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Subtract = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"96",cy,"96",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M167.6,88.4a72,72,0,1,1-79.2,79.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164.91",y1,"116.91",x2,"228.91",y2,"180.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"146.91",y1,"146.91",x2,"210.91",y2,"210.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"116.91",y1,"164.91",x2,"180.91",y2,"228.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,208H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 160 152 128 184 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"208",x2,"152",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,128a80,80,0,1,1,112,73.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const XSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Basketball = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M60,60.24A95.7,95.7,0,0,1,88,128a95.7,95.7,0,0,1-28,67.76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M196,60.24a96,96,0,0,0,0,135.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Goggles = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"152",x2,"152",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,152c0,17.67-30.33,32-48,32a32,32,0,0,1,0-64C201.67,120,232,134.33,232,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,152a32,32,0,0,1-32,32c-17.67,0-48-14.33-48-32s30.33-32,48-32A32,32,0,0,1,104,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"165.73",y1,"125.73",x2,"214.63",y2,"174.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"46.59",y1,"126.59",x2,"94.63",y2,"174.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,152h0a16,16,0,0,0,16-16h0a64,64,0,0,0-64-64H72A64,64,0,0,0,8,136H8a16,16,0,0,0,16,16h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShoppingCartSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"88",cy,"216",r,"16"),s(c,cx,"192",cy,"216",r,"16"),s(p,d,"M16,32H40L76.75,164.28A16,16,0,0,0,92.16,176H191a16,16,0,0,0,15.42-11.72L232,72H51.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Heart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224S24,168,24,102A54,54,0,0,1,78,48c22.59,0,41.94,12.31,50,32,8.06-19.69,27.41-32,50-32a54,54,0,0,1,54,54C232,168,128,224,128,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalFull = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"160",y1,"72",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"200",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"112",x2,"120",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LightningSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"114.12 65.16 160 16 144 96 208 120 185.7 143.9",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"163.79 167.37 96 240 112 160 48 136 92.21 88.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LastfmLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M108.67,168A40,40,0,0,1,72,192H64a48,48,0,0,1-48-48V120A48,48,0,0,1,64,72h9.43a48,48,0,0,1,43.5,27.7l30.14,64.6a48,48,0,0,0,43.5,27.7H208a32,32,0,0,0,32-32h0a32,32,0,0,0-32-32H188a28,28,0,0,1-28-28h0a28,28,0,0,1,28-28h20a24,24,0,0,1,24,24h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Highlighter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 128 24 192 96 216 136 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,160l-26.34,26.34a8,8,0,0,1-11.32,0L77.66,117.66a8,8,0,0,1,0-11.32L104,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M248,112l-50.34,50.34a8,8,0,0,1-11.32,0L101.66,77.66a8,8,0,0,1,0-11.32L152,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderFemale = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"96",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"208",x2,"168",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cheers = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,56l32-8s26.48,41.35,38.9,87.71a32,32,0,1,1-61.82,16.56C124.66,105.91,128,56,128,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176.27",y1,"174.9",x2,"190.63",y2,"228.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"221.67",x2,"168",y2,"234.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,32,96,24S69.52,65.35,57.1,111.71a32,32,0,1,0,61.82,16.56C130.29,81.8,128,32,128,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"79.73",y1,"150.9",x2,"65.37",y2,"204.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"197.67",x2,"88",y2,"210.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128.49,97.88,179.94,85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M126.92,75.73,75.23,62.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"40",x2,"208",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"72",x2,"224",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"32",x2,"40",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"64",x2,"24",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Engine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"108",x2,"16",y2,"172",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"100",y1,"32",x2,"164",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,176l-37.66,37.66a8,8,0,0,1-5.65,2.34H103.31a8,8,0,0,1-5.65-2.34L58.34,174.34A8,8,0,0,1,56,168.69V80a8,8,0,0,1,8-8H180.69a8,8,0,0,1,5.65,2.34L224,112h16a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"140",x2,"56",y2,"140",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"132",y1,"32",x2,"132",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquareSplitVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ProjectorScreen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"184",x2,"48",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"72",x2,"208",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"40",w,"192",h,"32",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"232",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"224",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNotes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"180",cy,"164",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"196",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"72",x2,"80",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 196 80 56 208 24 208 164",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ScribbleLoop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,92.8S64,48,112,48c104,0,92.6,160-3.4,160-64,0-64-96,32-96,64,0,107.4,48,107.4,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileTsx = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"152",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"152",x2,"168",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M135.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"40",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60",y1,"152",x2,"60",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GooglePhotosLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128V24a64,64,0,0,1,50,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128H24A64,64,0,0,1,128,78",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128V232A64,64,0,0,1,78,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128H232a64,64,0,0,1-104,50",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sticker = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M136,216H88a48,48,0,0,1-48-48V88A48,48,0,0,1,88,40h80a48,48,0,0,1,48,48v48C208,160,160,208,136,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,216V184a48,48,0,0,1,48-48h32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Avocado = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"160",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M82.73,48a48,48,0,0,1,90.9,1l29.82,84.28a80,80,0,1,1-150.26-1.74Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Carrot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"32",x2,"183.6",y2,"72.4",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M43.81,223A8,8,0,0,1,33,212.19S64,112,104.4,72.4a56,56,0,0,1,79.2,79.2C144,192,43.81,223,43.81,223Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"72",x2,"183.19",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"72.81",x2,"184",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"152",x2,"141.7",y2,"181.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104.4",y1,"72.4",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 112 96 160 144 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Acorn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112v16c0,53-88,88-88,112,0-24-88-59-88-112V112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56h96a48,48,0,0,1,48,48v0a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8v0A48,48,0,0,1,80,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,56V48a32,32,0,0,1,32-32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThermometerSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"160",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,48a32,32,0,0,1,64,0v90a56,56,0,1,1-64,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"160",x2,"160",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,76.11l30.06-30a48,48,0,0,1,67.88,67.88L179.88,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M76.11,112l-30,30.06a48,48,0,0,0,67.88,67.88L144,179.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Alien = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112c0,48.6-56,120-88,120S40,160.6,40,112a88,88,0,0,1,176,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,104h0a32,32,0,0,1,32,32v0a8,8,0,0,1-8,8h0a32,32,0,0,1-32-32v0a8,8,0,0,1,8-8Z",t,"translate(184 248) rotate(-180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,104h0a8,8,0,0,1,8,8v0a32,32,0,0,1-32,32h0a8,8,0,0,1-8-8v0a32,32,0,0,1,32-32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"184",x2,"144",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryFull = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"96",x2,"176",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"96",x2,"136",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"56",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Crop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 24 64 192 232 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"64",x2,"64",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 64 192 64 192 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"192",x2,"192",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyDollar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"24",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,88a40,40,0,0,0-40-40H112a40,40,0,0,0,0,80h40a40,40,0,0,1,0,80H104a40,40,0,0,1-40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"148",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"103.75",y1,"134",x2,"136",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NotionLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"40 48 64 48 152 208 192 208 192 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"208",x2,"88",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"48",x2,"216",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 208 104 48 64 48 64 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CashRegister = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"232",y1,"160",x2,"24",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,160,46.49,70.06A8,8,0,0,1,54.25,64h147.5a8,8,0,0,1,7.76,6.06L232,160v32a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"96",x2,"88",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"96",x2,"136",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"184",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"128",x2,"88",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"128",x2,"136",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"128",x2,"184",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,64V40a8,8,0,0,1,8-8h40a8,8,0,0,1,8,8V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BoxArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,216H48a8,8,0,0,1-8-8V72L56,40H200l16,32V208A8,8,0,0,1,208,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"72",x2,"216",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 152 128 184 160 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilSimpleSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.67,157.33,98.34,213.66A8,8,0,0,1,92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65l59-59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M124,76l41.67-41.67a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31l-44.34,44.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RocketLaunch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M191.11,112.89c24-24,25.5-52.55,24.75-65.28a8,8,0,0,0-7.47-7.47c-12.73-.75-41.26.73-65.28,24.75L80,128l48,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,72H74.35a8,8,0,0,0-5.65,2.34L34.35,108.69a8,8,0,0,0,4.53,13.57L80,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,120v61.65a8,8,0,0,1-2.34,5.65l-34.35,34.35a8,8,0,0,1-13.57-4.53L128,176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M94.56,187.82C90.69,196.31,77.65,216,40,216c0-37.65,19.69-50.69,28.18-54.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Terminal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"40 64 112 128 40 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSimpleSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"104",x2,"200",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"88",x2,"232",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"40",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120.15 62.99 160 32 160 106.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,154.4V224L88,168H40a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H99.64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Globe = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,128c0,64-40,96-40,96s-40-32-40-96,40-96,40-96S168,64,168,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"37.46",y1,"96",x2,"218.54",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"37.46",y1,"160",x2,"218.54",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Suitcase = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"64",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,208V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bread = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112a32,32,0,0,1,0-64h96a32,32,0,0,1,0,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,48h72a32,32,0,0,1,0,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,111v89a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V111",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,111v89a8,8,0,0,1-8,8H144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Images = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"64",y,"48",w,"160",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"172",cy,"84",r,"12"),s(p,d,"M64,128.69l38.34-38.35a8,8,0,0,1,11.32,0L163.31,140,189,114.34a8,8,0,0,1,11.31,0L224,138.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,176v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cactus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"216",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,216V136H84A60,60,0,0,1,24,76h0A20,20,0,0,1,44,56h0A20,20,0,0,1,64,76h0A20,20,0,0,0,84,96H96V56a32,32,0,0,1,32-32h0a32,32,0,0,1,32,32v80h12a20,20,0,0,0,20-20h0a20,20,0,0,1,20-20h0a20,20,0,0,1,20,20h0a60,60,0,0,1-60,60H160v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceMobileSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,198.4V216a16,16,0,0,1-16,16H80a16,16,0,0,1-16-16V57.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M76.7,24H176a16,16,0,0,1,16,16V150.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"192",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"140",r,"12"),s(c,cx,"172",cy,"140",r,"12"),s(l,x1,"128",y1,"48",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 176 128 192 112 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"53.01",x2,"96",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"53.01",x2,"160",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M67.6,67.6h0a102.87,102.87,0,0,1,120.8,0h0l21.94-25.24A8,8,0,0,1,224,48v88c0,48.6-43,88-96,88s-96-39.4-96-88V48a8,8,0,0,1,13.66-5.66Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PatreonLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M151.75,158.5C175.83,142.16,224,142.16,224,93.16c0-65.34-104.36-81.67-152.53-32.67C25.78,107,55.41,232,87.52,232S121.88,178.76,151.75,158.5Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartPieSlice = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M33.6,145.5A96,96,0,0,1,96,37.5v72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128.42V32A96,96,0,1,1,45.22,176.64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GoogleChromeLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"215.29",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"162.64",y1,"148",x2,"118.99",y2,"223.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"93.36",y1,"148",x2,"49.71",y2,"72.4",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ambulance = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"192",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"192",x2,"104",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,192H32a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H184V169.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"120",x2,"136",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"96",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"120",x2,"248",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,80h42.58A8,8,0,0,1,234,85l14,35v64a8,8,0,0,1-8,8H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,80,0V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PokerChip = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88.4",y1,"88.4",x2,"60.12",y2,"60.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"128",x2,"32",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88.4",y1,"167.6",x2,"60.12",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"167.6",y1,"167.6",x2,"195.88",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"167.6",y1,"88.4",x2,"195.88",y2,"60.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FunnelX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M34.1,61.38A8,8,0,0,1,40,48H216a8,8,0,0,1,5.92,13.38L152,136v58.65a8,8,0,0,1-3.56,6.66l-32,21.33A8,8,0,0,1,104,216V136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"168",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"168",x2,"192",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CircleDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,35a95.51,95.51,0,0,1,48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M35.49,102.3a95.54,95.54,0,0,1,24-41.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M59.49,195.27a95.54,95.54,0,0,1-24-41.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,221a95.51,95.51,0,0,1-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M220.51,153.7a95.54,95.54,0,0,1-24,41.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M196.51,60.73a95.54,95.54,0,0,1,24,41.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListDashes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"64",x2,"56",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"56",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"56",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GpsSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"240",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M181.81,187.2A80,80,0,0,1,74.19,68.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M102.34,52.2A80,80,0,0,1,201,160.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MopedFront = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"104",y,"144",w,"48",h,"96",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"48",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"48",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"96",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,208H80a8,8,0,0,1-8-8V136a56,56,0,0,1,56-56h0a56,56,0,0,1,56,56v64a8,8,0,0,1-8,8H152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56.32,199.68a28,28,0,1,1,10.51-51.42,8,8,0,0,0,10-1.07l70.38-70.38a8,8,0,0,0,1.07-10,28,28,0,1,1,51.42-10.51,28,28,0,1,1-10.51,51.42,8,8,0,0,0-10,1.07l-70.38,70.38a8,8,0,0,0-1.07,10,28,28,0,1,1-51.42,10.51Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Copyleft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,104a40,40,0,1,1,0,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stairs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 176 104 176 104 136 152 136 152 96 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"32",w,"160",h,"192",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"176",x2,"208",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"136",x2,"208",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CreditCard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"168",x2,"200",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"168",x2,"136",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"96",x2,"232",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HighHeel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,w,"256",h,"256",f,"#a0a0a0",o,"0"),s(p,d,"M32,120c50.38,0,93.51,31.28,111.3,75.08a8,8,0,0,0,7.42,4.92H240a8,8,0,0,0,8-8v-4.73A23.92,23.92,0,0,0,229.21,164L176,152,64,40C44.59,61.22,32,89,32,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,130v62a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Polygon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"120",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"40",cy,"120",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"208",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"208",cy,"72",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184.85",y1,"65.69",x2,"143.15",y2,"54.31",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"102.16",y1,"64.06",x2,"57.84",y2,"103.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"59.36",y1,"134.19",x2,"140.64",y2,"193.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"167.99",y1,"185.36",x2,"200.01",y2,"94.64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinktreeLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"160",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"48",x2,"72",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"160",x2,"72",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"104",x2,"48",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pulse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"24 128 56 128 96 40 160 208 200 128 232 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyCny = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"56",x2,"192",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"112",x2,"208",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,112v56a24,24,0,0,0,24,24h40V168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,112v16a64,64,0,0,1-64,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eraser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"104",x2,"160",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,216,219.31,108.69a16,16,0,0,0,0-22.63L177.94,44.69a16,16,0,0,0-22.63,0L36.69,163.31a16,16,0,0,0,0,22.63L66.75,216H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCenteredText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"104",x2,"160",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"136",x2,"160",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M105.07,192l16,28a8,8,0,0,0,13.9,0l16-28H216a8,8,0,0,0,8-8V56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BluetoothSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"176",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"40",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 71.63 128 32 192 80 158.47 105.15",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184.65 181.51 128 224 128 128 153.14 146.86",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleSnowboard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"52",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M28.44,177.67,185.88,223.3A17.25,17.25,0,0,0,208,206.82h0a17.19,17.19,0,0,0-12.44-16.49L38.12,144.7A17.25,17.25,0,0,0,16,161.18h0A17.19,17.19,0,0,0,28.44,177.67Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"80",x2,"216",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"131.28",y1,"95.08",x2,"88.47",y2,"159.29",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"114.18 120.73 160 134 134.15 172.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HairDryer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"168",cy,"88",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,113.22V62.78a8,8,0,0,1,6.68-7.89L168,32a56,56,0,0,1,0,112L30.68,121.11A8,8,0,0,1,24,113.22Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,208v8a32,32,0,0,0,32,32h16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M202.49,132.12l-32.36,71.19a8,8,0,0,1-7.28,4.69H144a8,8,0,0,1-8-8V138.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CrownCross = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"176",x2,"128",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"32",x2,"152",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,116A52,52,0,0,1,76,64c28.72,0,52,19.28,52,48,0-28.72,23.28-48,52-48a52,52,0,0,1,52,52c0,52-48,68-48,68v24a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V184S24,168,24,116Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WaveSawtooth = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"24 128 128 64 128 192 232 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"116",y1,"100",x2,"116",y2,"156",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"144",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BuildingOffice = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"216",x2,"248",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"216",x2,"176",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"216",x2,"224",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"80",x2,"96",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"144",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"120",x2,"96",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"144",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 216 88 160 136 160 136 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"184",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"88",x2,"232",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryVerticalLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AngularLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 232 208 192 224 72 128 32 32 72 48 192 128 232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 160 128 88 88 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"101.33",y1,"136",x2,"154.67",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Racquet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"168",cy,"88",rx,"79.51",ry,"63.61",t,"translate(-13.02 144.57) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"24.69",y,"187.03",w,"54.63",h,"33.94",rx,"8",t,"translate(-129.02 96.52) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"71.31",y1,"184.69",x2,"111.78",y2,"144.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"16.5",x2,"192",y2,"148.98",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"27.02",x2,"144",y2,"159.5",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"107.02",y1,"64",x2,"239.5",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96.5",y1,"112",x2,"228.98",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,24h0a48,48,0,0,0,48,48h48a48,48,0,0,0,48-48h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"160",w,"160",h,"64",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"192",x2,"96",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"192",x2,"176",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"100",cy,"124",r,"12"),s(c,cx,"156",cy,"124",r,"12"),s(p,d,"M160,72h32.78a48,48,0,0,1,47.07,38.53A8,8,0,0,1,232,120H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,72H63.22a48,48,0,0,0-47.07,38.53A8,8,0,0,0,24,120H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,164.28V104A32,32,0,0,1,96,72h64a32,32,0,0,1,32,32v60.28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stack = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32 176 128 232 224 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 128 128 184 224 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"32 80 128 136 224 80 128 24 32 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LetterCircleV = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 96 128 176 96 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"84",r,"12"),s(c,cx,"164",cy,"84",r,"12"),s(c,cx,"92",cy,"128",r,"12"),s(c,cx,"164",cy,"128",r,"12"),s(c,cx,"92",cy,"172",r,"12"),s(c,cx,"164",cy,"172",r,"12"))
+
+export const SelectionForeground = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,216H48a8,8,0,0,1-8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"88",x2,"88",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"96",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"168",x2,"168",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"160",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,216h8a8,8,0,0,0,8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,88h8a8,8,0,0,1,8,8v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,88H48a8,8,0,0,0-8,8v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,168h40a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Folders = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,112v88.89a7.11,7.11,0,0,1-7.11,7.11H40a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H85.33a8,8,0,0,1,4.8,1.6L120,104h72A8,8,0,0,1,200,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,112v88.89a7.11,7.11,0,0,1-7.11,7.11H40a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H85.33a8,8,0,0,1,4.8,1.6L120,104h72A8,8,0,0,1,200,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,80V56a8,8,0,0,1,8-8h45.33a8,8,0,0,1,4.8,1.6L152,72h72a8,8,0,0,1,8,8v88.89a7.11,7.11,0,0,1-7.11,7.11H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleThrow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"64",cy,"96",r,"16"),s(p,d,"M216,105.6s-32-25.67-80,7c-50.47,34.3-80,20.85-80,20.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M143.89,107.62C143,126.17,144,208,64,232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"139.94 145.95 176 176 160 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Baseball = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,144a94.87,94.87,0,0,1-4.14,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M83.86,96A94.87,94.87,0,0,1,88,112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M60.66,59.58A94.93,94.93,0,0,1,68.27,68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M68.27,188a94.93,94.93,0,0,1-7.61,8.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,144a94.87,94.87,0,0,0,4.14,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M172.14,96A94.87,94.87,0,0,0,168,112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M195.34,59.58A94.93,94.93,0,0,0,187.73,68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M187.73,188a94.93,94.93,0,0,0,7.61,8.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MediumLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"72",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"184",cy,"128",rx,"24",ry,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"72",x2,"240",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MemberOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,48H128a80,80,0,0,0-80,80h0a80,80,0,0,0,80,80h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hammer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"108",y1,"116",x2,"140",y2,"148",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"228.06",y1,"99.94",x2,"188",y2,"140",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,64,53.77,49.77a88,88,0,0,1,124.46,0l67.43,67.89a8,8,0,0,1,0,11.31L217,157.66a8,8,0,0,1-11.31,0L168,120,66.34,221.66a8,8,0,0,1-11.31,0L34.34,201a8,8,0,0,1,0-11.31L136,88,79.78,31.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiscoBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"16",x2,"112",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"112",cy,"152",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,152c0,56-32,80-32,80s-32-24-32-80,32-80,32-80S144,96,144,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"192",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"72",x2,"232",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"16",x2,"184",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"40",x2,"160",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSimpleLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,168H40a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H88l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"104",x2,"200",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Synagogue = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,64h0a16,16,0,0,1,16,16V216a0,0,0,0,1,0,0H184a0,0,0,0,1,0,0V80a16,16,0,0,1,16-16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"112",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,64h0A16,16,0,0,1,72,80V216a0,0,0,0,1,0,0H40a0,0,0,0,1,0,0V80A16,16,0,0,1,56,64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"72",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"64",x2,"56",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"64",x2,"200",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216h40V176a16,16,0,0,1,16-16h0a16,16,0,0,1,16,16v40h40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 136 128 104 72 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const QrCode = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"144",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"144",y,"48",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"144",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 208 176 208 176 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"160",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"192",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThreeD = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,80h48L76,120a28,28,0,1,1-20,47.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,176h24a48,48,0,0,0,0-96H136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"48",x2,"224",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyXEyes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(l,x1,"184",y1,"96",x2,"152",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"128",x2,"152",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"96",x2,"72",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"128",x2,"72",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"180",r,"12"))
+
+export const SecurityCamera = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"248",y1,"144",x2,"248",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"36.69",x2,"52.69",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M8.59,164.59A2,2,0,0,0,10,168H52.69l37.65,37.66a8,8,0,0,0,11.32,0l120-120a8,8,0,0,0,0-11.32l-56-56a8,8,0,0,0-11.32,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M165.66,141.66l24,24a8,8,0,0,0,5.65,2.34H248",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eyedropper = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M182.43,113.17l4.88,4.89a16,16,0,0,1,0,22.63l-9,9a8,8,0,0,1-11.31,0L106.34,89a8,8,0,0,1,0-11.31l9-9a16,16,0,0,1,22.63,0l4.89,4.88,25-25.1c10.79-10.79,28.37-11.45,39.44-1a28,28,0,0,1,.57,40.15Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M159.31,141.94l-56.68,56.69a32,32,0,0,1-32.06,8h0l-20,8.74a8,8,0,0,1-8.86-1.67h0a5.74,5.74,0,0,1-1.2-6.36l9.19-21.06h0a32,32,0,0,1,7.7-32.87l56.69-56.68",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandSoap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,104h96a32,32,0,0,1,32,32v80a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V136A32,32,0,0,1,80,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,104V88a24,24,0,0,1,24-24h48a24,24,0,0,1,24,24v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40a16,16,0,0,0-16-16H104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SunHorizon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"240",y1,"160",x2,"16",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"200",x2,"48",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M66,160a64,64,0,1,1,124,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"40",x2,"88",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"96",x2,"40",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"96",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"168",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"112",x2,"120",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Boules = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"167.52",y1,"40.48",x2,"40.48",y2,"167.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"60.12",x2,"60.12",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"215.52",y1,"88.48",x2,"88.48",y2,"215.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileC = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,200.87A22.12,22.12,0,0,1,64,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,224h80a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bell = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,192a32,32,0,0,0,64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,104a72,72,0,0,1,144,0c0,35.82,8.3,64.6,14.9,76A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HeartStraightBreak = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,80.6l-18.64-18a50,50,0,0,0-70.72,70.72L128,224l89.36-90.64a50,50,0,1,0-70.72-70.72L112,96l32,32-16,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SealWarning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"172",r,"12"))
+
+export const SpeakerHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,106.85a32,32,0,0,1,0,42.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M221.67,80a72,72,0,0,1,0,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Robot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"56",w,"192",h,"160",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"72",y,"144",w,"112",h,"40",rx,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"148",y1,"144",x2,"148",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"108",y1,"144",x2,"108",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"56",x2,"128",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"108",r,"12"),s(c,cx,"172",cy,"108",r,"12"))
+
+export const PlayPause = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"176",y1,"64",x2,"176",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"64",x2,"224",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,71.85v112.3a7.91,7.91,0,0,0,12.18,6.59l88.19-56.15a7.8,7.8,0,0,0,0-13.18L44.18,65.26A7.91,7.91,0,0,0,32,71.85Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextT = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"56",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 88 56 56 200 56 200 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FourK = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"48",x2,"224",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"80",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"80",x2,"144",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"176",x2,"166.4",y2,"118.4",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 152 40 152 96 80 96 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShirtFolded = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,80l32-48,16,16v56a8,8,0,0,1-13.12,6.15Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M93.12,110.13A8,8,0,0,1,80,104V48L96,32l32,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,48h24a8,8,0,0,1,8,8V208a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"32",x2,"160",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlyingSaucer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"168",y1,"192",x2,"176",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"192",x2,"80",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M177,68.82C214.29,76.61,240,93,240,112c0,26.51-50.14,48-112,48S16,138.51,16,112c0-19,25.86-35.49,63.35-43.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,99.9a15.94,15.94,0,0,0,12.34,15.52A195.87,195.87,0,0,0,128,120a195.71,195.71,0,0,0,43.64-4.58A16,16,0,0,0,184,99.9V96a56,56,0,0,0-56.74-56C96.48,40.4,72,66.06,72,96.83Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneOutgoing = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 56 200 56 200 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"104",x2,"200",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TriangleDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"216",x2,"104",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M225.21,184l4.66,8.09C236,202.79,228.08,216,215.46,216H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,216H40.54C27.92,216,20,202.79,26.13,192.09L30.79,184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"179.14",y1,"104",x2,"202.18",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M99.89,64l13.7-23.78c6.3-11,22.52-11,28.82,0L156.11,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"53.82",y1,"144",x2,"76.86",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"160",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"86.43",y1,"136",x2,"136",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyNervous = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"),s(p,d,"M80,168c12,0,12-16,24-16s12,16,24,16,12-16,24-16,12,16,24,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarHeart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120a24,24,0,0,1,48,0c0,32-48,56-48,56s-48-24-48-56a24,24,0,0,1,48,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilmSlate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,112H216a0,0,0,0,1,0,0v88a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V112A0,0,0,0,1,40,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40.43,112,208,67.77l-8.16-30a7.9,7.9,0,0,0-9.66-5.49L37.85,72.47A7.76,7.76,0,0,0,32.27,82Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"67.71",y1,"64.59",x2,"115.5",y2,"92.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"126.61",y1,"49.05",x2,"174.4",y2,"76.64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MonitorArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"144",rx,"16",t,"translate(256 240) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"224",x2,"96",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 112 128 88 152 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyJpy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"168",x2,"176",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"136",x2,"176",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"136",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 48 128 136 56 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 144 128 216 200 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Flask = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"32",x2,"168",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,32V99.14l62.85,104.74A8,8,0,0,1,208,216H48a8,8,0,0,1-6.86-12.12L104,99.14V32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M71.63,153.08c13.23-2.48,32-1.41,56.37,10.92,32.25,16.33,54.75,12.91,67.5,7.65",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Skull = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"92",cy,"132",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"164",cy,"132",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"224",x2,"112",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"224",x2,"144",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,216a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V195.69C51.31,179.78,32,150.05,32,116c0-50.81,43-92,96-92s96,41.19,96,92c0,34.05-19.31,63.78-48,79.69Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Oven = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"76",r,"12"),s(c,cx,"128",cy,"76",r,"12"),s(c,cx,"172",cy,"76",r,"12"),s(rt,x,"72",y,"112",w,"112",h,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Meteor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"96",cy,"160",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"176",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"184",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"80",x2,"224",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"200",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M141.25,205.25a64,64,0,1,1-90.5-90.5L133.49,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Dot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"12"))
+
+export const Lamp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"64 40 192 40 240 152 16 152 64 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"216",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"152",x2,"200",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SkipBackCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(pl,ps,"96 128 160 88 160 168 96 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"88",x2,"96",y2,"168",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Binoculars = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"88",x2,"152",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M229.59,154.32,185.94,55A24,24,0,0,0,152,55V168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,168V55a24,24,0,0,0-33.94,0L26.41,154.32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"64",cy,"168",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"168",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListHeart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"104",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"120",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,144a24,24,0,0,1,48,0c0,32-48,56-48,56s-48-24-48-56a24,24,0,0,1,48,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLinesRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"136 32 232 128 136 224 136 176 104 176 104 80 136 80 136 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"40",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"176",x2,"72",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FloppyDisk = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,83.31V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H172.69a8,8,0,0,1,5.65,2.34l35.32,35.32A8,8,0,0,1,216,83.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,216V152a8,8,0,0,1,8-8h80a8,8,0,0,1,8,8v64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"72",x2,"96",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sunglasses = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,136v28a36,36,0,0,1-72,0V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,136v28a36,36,0,0,1-72,0V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,48a24,24,0,0,1,24,24v64H32V72A24,24,0,0,1,56,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"136",x2,"213.46",y2,"189.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"136",x2,"93.46",y2,"189.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RowsPlusTop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"168",w,"176",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"96",w,"176",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"40",x2,"152",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChefHat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"160",x2,"88",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M173.65,65.12A48,48,0,1,1,184,160H72A48,48,0,1,1,82.35,65.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,80a48,48,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,157.27V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V157.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"108",cy,"100",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200c20.55-24.45,49.56-40,84-40s63.45,15.55,84,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 144 216 160 248 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const OpenAiLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,141.86V77.19L148.5,51.5a48,48,0,0,1,66.4,64.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,155.71,72,123.38V72a48,48,0,0,1,88.69-25.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,141.86,96,174.19,51.5,148.5A48,48,0,0,1,73.79,59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,114.14v64.67L107.5,204.5a48,48,0,0,1-66.4-64.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,100.29l56,32.33V184a48,48,0,0,1-88.69,25.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,114.14l56-32.33,44.5,25.69a48,48,0,0,1-22.29,89.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Screwdriver = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"56",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74.34,132.94a8,8,0,0,1,0-11.32l8-8A8,8,0,0,1,87.17,112H104a8,8,0,0,0,8-8V87.31a8,8,0,0,1,2.34-5.65l53.23-53.23a42.42,42.42,0,0,1,60,0h0a42.42,42.42,0,0,1,0,60l-53.23,53.23a8,8,0,0,1-5.65,2.34H152a8,8,0,0,0-8,8v16.83a8,8,0,0,1-1.62,4.83l-8,8a8,8,0,0,1-11.32,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"98.7",y1,"157.3",x2,"16",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StripeLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,152c0,13.25,14.33,24,32,24s32-10.75,32-24c0-32-62.22-20-62.22-48,0-13.25,12.55-24,30.22-24,13.25,0,23.63,6,28,14.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Snowflake = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"64",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 40 128 64 152 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 216 128 192 152 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72.57",y1,"96",x2,"183.43",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 104 72.57 96 64 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 192 183.43 160 216 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72.57",y1,"160",x2,"183.43",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 192 72.57 160 40 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 104 183.43 96 192 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RssSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,40A152,152,0,0,1,216,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,112a80,80,0,0,1,80,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"188",r,"12"))
+
+export const Exam = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 160 96 96 128 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"144",x2,"120",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"128",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"104",x2,"168",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SwimmingPool = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"56",x2,"168",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"88",x2,"168",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"120",x2,"168",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"32",x2,"88",y2,"141.39",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"32",x2,"168",y2,"143.29",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,168c24,0,24,16,48,16s24-16,48-16,24,16,48,16,24-16,48-16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,208c24,0,24,16,48,16s24-16,48-16,24,16,48,16,24-16,48-16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClockClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"128 80 128 128 168 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 104 224 104 224 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M188.4,192a88,88,0,1,1,1.83-126.23C202,77.69,211.72,88.93,224,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Magnet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M26.34,128.88,55,157.54a8,8,0,0,0,11.37-.06L127.29,95a24,24,0,0,1,33.61-.33c9.69,9.34,9.46,25.14-.05,34.65L98.54,189.6a8,8,0,0,0-.08,11.4l28.66,28.66a8,8,0,0,0,11.26.05l61.74-60.43c31.19-31.19,32.1-82,1.14-113.42a80,80,0,0,0-113.57-.43L26.31,117.6A8,8,0,0,0,26.34,128.88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128.57",y1,"160.57",x2,"168.36",y2,"200.36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"55.77",y1,"87.77",x2,"95.56",y2,"127.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNote = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"88",cy,"184",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 184 128 40 208 64 208 112 128 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerNone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartLineUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"224 208 32 208 32 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 72 128 144 96 112 32 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 112 200 72 160 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Flag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"224",x2,"48",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,176c64-55.43,112,55.43,176,0V56C160,111.43,112,.57,48,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleDoubleDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 88 128 120 96 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 144 128 176 96 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Dresser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"136",y1,"192",x2,"120",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"120",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"128",x2,"120",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"32",w,"160",h,"192",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"96",x2,"208",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"160",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,176H104l43.17-57.56A24,24,0,1,0,105.37,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretLineLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"192 208 112 128 192 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"48",x2,"72",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cpu = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"104",y,"104",w,"48",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"104",x2,"232",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"152",x2,"232",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"104",x2,"48",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"152",x2,"48",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"208",x2,"152",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"208",x2,"104",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"24",x2,"152",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"24",x2,"104",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Timer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"136",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"136",x2,"168",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"16",x2,"152",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThreadsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,77.65C189.86,51.29,168.57,32,128,32c-64,0-80,48-80,96s16,96,80,96c48,0,72-32,72-56,0-64-104-64-104-16,0,40,72,40,72-24,0-56-56-56-72-32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Mosque = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,152a16,16,0,0,1,16-16h0a16,16,0,0,1,16,16v56H208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,208H16V152a16,16,0,0,1,16-16h0a16,16,0,0,1,16,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,208V128c0-64,80-72,80-104,0,32,80,40,80,104v80H176V176a16,16,0,0,0-16-16h0a16,16,0,0,0-16,16v32H112V176a16,16,0,0,0-16-16h0a16,16,0,0,0-16,16v32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Triangle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M142.41,40.22l87.46,151.87C236,202.79,228.08,216,215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22C119.89,29.26,136.11,29.26,142.41,40.22Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BeerStein = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"104",x2,"96",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"144",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,72c0-26.51,25.07-48,56-48,16.59,0,31.49,6.18,41.74,16H160a32,32,0,0,1,32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,72H192a0,0,0,0,1,0,0V208a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V72A0,0,0,0,1,48,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,96h24a16,16,0,0,1,16,16v64a16,16,0,0,1-16,16H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CoinVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"104",cy,"128",rx,"56",ry,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,32h48c30.93,0,56,43,56,96s-25.07,96-56,96H104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"145.74",y1,"64",x2,"193.74",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"145.74",y1,"192",x2,"193.74",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PuzzlePiece = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,216a8,8,0,0,1-8-8V165.31a28,28,0,1,1,0-50.62V72a8,8,0,0,1,8-8h46.69a28,28,0,1,1,50.61,0H208a8,8,0,0,1,8,8v42.69a28,28,0,1,0,0,50.62V208a8,8,0,0,1-8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaperPlaneRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"128",x2,"80",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48.49,221.28A8,8,0,0,0,59.93,231l168-96.09a8,8,0,0,0,0-14l-168-95.85a8,8,0,0,0-11.44,9.67L80,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellSimpleSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"224",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M186.18,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104A71.65,71.65,0,0,1,68.85,62.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.48,41.36A72,72,0,0,1,200,104c0,29.1,5.48,53.56,11.07,67.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirplaneInFlight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"216",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,104h64a32,32,0,0,1,32,32v24H61.06a32,32,0,0,1-30.65-22.8L16.34,90.3A8,8,0,0,1,24,80h8l24,24H92.91L80.42,66.53A8,8,0,0,1,88,56h8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileLock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"184",w,"72",h,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,184V172a20,20,0,0,1,40,0v12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,224h40a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowULeftUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"136 80 88 32 40 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,80v88a56,56,0,0,1-56,56h0a56,56,0,0,1-56-56V32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"144",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"192",x2,"232",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"168",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Shrimp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"152",x2,"112",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"148",cy,"116",r,"12"),s(l,x1,"112",y1,"192",x2,"112",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,24a16,16,0,0,0,16,16h84a20,20,0,0,1,0,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,192H112a20,20,0,0,1,0-40h32a72,72,0,0,0,72-72H96a72,72,0,0,0,0,144h56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"95.6",y1,"160.55",x2,"27.55",y2,"129.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"92.69",y1,"177.22",x2,"50.21",y2,"207.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AndroidLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"148",r,"12"),s(c,cx,"92",cy,"148",r,"12"),s(p,d,"M24,184V161.13C24,103.65,70.15,56.2,127.63,56A104,104,0,0,1,232,160v24a8,8,0,0,1-8,8H32A8,8,0,0,1,24,184Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"48",x2,"63.07",y2,"79.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"48",x2,"193.1",y2,"78.9",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Clock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 72 128 128 184 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyInr = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"80",x2,"200",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"40",x2,"200",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M108,40a52,52,0,0,1,0,104H72l88,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"212",cy,"180",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"187.75",y1,"166",x2,"220",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitPullRequest = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"72",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"72",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"88",x2,"72",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,168V110.63a16,16,0,0,0-4.69-11.32L144,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 144 48 192 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Trash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"56",x2,"40",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"104",x2,"104",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"104",x2,"152",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,56V208a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,56V40a16,16,0,0,0-16-16H104A16,16,0,0,0,88,40V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 96 88 128 120 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"64",x2,"192",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 192 192 192 192 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,96V64a40,40,0,0,1,80,0V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Layout = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"104",x2,"104",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stool = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"64",y,"32",w,"128",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"72",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"224",x2,"88",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72.84",y1,"168",x2,"183.16",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CodeBlock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 32 32 64 64 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 32 136 64 104 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,48h24a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Nut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M219.84,182.84l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18a8,8,0,0,1,7.68,0l88,48.18a8,8,0,0,1,4.16,7v95.64A8,8,0,0,1,219.84,182.84Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CubeFocus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"184 48 224 48 224 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 208 32 208 32 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 168 224 208 184 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 88 32 48 72 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 64 184 96 184 160 128 192 72 160 72 96 128 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 96 128 128 184 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Backspace = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M61.67,204.12,16,128,61.67,51.88A8,8,0,0,1,68.53,48H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H68.53A8,8,0,0,1,61.67,204.12Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"112",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"152",x2,"112",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"152",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rocket = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"224",x2,"112",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"100",r,"12"),s(p,d,"M94.81,192C37.52,95.32,103.87,32.53,123.09,17.68a8,8,0,0,1,9.82,0C152.13,32.53,218.48,95.32,161.19,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M183.84,110.88l30.31,36.36a8,8,0,0,1,1.66,6.86l-12.36,55.63a8,8,0,0,1-12.81,4.51L161.19,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72.16,110.88,41.85,147.24a8,8,0,0,0-1.66,6.86l12.36,55.63a8,8,0,0,0,12.81,4.51L94.81,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Playlist = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"112",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 192 200 112 240 124",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Microphone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"88",y,"24",w,"80",h,"144",rx,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"200",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,128a72,72,0,0,1-144,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,48h80l-48,64a48,48,0,1,1-32,83.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsInLineHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"96",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 96 96 128 64 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 160 160 128 192 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BookBookmark = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 32 176 128 143.99 104 112 128 112 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 216 48 224 192 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Graph = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"104",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"56",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"118.25",y1,"106.07",x2,"105.75",y2,"77.93",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"177.23",y1,"111.59",x2,"150.77",y2,"120.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"181.06",y1,"169.27",x2,"146.94",y2,"142.73",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"110.06",y1,"143.94",x2,"73.94",y2,"176.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceFive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"92",r,"12"),s(c,cx,"164",cy,"92",r,"12"),s(c,cx,"92",cy,"164",r,"12"),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"164",cy,"164",r,"12"))
+
+export const TipJar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"56",w,"160",h,"176",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56V32a8,8,0,0,1,8-8h80a8,8,0,0,1,8,8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"56",x2,"112",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,176h24a16,16,0,0,0,0-32H120a16,16,0,0,1,0-32h24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Minus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudRain = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"208",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"240",x2,"152",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88a68.06,68.06,0,1,1,68,72H76A44,44,0,1,1,90.2,74.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GooglePodcastsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"16",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"64",x2,"176",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"64",x2,"80",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"136",x2,"176",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"112",x2,"32",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"160",x2,"80",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"112",x2,"224",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Monitor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"144",rx,"16",t,"translate(256 240) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"224",x2,"96",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SoundcloudLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"120",x2,"16",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"96",x2,"48",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"56",x2,"112",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,192h64a40,40,0,0,0,7.64-79.27A72,72,0,0,0,144,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 120 224 168 176 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,56H88a56,56,0,0,0-56,56h0a56,56,0,0,0,56,56H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPinSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"72",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"232",x2,"128",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleOne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"132 176 132 80 108 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryWarningVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"96",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"172",r,"12"),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Record = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"128",r,"64",f,n,st,cc,sl,"10",sw,"16"))
+
+export const FaceMask = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,77.09a8,8,0,0,1,5.27-7.52l80-29.09a8,8,0,0,1,5.46,0l80,29.09A8,8,0,0,1,216,77.09V136c0,56-88,72-88,72s-88-16-88-72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"104",x2,"168",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"136",x2,"168",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M213.41,152H224a24,24,0,0,0,24-24V104a24,24,0,0,0-24-24h-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M42.59,152H32A24,24,0,0,1,8,128V104A24,24,0,0,1,32,80h8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BaseballCap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,128a96,96,0,0,1,192,0v56a16,16,0,0,1-25.48,12.88C182.53,185.26,159,176,128,176s-54.53,9.26-70.52,20.88A16,16,0,0,1,32,184Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,152a160,160,0,0,1,192,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88.4,124.94C92.57,67.43,128,32,128,32s35.43,35.43,39.6,92.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TreeEvergreen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 16 48 120 88 120 32 192 224 192 168 120 208 120 128 16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BowlSteam = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,207.3A96,96,0,0,1,32,120H224a96,96,0,0,1-56,87.3V216a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,88s-18-5.6,0-28,0-28,0-28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,88s-18-5.6,0-28,0-28,0-28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88s-18-5.6,0-28,0-28,0-28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StarOfDavid = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 240 224 72 32 72.04 128 240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 16 224 184 32 183.96 128 16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 136 224 88 176 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,200H88a56,56,0,0,1-56-56h0A56,56,0,0,1,88,88H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Divide = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"64",r,"16"),s(c,cx,"128",cy,"192",r,"16"))
+
+export const CheckSquareOffset = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,144V48a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8V208a8,8,0,0,1-8,8H136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 192 64 216 120 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wheelchair = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"104 72 104 136 192 136 224 200 248 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"104",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,96H112a64,64,0,0,0,0,128c29.82,0,56.9-20.4,64-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NotSubsetOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,48H128a80,80,0,0,0-80,80h0a80,80,0,0,0,80,80h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ApproximateEquals = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,161.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,97.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileSql = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"220 208 192 208 192 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"136",cy,"180",rx,"24",ry,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"192",x2,"160",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Devices = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"136",y,"104",w,"128",h,"80",rx,"16",t,"translate(344 -56) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"88",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,176H40a16,16,0,0,1-16-16V64A16,16,0,0,1,40,48H184a16,16,0,0,1,16,16V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"112",x2,"208",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,80h48l-28,40a28,28,0,1,1-20,47.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120.51,72.19c38.15-2,77,11.23,105.43,39.64,17.29,17.29,18.63,42.29,4,61.12a8,8,0,0,1-9.26,2.47l-9.37-3.32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M114.45,113.09a83.51,83.51,0,0,0-14.18,3.6,7.93,7.93,0,0,0-5.12,6l-5.9,29.51A8,8,0,0,1,84.38,158L35.29,175.42A8,8,0,0,1,26,173c-14.6-18.83-13.26-43.83,4-61.12A135.14,135.14,0,0,1,83.53,79.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TeaBag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,216V122.22a8,8,0,0,0-1.14-4.12L138.33,83.88A8,8,0,0,0,131.47,80H76.53a8,8,0,0,0-6.86,3.88L49.14,118.1A8,8,0,0,0,48,122.22V216a8,8,0,0,0,8,8h96A8,8,0,0,0,160,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,168h0a24,24,0,0,1-24-24V64a48,48,0,0,0-48-48h0a48,48,0,0,0-48,48v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyRub = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"176",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,216V40h60a52,52,0,0,1,0,104H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(256 0) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 96 88 128 120 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"72",x2,"208",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"112",x2,"208",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,184H48V64A24,24,0,0,1,72,40H184a24,24,0,0,1,24,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,184v24a8,8,0,0,1-8,8H176a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,184v24a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"148",r,"12"),s(c,cx,"164",cy,"148",r,"12"),s(l,x1,"240",y1,"80",x2,"240",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"80",x2,"16",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Trophy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"224",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M58,128H48A32,32,0,0,1,16,96V80a8,8,0,0,1,8-8H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M198,128h10a32,32,0,0,0,32-32V80a8,8,0,0,0-8-8H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,48H200v63.1c0,39.7-31.75,72.6-71.45,72.9A72,72,0,0,1,56,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bulldozer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"8",y,"144",w,"184",h,"64",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"48",x2,"56",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M248,144h-8a16,16,0,0,0-16,16v32a16,16,0,0,0,16,16h8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"160",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,154.83V56a8,8,0,0,1,8-8h90.67a8,8,0,0,1,7.38,4.92L160,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"176",x2,"224",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpinnerBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,129.61c78.55-59.69,113.45,56.47,192-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M177.4,210.33c-91-38.17-7.82-126.49-98.8-164.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M174.6,44.05C187,141.93,69,114.07,81.4,212",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const XLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"48 40 96 40 208 216 160 216 48 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"113.88",y1,"143.53",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"40",x2,"142.12",y2,"112.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sigma = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"192 72 192 48 64 48 128 128 64 208 192 208 192 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LadderSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"32",x2,"64",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"32",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"72",x2,"192",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"128",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"184",x2,"192",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tote = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M209.67,208H46.33a8.06,8.06,0,0,1-8-7.07l-14.25-120a8,8,0,0,1,8-8.93H223.92a8,8,0,0,1,8,8.93l-14.25,120A8.06,8.06,0,0,1,209.67,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,104V64a40,40,0,0,1,80,0v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Factory = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"176",x2,"108",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"148",y1,"176",x2,"176",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 136 168 136 104 88 104 136 40 88 40 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"216",x2,"232",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M153.55,125.16,167,30.87A8,8,0,0,1,174.94,24h18.12A8,8,0,0,1,201,30.87L216,136v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Dna = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"48",x2,"192",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,24V51.5a72,72,0,0,0,39.8,64.4l48.4,24.2A72,72,0,0,1,192,204.5V232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"208",x2,"160",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"107.89",y1,"80",x2,"186.12",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"69.88",y1,"176",x2,"148.11",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M93.38,146.47A72,72,0,0,0,64,204.5V232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,24V51.5a72,72,0,0,1-29.38,58",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(0 256) rotate(-90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 112 96 160 144 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Butterfly = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"56",x2,"128",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M187.76,151.94c8.05.48,29.5-1.29,37.36-32.23C233.21,87.84,240.22,48,208.93,48S128,95.8,128,127.67C128,95.8,78.36,48,47.07,48S22.79,87.84,30.88,119.71c7.86,30.94,29.31,32.71,37.36,32.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,144a36.11,36.11,0,1,0,40,36,36,36,0,1,0,40-36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextTSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"56",x2,"128",y2,"80.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"105.79 56 200 56 200 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 88 56 56 62.55 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BoxArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,216H48a8,8,0,0,1-8-8V72L56,40H200l16,32V208A8,8,0,0,1,208,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"72",x2,"216",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 136 128 104 160 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FireSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,96l26.27-72C159.86,41.92,208,88.15,208,144a80,80,0,0,1-160,0c0-30.57,14.42-58.26,31-80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsThreeCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"172",cy,"128",r,"12"),s(c,cx,"84",cy,"128",r,"12"))
+
+export const BookmarksSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,224l-56-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,32H192a8,8,0,0,1,8,8V192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileSvg = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M75.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 152 124 208 144 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,184h8v16.87A22.12,22.12,0,0,1,192,208c-13.25,0-24-12.54-24-28s10.75-28,24-28a21.28,21.28,0,0,1,12,3.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gear = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M41.43,178.09A99.14,99.14,0,0,1,31.36,153.8l16.78-21a81.59,81.59,0,0,1,0-9.64l-16.77-21a99.43,99.43,0,0,1,10.05-24.3l26.71-3a81,81,0,0,1,6.81-6.81l3-26.7A99.14,99.14,0,0,1,102.2,31.36l21,16.78a81.59,81.59,0,0,1,9.64,0l21-16.77a99.43,99.43,0,0,1,24.3,10.05l3,26.71a81,81,0,0,1,6.81,6.81l26.7,3a99.14,99.14,0,0,1,10.07,24.29l-16.78,21a81.59,81.59,0,0,1,0,9.64l16.77,21a99.43,99.43,0,0,1-10,24.3l-26.71,3a81,81,0,0,1-6.81,6.81l-3,26.7a99.14,99.14,0,0,1-24.29,10.07l-21-16.78a81.59,81.59,0,0,1-9.64,0l-21,16.77a99.43,99.43,0,0,1-24.3-10l-3-26.71a81,81,0,0,1-6.81-6.81Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrafficSignal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"64",y,"32",w,"128",h,"192",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"88",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"168",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"72",x2,"216",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"152",x2,"216",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"72",x2,"64",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"152",x2,"64",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceOne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"12"))
+
+export const HandSwipeLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,216,34.68,166a20,20,0,0,1,34.64-20L88,176V68a20,20,0,0,1,40,0v56a20,20,0,0,1,40,0v16a20,20,0,0,1,40,0v36c0,24-8,40-8,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"56",x2,"248",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 24 176 56 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Syringe = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"24",x2,"232",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M140,60,50.34,149.66A8,8,0,0,0,48,155.31V208h52.69a8,8,0,0,0,5.65-2.34L196,116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"98",y1,"102",x2,"124",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"74",y1,"126",x2,"100",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"88",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"24",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilePng = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M44,192H60a20,20,0,0,0,0-40H44v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,184h8v16.87A22.12,22.12,0,0,1,200,208c-13.25,0-24-12.54-24-28s10.75-28,24-28a21.28,21.28,0,0,1,12,3.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"108 208 108 152 148 208 148 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsMerge = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"128 232 128 160 72 104 72 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 200 128 232 96 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 40 184 104 128 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Prohibit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"195.88",y1,"195.88",x2,"60.12",y2,"60.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"))
+
+export const Download = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M184,128h40a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 80 128 128 176 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"168",r,"12"))
+
+export const Anchor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"232",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"120",x2,"168",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,144c0,64-88,24-88,88,0-64-88-24-88-88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCsv = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,200.87A22.12,22.12,0,0,1,64,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M139.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 152 188 208 208 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiscordLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"92",cy,"140",r,"12"),s(c,cx,"164",cy,"140",r,"12"),s(p,d,"M153.44,73.69l5-19.63a8.1,8.1,0,0,1,9.21-6L203.69,54A8.08,8.08,0,0,1,210.23,60l29.53,116.37a8,8,0,0,1-4.55,9.24l-67,29.7a8.15,8.15,0,0,1-11-4.56L147,183.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M102.56,73.69l-5-19.63a8.1,8.1,0,0,0-9.21-6L52.31,54A8.08,8.08,0,0,0,45.77,60L16.24,176.35a8,8,0,0,0,4.55,9.24l67,29.7a8.15,8.15,0,0,0,11-4.56L109,183.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,78.31A178.94,178.94,0,0,1,128,72a178.94,178.94,0,0,1,48,6.31",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,177.69A178.94,178.94,0,0,1,128,184a178.94,178.94,0,0,1-48-6.31",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignCenterVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"128",x2,"200",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"128",x2,"32",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"128",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"108",y,"100",w,"128",h,"56",rx,"8",t,"translate(300 -44) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"56",y,"40",w,"56",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FishSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"156",cy,"76",r,"12"),s(p,d,"M16,183.87C272,240,220,38.7,219,37,217.29,36,16-16,72.1,240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M202.45,151.85a104,104,0,0,1-98.3-98.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NotSupersetOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,48h96a56,56,0,0,1,0,112H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"200",x2,"62.55",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Club = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M167.83,98.79a48,48,0,1,1-23.9,71.65L160,224H96l16.07-53.56a48,48,0,1,1-23.9-71.65,48,48,0,1,1,79.66,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Empty = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Funnel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M34.1,61.38A8,8,0,0,1,40,48H216a8,8,0,0,1,5.92,13.38L152,136v58.65a8,8,0,0,1-3.56,6.66l-32,21.33A8,8,0,0,1,104,216V136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GlobeSimpleX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"168",y1,"168",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"168",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224a96,96,0,1,1,96-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224s-40-32-40-96,40-96,40-96,40,32,40,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GraphicsCard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M16,184H232a8,8,0,0,0,8-8V64a8,8,0,0,0-8-8H16V208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"120",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"208",x2,"80",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"184",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"208",x2,"112",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"153.37",y1,"97.37",x2,"198.63",y2,"142.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"120",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"57.37",y1,"97.37",x2,"102.63",y2,"142.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SortDescending = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"128",x2,"120",y2,"128",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"64",x2,"104",y2,"64",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"192",x2,"184",y2,"192",st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 88 184 48 224 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"48",x2,"184",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"152",x2,"152",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Spinner = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"32",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"60.12",x2,"173.25",y2,"82.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"128",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"195.88",x2,"173.25",y2,"173.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"224",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.12",y1,"195.88",x2,"82.75",y2,"173.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"64",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.12",y1,"60.12",x2,"82.75",y2,"82.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 224 128 152 192 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,128s40-24,96-24,96,24,96,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Plugs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"144",x2,"120",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"144",x2,"120",y2,"168",f,"#231f20"),s(l,x1,"112",y1,"112",x2,"88",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"112",x2,"88",y2,"136",f,"#231f20"),s(l,x1,"64",y1,"112",x2,"144",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.06",y1,"197.94",x2,"24",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M132,180l-29,29a24,24,0,0,1-33.94,0L47,186.91A24,24,0,0,1,47,153l29-29",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"64",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"197.94",y1,"58.06",x2,"232",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M180,132l29-29a24,24,0,0,0,0-33.94L186.91,47A24,24,0,0,0,153,47L124,76",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Quotes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M108,144H40a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8h60a8,8,0,0,1,8,8v88a40,40,0,0,1-40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,144H156a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8h60a8,8,0,0,1,8,8v88a40,40,0,0,1-40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Table = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"104",x2,"88",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"12"),s(p,d,"M88,88V56a40,40,0,0,1,40-40c19.35,0,36.29,13.74,40,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AnchorSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,120H32a96,96,0,0,0,192,0H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartPolar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Waves = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,185.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,129.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,73.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Balloon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,104c0,44.18-35.82,96-80,96s-80-51.82-80-96a80,80,0,0,1,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,56a49.52,49.52,0,0,1,40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"137.91 199.13 152 232 104 232 118.09 199.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M57.78,216a72,72,0,0,1,140.44,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ImageSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"96",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56.69,216,166.34,106.34a8,8,0,0,1,11.32,0L216,144.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquareSplitHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"56",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ProjectorScreenChart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"184",x2,"48",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"72",x2,"208",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"96",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"112",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"40",w,"192",h,"32",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"232",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"224",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretDoubleLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 208 120 128 200 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 208 40 128 120 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hexagon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M131.84,25l88,48.18a8,8,0,0,1,4.16,7v95.64a8,8,0,0,1-4.16,7l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18A8,8,0,0,1,131.84,25Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleDoubleUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 168 128 136 160 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 112 128 80 160 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Fish = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"156",cy,"76",r,"12"),s(p,d,"M8,175.87l56.07,16.06,16,56.07,24-56.07C258.51,188.26,220,38.68,219,37c-1.73-1-151.25-39.46-155,114.9Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M185.82,167.62A44,44,0,0,1,136.2,119.8,44,44,0,0,1,88.38,70.21",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Key = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M93.17,122.83A71.68,71.68,0,0,1,88,95.91c0-38.58,31.08-70.64,69.64-71.87A72,72,0,0,1,232,98.36C230.73,136.92,198.67,168,160.09,168a71.68,71.68,0,0,1-26.92-5.17h0L120,176H96v24H72v24H40a8,8,0,0,1-8-8V187.31a8,8,0,0,1,2.34-5.65l58.83-58.83Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"76",r,"12"))
+
+export const Tire = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"168",cy,"128",rx,"16",ry,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"164",cy,"128",rx,"52",ry,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,224H92c-28.72,0-52-43-52-96S63.28,32,92,32h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40.38 116.3 80 88 112.77 111.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"46.85 175.68 80 152 120.65 181.03",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 88 104 128 144 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SplitHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"48",x2,"104",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"48",x2,"152",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"104",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 96 232 128 200 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 96 24 128 56 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaypalLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144,128a48,48,0,0,0,46.56-36.36h0A48,48,0,0,0,144,32H84a8,8,0,0,0-7.76,6.06l-36,144A8,8,0,0,0,48,192H79.51a8,8,0,0,0,7.76-6.06l13-51.88A8,8,0,0,1,108,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M87.27,185.94l-7,28.12A8,8,0,0,0,88,224h31.51a8,8,0,0,0,7.76-6.06l9-35.88A8,8,0,0,1,144,176h32a48,48,0,0,0,46.56-36.36h0A48,48,0,0,0,176,80H120a8,8,0,0,0-7.76,6.06l-12,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudFog = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"200",x2,"72",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"232",x2,"104",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,96a68.06,68.06,0,1,1,68,72H76A44,44,0,1,1,90.2,82.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BluetoothX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"112 128 176 176 112 224 112 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"80",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"176",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"56",x2,"184",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"104",x2,"184",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 104 112 128 112 32 144 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Note = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"96",x2,"160",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.69,216H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8V156.69a8,8,0,0,1-2.34,5.65l-51.32,51.32A8,8,0,0,1,156.69,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"215.28 159.99 160 159.99 160 215.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapTrifold = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"184",x2,"96",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"72",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"96 184 32 200 32 56 96 40 160 72 224 56 224 200 160 216 96 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FunnelSimpleX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"136",x2,"192",y2,"136",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"88",x2,"232",y2,"88",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"184",x2,"128",y2,"184",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"176",x2,"216",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"176",x2,"168",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Chats = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M71.58,144,32,176V48a8,8,0,0,1,8-8H168a8,8,0,0,1,8,8v88a8,8,0,0,1-8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,144v40a8,8,0,0,0,8,8h96.42L224,224V96a8,8,0,0,0-8-8H176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Play = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,39.88V216.12a8,8,0,0,0,12.15,6.69l144.08-88.12a7.82,7.82,0,0,0,0-13.38L84.15,33.19A8,8,0,0,0,72,39.88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Umbrella = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,200a24,24,0,0,1-48,0V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,136a8,8,0,0,1-8-8.71,104.37,104.37,0,0,1,207.94,0,8,8,0,0,1-8,8.71Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,136c0-72,40-104,40-104s40,32,40,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudMoon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M63,138.93A64.12,64.12,0,0,1,25.62,94.38h0a64.06,64.06,0,0,0,76.76-76.76h0A64,64,0,0,1,152,80c0,1,0,2-.07,3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,144a68.06,68.06,0,1,1,68,72H92a44,44,0,1,1,14.2-85.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"104",x2,"192",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"152",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StarHalf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,113.15l5.06-4.36A8.46,8.46,0,0,0,224.27,94L216,93.29",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184.44 168 180.37 150.78 192 140.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"189.09",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,218.61l6.72,4.13a8.4,8.4,0,0,0,12.52-9.17L193.92,208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,90.07,160.36,88.8,135.74,29.2a8.36,8.36,0,0,0-15.48,0L95.64,88.8,31.73,94a8.46,8.46,0,0,0-4.79,14.83l48.7,42L60.76,213.57a8.4,8.4,0,0,0,12.52,9.17L128,189.09,139.24,196",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Kanban = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,56H216V176a8,8,0,0,1-8,8H168a8,8,0,0,1-8-8V152H96v56a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"120",x2,"40",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"56",x2,"96",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"120",x2,"216",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"56",x2,"160",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cookie = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"156",cy,"172",r,"12"),s(c,cx,"92",cy,"164",r,"12"),s(c,cx,"84",cy,"108",r,"12"),s(c,cx,"132",cy,"124",r,"12"),s(p,d,"M224,128a48,48,0,0,1-48-48,48,48,0,0,1-48-48,96,96,0,1,0,96,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileXls = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"148 208 120 208 120 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"152",x2,"88",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"152",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M203.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PenNib = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"124",cy,"132",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40.01",y1,"216",x2,"109.86",y2,"146.14",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,216l139.45-23.24a8,8,0,0,0,6.17-5.08L208,128,128,48,68.32,70.38a8,8,0,0,0-5.08,6.17Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,128l29.66-29.66a8,8,0,0,0,0-11.31L169,18.34a8,8,0,0,0-11.31,0L128,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignBottomSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"232",x2,"200",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"88",y,"32",w,"80",h,"168",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Voicemail = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"56",cy,"128",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"128",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"176",x2,"200",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserFocus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"180 40 216 40 216 76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"180 216 216 216 216 180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"76 216 40 216 40 180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"76 40 40 40 40 76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"112",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,168a60,60,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CameraRotate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,208H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64H80L96,40h64l16,24h32a16,16,0,0,1,16,16V192A16,16,0,0,1,208,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 96 168 120 144 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 144 88 144 88 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,120l-11.72-12.28A40,40,0,0,0,104,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,160a40,40,0,0,1-52.28-3.73L88,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignRightSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"56",x2,"224",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"24",y,"88",w,"168",h,"80",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MagnifyingGlassMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"112",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"112",cy,"112",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168.57",y1,"168.57",x2,"224",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderIntersex = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"120",cy,"112",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"168",x2,"120",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"200",x2,"152",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 32 208 32 208 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"163.4",y1,"76.6",x2,"208",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClipboardText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"152",x2,"160",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"120",x2,"160",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,40h40a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72V64a40,40,0,0,1,80,0v8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Van = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"192",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"184",x2,"104",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,184h24a8,8,0,0,0,8-8V112L202.4,58.87A8,8,0,0,0,196.26,56H32a8,8,0,0,0-8,8V176a8,8,0,0,0,8,8H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"112",x2,"248",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"56",x2,"168",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"56",x2,"96",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cursor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M162.35,138.35a8,8,0,0,1,2.46-13l46.41-17.82a8,8,0,0,0-.71-14.85L50.44,40.41a8,8,0,0,0-10,10L92.68,210.51a8,8,0,0,0,14.85.71l17.82-46.41a8,8,0,0,1,13-2.46l51.31,51.31a8,8,0,0,0,11.31,0L213.66,201a8,8,0,0,0,0-11.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyBlank = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"))
+
+export const MicrosoftPowerpointLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"136",y1,"184",x2,"136",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"32",x2,"136",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"72",w,"120",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,136H96a16,16,0,0,0,0-32H80v48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M58,72a96,96,0,1,1,0,112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CirclesFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"80",cy,"80",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"80",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TruckTrailer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"224",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"32",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"184",x2,"104",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,184V56a8,8,0,0,1,8-8h8a48,48,0,0,1,48,48v8h0a32,32,0,0,1,32,32v48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,184V72H16a8,8,0,0,0-8,8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Resize = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"120",w,"88",h,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,184v16a8,8,0,0,1-8,8H176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"112",x2,"208",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,48h16a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"48",x2,"144",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,80V56a8,8,0,0,1,8-8H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Book = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,216a24,24,0,0,1,24-24H208V32H72A24,24,0,0,0,48,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 216 48 224 192 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SkipForwardCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(pl,ps,"160 128 96 88 96 168 160 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"88",x2,"160",y2,"168",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GreaterThanOrEqual = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 48 208 104 56 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"200",x2,"56",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Baby = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"92",cy,"128",r,"12"),s(c,cx,"164",cy,"128",r,"12"),s(p,d,"M156,168a53,53,0,0,1-56,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,32c-16,20-16,40-16,40a16,16,0,0,0,32,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SelectionPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"40",x2,"112",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40h24a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"144",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216H48a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,40H48a8,8,0,0,0-8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"192",x2,"216",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scissors = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"60",cy,"76",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"60",cy,"180",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"128",x2,"83.11",y2,"164.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"62.32",x2,"164.33",y2,"108.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"193.68",x2,"83.11",y2,"91.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MagnifyingGlass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"112",cy,"112",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168.57",y1,"168.57",x2,"224",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitlabLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"220.23",y1,"110.84",x2,"93.41",y2,"200.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"162.59",y1,"200.44",x2,"35.77",y2,"110.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M175.35,96,195,42.62a3.93,3.93,0,0,1,7.53.38l19.89,76.12a49,49,0,0,1-18.87,52.4l-73.26,51.76a3.91,3.91,0,0,1-4.52,0L52.48,171.52a49,49,0,0,1-18.87-52.4L53.5,43A3.93,3.93,0,0,1,61,42.62L80.65,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Placeholder = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"42.34",y1,"42.34",x2,"213.66",y2,"213.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lightbulb = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"232",x2,"168",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M78.7,167A79.87,79.87,0,0,1,48,104.45C47.76,61.09,82.72,25,126.07,24a80,80,0,0,1,51.34,142.9A24.3,24.3,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6A24.11,24.11,0,0,0,78.7,167Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,56c20,3.37,36.61,20,40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scroll = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,176V64a24,24,0,0,0-24-24H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"104",x2,"168",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"136",x2,"168",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,80s-8-6-8-16a24,24,0,0,1,48,0V192a24,24,0,0,0,48,0c0-10-8-16-8-16H216s8,6,8,16a24,24,0,0,1-24,24H88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PresentationChart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"184",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"184",x2,"64",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"120",x2,"96",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"88",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120.56,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"184 198.54 213.67 216 205.6 183.41 232 161.61 197.35 158.94 184 128 170.65 158.94 136 161.61 162.4 183.41 154.33 216 184 198.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Guitar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"204",y1,"12",x2,"244",y2,"52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"56",x2,"200",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M60.07,112a16.23,16.23,0,0,0,14.72-10A34.21,34.21,0,0,1,82.4,90.4c17.23-17.23,49.82-12.57,72.8,10.4s27.63,55.57,10.4,72.8a34.21,34.21,0,0,1-11.66,7.61,16.23,16.23,0,0,0-10,14.72C143.56,208,139.39,219,131.2,227.2,110,248.4,69.88,242.67,41.6,214.4S7.6,146,28.8,124.8C37,116.61,48,112.44,60.07,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"168",x2,"88",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"112",cy,"144",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"120",x2,"212",y2,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"144",x2,"236",y2,"44",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberOne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 72 136 48 136 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SubsetProperOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,48H128a80,80,0,0,0-80,80h0a80,80,0,0,0,80,80h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Boat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"48",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,152c0,56-96,80-96,80s-96-24-96-80V125.77a8,8,0,0,1,5.47-7.59L128,88l90.53,30.18a8,8,0,0,1,5.47,7.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,112V56a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pepper = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,104a56,56,0,0,0-112,0c0,48.1-25.64,84-82.27,100.7-8.11,2.39-7.43,14.11.9,15.58C88,231.84,216,222.48,216,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"105.17 92.58 128 104 160 88 192 104 214.84 92.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,16a32,32,0,0,1,32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"192",y1,"64",x2,"64",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 192 64 192 64 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Copy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 168 216 168 216 40 88 40 88 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"88",w,"128",h,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UsersThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,120a59.91,59.91,0,0,1,48,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,144a59.91,59.91,0,0,1,48-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"144",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216a65,65,0,0,1,112,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M161,80a32,32,0,1,1,31,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,120A32,32,0,1,1,95,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleUpDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 104 128 72 160 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 152 128 184 96 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsOutLineHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"16",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 160 16 128 48 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"240",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 96 240 128 208 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellTower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 232 128 88 200 232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88.64,95.17a40,40,0,1,1,78.72,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M70.53,131.38a72,72,0,1,1,114.94,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"200",x2,"184",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"168",x2,"168",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhonePlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"80",x2,"208",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"48",x2,"176",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileIni = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"152",x2,"40",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 152 120 208 80 152 80 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"152",x2,"160",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,224V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"204",r,"12"),s(p,d,"M71.6,66A163.53,163.53,0,0,0,24,93.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,93.19A163.31,163.31,0,0,0,128,56a165.48,165.48,0,0,0-21,1.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M107.78,105.76A115.46,115.46,0,0,0,56,129",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,129a115.57,115.57,0,0,0-48.38-22.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.81,157.49A68.1,68.1,0,0,0,88,165",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Brain = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,136a40,40,0,1,1-40,40v-6.73",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,136a40,40,0,1,0,40,40v-6.73",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,172H64A48,48,0,0,1,48,78.73V72a40,40,0,0,1,80,0V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,172h8a48,48,0,0,0,16-93.27V72a40,40,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,112h-4a28,28,0,0,1-28-28V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,112h4A28,28,0,0,0,88,84V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimpleStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M120,208H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80h88a8,8,0,0,1,8,8v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"184 198.54 213.67 216 205.6 183.41 232 161.61 197.35 158.94 184 128 170.65 158.94 136 161.61 162.4 183.41 154.33 216 184 198.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShoppingBagOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"80",x2,"224",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,112a40,40,0,0,1-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Orange = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"152",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,72h0a56,56,0,0,1,56-56h8a56,56,0,0,1-56,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,72h0A56,56,0,0,0,72,16H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,160a49.52,49.52,0,0,1-40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendLeftUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 80 104 32 56 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,224a96,96,0,0,1-96-96V32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PiggyBank = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"180",cy,"116",r,"12"),s(l,x1,"112",y1,"72",x2,"152",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"40",x2,"144",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M8,144a24,24,0,0,1,24-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M220.34,96H224a16,16,0,0,1,16,16v32a16,16,0,0,1-16,16h-8l-18.1,50.69a8,8,0,0,1-7.54,5.31H177.64a8,8,0,0,1-7.54-5.31L166.29,200H97.71L93.9,210.69A8,8,0,0,1,86.36,216H73.64a8,8,0,0,1-7.54-5.31L53,174a79.7,79.7,0,0,1-21-54h0a80,80,0,0,1,80-80h32a80,80,0,0,1,73.44,48.22,82.22,82.22,0,0,1,2.9,7.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 136 128 168 160 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 56 128 24 160 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"232",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 200 128 232 96 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,224H56a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 32 152 32 208 88 208 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,64V40a8,8,0,0,1,8-8H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,176v40a8,8,0,0,1-8,8h-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"104",x2,"48",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"224",x2,"152",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareEight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"100",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Smiley = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"),s(p,d,"M168,152c-8.3,14.35-22.23,24-40,24s-31.7-9.65-40-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Radioactive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M109.77,97,83.82,52a8,8,0,0,0-11.55-2.54A95.94,95.94,0,0,0,32,119.14,8.1,8.1,0,0,0,40,128H92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.23,97l26-44.94a8,8,0,0,1,11.55-2.54A95.94,95.94,0,0,1,224,119.14a8.1,8.1,0,0,1-8,8.86H164",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146,159.18l25.83,44.73a8,8,0,0,1-3.56,11.26,96.24,96.24,0,0,1-80.54,0,8,8,0,0,1-3.56-11.26L110,159.18",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"12"))
+
+export const BagSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72V64a40,40,0,0,1,80,0v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyAngry = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"92",cy,"140",r,"12"),s(c,cx,"164",cy,"140",r,"12"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 88 128 120 176 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,184c7.6-5.05,14.19-8,24-8s16.4,2.95,24,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lifebuoy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"99.72",y1,"99.72",x2,"60.12",y2,"60.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"156.28",y1,"99.72",x2,"195.88",y2,"60.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"156.28",y1,"156.28",x2,"195.88",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"99.72",y1,"156.28",x2,"60.12",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowURightUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"120 80 168 32 216 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,80v88a56,56,0,0,0,56,56h0a56,56,0,0,0,56-56V32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 136 112 160 168 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lightning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"160 16 144 96 208 120 96 240 112 160 48 136 160 16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAlignJustify = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"216",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleRun = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"152",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,105.6s32-25.67,80,7c50.47,34.3,80,20.85,80,20.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M110.64,161.16C128.47,165,176,180,176,232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M134.44,111.51C128.37,135.24,98.81,206.68,32,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Subway = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,208V96a64,64,0,0,1,64-64h48a64,64,0,0,1,64,64V208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"80",y,"80",w,"96",h,"104",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"176",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"104",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"184",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"152",x2,"144",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"152",x2,"112",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCenteredDots = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"12"),s(c,cx,"84",cy,"120",r,"12"),s(c,cx,"172",cy,"120",r,"12"),s(p,d,"M105.07,192l16,28a8,8,0,0,0,13.9,0l16-28H216a8,8,0,0,0,8-8V56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MarkdownLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"56",w,"224",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 152 56 104 88 136 120 104 120 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"104",x2,"176",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 128 176 152 152 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Parachute = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,120a96,96,0,0,0-192,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 120 128 192 32 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"224",x2,"144",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,192,88,120c0-72,40-96,40-96s40,24,40,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClockCountdown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,136c-4.07,49.28-45.67,88-96,88a96,96,0,0,1-96-96c0-50.33,38.72-91.93,88-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 72 128 128 184 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"36",r,"12"),s(c,cx,"196",cy,"60",r,"12"),s(c,cx,"220",cy,"96",r,"12"))
+
+export const Screencast = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,96V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V200a8,8,0,0,1-8,8H144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,192a16,16,0,0,1,16,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,160a48,48,0,0,1,48,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,128a80,80,0,0,1,80,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HouseLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 216 152 152 104 152 104 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"116.69",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"216",x2,"216",y2,"116.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,132.69l98.34-98.35a8,8,0,0,1,11.32,0L232,132.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SimCard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"80",y,"120",w,"96",h,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"152",x2,"112",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"152",x2,"144",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pencil = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31L98.34,213.66A8,8,0,0,1,92.69,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164",y1,"92",x2,"68",y2,"188",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"95.49",y1,"215.49",x2,"40.51",y2,"160.51",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextIndent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 56 80 96 40 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneList = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"64",x2,"208",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"208",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandsPraying = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M141.78,16h0A13.77,13.77,0,0,1,155,25.78L192,148l20.27,20.27-45,43-29.94-29.94A32,32,0,0,1,128,158.75v-129A13.78,13.78,0,0,1,141.78,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M167.31,211.31l18.35,18.35a8,8,0,0,0,11.31,0L229.66,197a8,8,0,0,0,0-11.31l-18.35-18.35",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M118.63,181.37,88.69,211.31l-44-44L64,148,101,25.78A13.77,13.77,0,0,1,114.22,16h0A13.78,13.78,0,0,1,128,29.78v129A32,32,0,0,1,118.63,181.37Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M44.69,167.31,26.34,185.66a8,8,0,0,0,0,11.31L59,229.66a8,8,0,0,0,11.31,0l18.35-18.35",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VideoCameraSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 112 248 80 248 176 200 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M113.06,64H192a8,8,0,0,1,8,8v87.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M186.18,192H32a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H69.82",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scan = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 40 216 40 216 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 216 40 216 40 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 176 216 216 176 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 80 40 40 80 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"80",y,"80",w,"96",h,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sparkle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M84.27,171.73l-55.09-20.3a7.92,7.92,0,0,1,0-14.86l55.09-20.3,20.3-55.09a7.92,7.92,0,0,1,14.86,0l20.3,55.09,55.09,20.3a7.92,7.92,0,0,1,0,14.86l-55.09,20.3-20.3,55.09a7.92,7.92,0,0,1-14.86,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"16",x2,"176",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"72",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"40",x2,"200",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"88",x2,"240",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sidebar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"48",x2,"88",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"80",x2,"56",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"112",x2,"56",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"144",x2,"56",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Briefcase = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"64",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,64V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,118.31A191.09,191.09,0,0,1,128,144a191.14,191.14,0,0,1-96-25.68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"112",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bathtub = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"192",x2,"72",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"192",x2,"184",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"136",y,"96",w,"64",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,104h40v40a48,48,0,0,1-48,48H64a48,48,0,0,1-48-48V104H136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,104V52A20,20,0,0,1,76,32,20.44,20.44,0,0,1,96,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SteamLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"108",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"100",cy,"164",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"84.57",y1,"151.28",x2,"134.39",y2,"90.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112.72",y1,"179.43",x2,"173.81",y2,"129.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"85.86",y1,"149.86",x2,"36.11",y2,"100.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Joystick = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"152",w,"176",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"56",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"120",x2,"168",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowLeftUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"136 96 88 48 40 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 192 88 192 88 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FastForwardCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"144 92 144 164 192 128 144 92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"80 92 128 128 80 164 80 92",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"216",x2,"128",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 112 128 40 200 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrademarkRegistered = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,136h32a24,24,0,0,0,0-48H104v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"138.58",y1,"135.86",x2,"160",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrafficCone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,216,110.13,37.37A8,8,0,0,1,117.69,32h20.62a8,8,0,0,1,7.56,5.37L208,216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"216",x2,"24",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"166.26",y1,"96",x2,"89.74",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"188.52",y1,"160",x2,"67.48",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Equalizer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"96",x2,"72",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"72",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"160",x2,"72",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"192",x2,"72",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"128",x2,"152",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"160",x2,"152",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"192",x2,"152",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"96",x2,"232",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"64",x2,"232",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"160",x2,"232",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"192",x2,"232",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Chat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M45.15,230.11A8,8,0,0,1,32,224V64a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ImagesSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"72",y,"40",w,"144",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"120",cy,"88",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,184v24a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96.69,184l77.65-77.66a8,8,0,0,1,11.32,0L216,136.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPinSimpleLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"80",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"216",x2,"216",y2,"216",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 136 128 168 160 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberEight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"168",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"80",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Toilet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,112V40a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"64",x2,"112",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,112a88,88,0,0,1-176,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.42,192.51l-4.34,30.36A8,8,0,0,0,96,232h64a8,8,0,0,0,7.92-9.13l-4.34-30.36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Archive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,96v96a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"136",x2,"152",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eye = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,56C48,56,16,128,16,128s32,72,112,72,112-72,112-72S208,56,128,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Video = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"160 112 112 80 112 144 160 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GlobeSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,128c0,64-40,96-40,96s-40-32-40-96,40-96,40-96S168,64,168,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitBranch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,168V144a16,16,0,0,1,16-16h88a16,16,0,0,0,16-16V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sailboat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M16,176H240l-29.6,37a8,8,0,0,1-6.24,3H51.84a8,8,0,0,1-6.24-3Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 136 216 136 136 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 176 136 8 32 136 136 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Article = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"96",x2,"176",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"128",x2,"176",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"160",x2,"176",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Yarn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"224",x2,"232",y2,"223.97",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.3,217.14A176.3,176.3,0,0,1,214.81,87",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M57.34,193A216.52,216.52,0,0,1,188.59,53.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M131.8,223.93A136.3,136.3,0,0,1,224,126",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32.31,120.25a135.07,135.07,0,0,1,53,14.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M44.19,81.15a175,175,0,0,1,67.17,22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M77.12,46.58A215,215,0,0,1,144,76.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderMale = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"104",cy,"152",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"154.91",y1,"101.09",x2,"216",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 40 216 40 216 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Slideshow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"56",w,"144",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"56",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"56",x2,"24",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LetterCircleP = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,144h32a28,28,0,0,0,0-56H104v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretLineDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"208 72 128 152 48 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"192",x2,"208",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BeachBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M147.93,34.08a192.17,192.17,0,0,1-27.12,189.65",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32.27,135.19a192.17,192.17,0,0,1,189.65-27.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.25,45.27a191.14,191.14,0,0,1,82.69,48.79,191.14,191.14,0,0,1,48.79,82.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitMerge = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"80",cy,"200",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"208",cy,"144",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,144l-50-7.15a16,16,0,0,1-9.88-5.42L80,80v96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareOut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"216 104 215.99 40.01 152 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"120",x2,"216",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,136v72a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberFive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,195.78a48,48,0,1,0,.92-72.36L104,48h64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkSimpleBreak = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,76.11l30.06-30a48,48,0,0,1,67.88,67.88L179.88,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M76.11,112l-30,30.06a48,48,0,0,0,67.88,67.88L144,179.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AddressBookTabs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"160",x2,"216",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"96",x2,"216",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"112",cy,"120",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,168c3.55-13.8,17.09-24,32-24s28.46,10.19,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"40",x2,"184",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneIncoming = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 64 152 104 192 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"104",x2,"200",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LineSegment = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"64",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"175.03",y1,"80.97",x2,"80.97",y2,"175.03",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tractor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"212",cy,"188",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"172",r,"44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"172",r,"12"),s(p,d,"M232,168V134a8,8,0,0,0-5.7-7.66L144,104V48H56V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"48",x2,"56",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"48",x2,"160",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,96H68a76,76,0,0,1,76,76v12h40.28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"144",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"114.83",x2,"184",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Biohazard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"132",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,207.83A52,52,0,1,1,232,164",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,164a52,52,0,1,1,24,43.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,27.79a52,52,0,1,1-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WebcamSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"176",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M163.26,166.79A72,72,0,0,1,68.85,62.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.48,41.36a72,72,0,0,1,94.5,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M121,72.76a32,32,0,0,1,37.41,41.15",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"200.73",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M134.64,135.31a32,32,0,0,1-37.18-40.9",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimpleDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,80V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,208H39.38A7.4,7.4,0,0,1,32,200.62V192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,152v48.89a7.11,7.11,0,0,1-7.11,7.11H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,80h48a8,8,0,0,1,8,8v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"120",x2,"32",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Desktop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"144",rx,"16",t,"translate(256 240) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"224",x2,"96",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceTabletCamera = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"68",r,"12"))
+
+export const ContactlessPayment = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M90,104a51,51,0,0,1,0,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146,72a119,119,0,0,1,0,112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M118,88a85,85,0,0,1,0,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Footprints = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,192h56v12a28,28,0,0,1-56,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,168h56v12a28,28,0,0,1-56,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.74,136C24.54,104,51.48,24,76,24s51.46,80,25.26,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.74,160c-26.2-32,.74-112,25.26-112s51.46,80,25.26,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const File = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EyedropperSample = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M182.43,113.17l4.88,4.89a16,16,0,0,1,0,22.63l-9,9a8,8,0,0,1-11.31,0L106.34,89a8,8,0,0,1,0-11.31l9-9a16,16,0,0,1,22.63,0l4.89,4.88,25-25.1c10.79-10.79,28.37-11.45,39.44-1a28,28,0,0,1,.57,40.15Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M159.31,141.94l-56.68,56.69a32,32,0,0,1-32.06,8h0l-20,8.74a8,8,0,0,1-8.86-1.67h0a5.74,5.74,0,0,1-1.2-6.36l9.19-21.06h0a32,32,0,0,1,7.7-32.87l56.69-56.68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"52.28",y1,"160",x2,"141.25",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandPointing = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M42.68,142a20,20,0,0,1,34.64-20L96,152V44a20,20,0,0,1,40,0v56a20,20,0,0,1,40,0v16a20,20,0,0,1,40,0v36a80,80,0,0,1-80,80C91.82,232,80.19,208,42.68,142Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rows = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"144",w,"176",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"56",w,"176",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Power = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"48",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,56c24.08,15.7,40,41.11,40,72a88,88,0,0,1-176,0c0-30.89,15.92-56.3,40-72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hockey = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,48,165.6,205.18a8,8,0,0,0,6.1,2.82H224a8,8,0,0,0,8-8V168a8,8,0,0,0-8-8H127.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"208",x2,"200",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"208",x2,"56",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M107,185.65,90.4,205.18A8,8,0,0,1,84.3,208H32a8,8,0,0,1-8-8V168a8,8,0,0,1,8-8H85.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"48",x2,"156",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPinSimpleArea = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"64",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,139.07c37.58,6,64,20.29,64,36.93,0,22.09-46.56,40-104,40S24,198.09,24,176c0-16.64,26.42-30.91,64-36.93",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NewspaperClipping = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,216V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V216l-32-16-32,16-32-16L96,216,64,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"112",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"96",w,"48",h,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GreaterThan = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 56 216 128 64 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const IdentificationCard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"112",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"120",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,168c3.55-13.8,17.09-24,32-24s28.46,10.19,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThermometerCold = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"160",x2,"120",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"48",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"185.57",y1,"70.11",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"197.19",y1,"105.89",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"234.81",y1,"105.89",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"246.43",y1,"70.11",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"120",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,48a32,32,0,0,1,64,0v90a56,56,0,1,1-64,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Car = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"112",x2,"240",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,176v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,176v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"144",x2,"80",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,112,194.11,44.75A8,8,0,0,0,186.8,40H69.2a8,8,0,0,0-7.31,4.75L32,112v64H224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Command = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M180,48h0a28,28,0,0,1,28,28v0a28,28,0,0,1-28,28H152a0,0,0,0,1,0,0V76a28,28,0,0,1,28-28Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,48H76a28,28,0,0,1,28,28v0a28,28,0,0,1-28,28h0A28,28,0,0,1,48,76V48A0,0,0,0,1,48,48Z",t,"translate(152 152) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,152h28a28,28,0,0,1,28,28v0a28,28,0,0,1-28,28h0a28,28,0,0,1-28-28V152A0,0,0,0,1,152,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M76,152h0a28,28,0,0,1,28,28v0a28,28,0,0,1-28,28H48a0,0,0,0,1,0,0V180A28,28,0,0,1,76,152Z",t,"translate(152 360) rotate(-180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"104",y,"104",w,"48",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrosoftTeamsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"112",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,88h40a8,8,0,0,1,8,8v72a56,56,0,0,1-56,56h0a56,56,0,0,1-53.68-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"104",x2,"72",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"152",x2,"88",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,88h35.26A4.74,4.74,0,0,1,224,92.74V152a32,32,0,0,1-32,32h0c-.77,0-1.54,0-2.3-.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M108.28,72A32,32,0,1,1,144,87",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M166.79,47.27A24,24,0,1,1,184,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Dog = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"192",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 176 128 192 112 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"48",x2,"152",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,48,50.37,32.24a8,8,0,0,0-9.8,6.29l-16.42,88c-1.54,8.23,9,13,14.16,6.42Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,48l53.63-15.76a8,8,0,0,1,9.8,6.29l16.42,88c1.54,8.23-9,13-14.16,6.42Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"140",r,"12"),s(c,cx,"164",cy,"140",r,"12"),s(p,d,"M208,120.38V184a32,32,0,0,1-32,32H80a32,32,0,0,1-32-32V120.38",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WarningDiamond = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"136",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"172",r,"12"),s(rt,x,"52.13",y,"52.13",w,"151.73",h,"151.73",rx,"7.95",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsSplit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 184 64 216 32 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 184 192 216 160 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 24 128 72 64 136 64 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 72 192 136 192 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Share = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 152 224 104 176 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 216 32 216 32 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,176a96,96,0,0,1,93-72h59",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SoccerBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 88 88 115.5 103.28 160 152.72 160 168 115.5 128 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"65.17",y1,"108.09",x2,"88",y2,"115.5",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"89.17",y1,"179.42",x2,"103.28",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"166.83",y1,"179.42",x2,"152.72",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"190.83",y1,"108.09",x2,"168",y2,"115.5",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"164.25 39.08 128 64 91.75 39.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"223.85 133.42 190.82 108.08 202.77 67.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"53.23 67.78 65.17 108.08 32.15 133.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152.13 220.94 166.83 179.42 209.08 179.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"46.92 179.42 89.17 179.42 103.87 220.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Vibrate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"80",w,"176",h,"96",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"88",x2,"208",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"104",x2,"240",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"88",x2,"48",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"104",x2,"16",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Compass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"176 80 112 112 80 176 144 144 176 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FinnTheHuman = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"112",w,"144",h,"72",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,72a24,24,0,0,1,48,0H184a24,24,0,0,1,48,0v80a64,64,0,0,1-64,64H88a64,64,0,0,1-64-64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"148",r,"12"),s(c,cx,"164",cy,"148",r,"12"))
+
+export const TestTube = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M94.77,213.23a36.77,36.77,0,0,1-52,0h0a36.77,36.77,0,0,1,0-52L172,32l60,60-24,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72.82,131.18c9.37-3.65,25.78-6.36,47.18,4.82s37.81,8.47,47.18,4.82",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Parallelogram = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,208a8,8,0,0,1-7.3-11.28l64.8-144A8,8,0,0,1,88.81,48H232a8,8,0,0,1,7.3,11.28l-64.8,144a8,8,0,0,1-7.3,4.72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WechatLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"132",cy,"140",r,"12"),s(c,cx,"188",cy,"140",r,"12"),s(p,d,"M160,224a72,72,0,1,1,63.5-38l8.16,27.76a8,8,0,0,1-9.93,9.93L194,215.5A71.75,71.75,0,0,1,160,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.06,175.89a71.53,71.53,0,0,1-30-8.39l-27.76,8.16a8,8,0,0,1-9.93-9.93L32.5,138A72,72,0,1,1,163.94,80.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DownloadSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"144",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 144 216 208 40 208 40 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 104 128 144 88 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CodaLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,176a48,48,0,1,1,25.85-88.64A4,4,0,0,0,208,84V48a8,8,0,0,0-8-8H56a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8H200a8,8,0,0,0,8-8V172a4,4,0,0,0-6.12-3.38C193.9,173.74,186.27,176.41,176,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(256 0) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 112 160 160 112 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Mouse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"112",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GrainsSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224h0a80,80,0,0,1-80-80V120h0a80,80,0,0,1,80,80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,120V64h0a79.89,79.89,0,0,0-64.83,33.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M205.14,165.28A80.3,80.3,0,0,0,208,144V120h0a79.63,79.63,0,0,0-36.18,8.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.71,148.58A79.68,79.68,0,0,0,128,200v24h0a79.86,79.86,0,0,0,61.29-28.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,120V64h0a79.92,79.92,0,0,1,25.63,4.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M98.5,48A104.72,104.72,0,0,1,128,24S160.39,40.19,172,72.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendDoubleUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 152 224 104 176 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 152 176 104 128 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,200a96,96,0,0,1,96-96h48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bank = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"24 96 232 96 128 32 24 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"56",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"96",x2,"104",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"96",x2,"152",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"96",x2,"200",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"176",x2,"224",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"208",x2,"240",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Virus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"108",cy,"108",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"128",r,"16"),s(c,cx,"128",cy,"176",r,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"40",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"65.77",y2,"65.77",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"190.23",y1,"65.77",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"208",x2,"190.23",y2,"190.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"65.77",y2,"190.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GithubLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M119.83,56A52,52,0,0,0,76,32a51.92,51.92,0,0,0-3.49,44.7A49.28,49.28,0,0,0,64,104v8a48,48,0,0,0,48,48h48a48,48,0,0,0,48-48v-8a49.28,49.28,0,0,0-8.51-27.3A51.92,51.92,0,0,0,196,32a52,52,0,0,0-43.83,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,232V192a32,32,0,0,1,32-32h0a32,32,0,0,1,32,32v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,208H72a32,32,0,0,1-32-32A32,32,0,0,0,8,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Basket = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"120",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 88 128 24 72 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"180.8",y1,"120",x2,"175.2",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"75.2",y1,"120",x2,"80.8",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,88H232L216.93,201.06A8,8,0,0,1,209,208H47a8,8,0,0,1-7.93-6.94Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tabs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M8,168,30.29,93.7A8,8,0,0,1,38,88h84.1a8,8,0,0,1,7.66,5.7L152,168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,88h10.05a8,8,0,0,1,7.66,5.7L200,168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,88h10.05a8,8,0,0,1,7.66,5.7L248,168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"168",x2,"248",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ImageBroken = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,208H40a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V88l-48,16-16,40-40,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M137.73,208l7.94-23.8,39-15.58,15.58-39,23.8-7.94V200a8,8,0,0,1-8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,168.69l54.34-54.35a8,8,0,0,1,11.32,0l39,39",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"216 216 96 216 40.51 160.51",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164",y1,"92",x2,"68",y2,"188",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListMagnifyingGlass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"184",cy,"144",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"206.63",y1,"166.63",x2,"232",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretDoubleDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"208 136 128 216 48 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 56 128 136 48 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Flower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M111.71,100.45C103.81,85.56,96,67.85,96,56a32,32,0,0,1,64,0c0,11.85-7.81,29.56-15.71,44.45",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,128.33c-16.85-.6-36.09-2.69-46.35-8.62a32,32,0,1,1,32-55.42c10.26,5.92,21.7,21.54,30.64,35.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112.29,155.88c-8.94,14.29-20.38,29.91-30.64,35.83a32,32,0,1,1-32-55.42c10.26-5.93,29.5-8,46.35-8.62",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144.29,155.55C152.19,170.44,160,188.15,160,200a32,32,0,0,1-64,0c0-11.85,7.81-29.56,15.71-44.45",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,127.67c16.85.6,36.09,2.69,46.35,8.62a32,32,0,1,1-32,55.42c-10.26-5.92-21.7-21.54-30.64-35.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M143.71,100.12c8.94-14.29,20.38-29.91,30.64-35.83a32,32,0,1,1,32,55.42c-10.26,5.93-29.5,8-46.35,8.62",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,106.87a32,32,0,0,1,0,42.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,154.4V224L80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l6.82-5.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112.15 62.99 152 32 152 106.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M221.67,80a72,72,0,0,1,0,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandWaving = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96.65,62a20,20,0,0,1,34.64-20l30,52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M69.32,94.67,55.08,70A20,20,0,0,1,89.73,50l31.17,54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M158.87,160A40,40,0,0,1,168,105.58L161.32,94A20,20,0,0,1,196,74l17.31,30A80,80,0,0,1,74.7,184l-40-69.32a20,20,0,0,1,34.64-20L88.57,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,33.78A51.84,51.84,0,0,1,223.67,58l.33.57",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74.62,232A111.88,111.88,0,0,1,47,200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TreasureChest = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,48H184a48,48,0,0,1,48,48v96a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V96A48,48,0,0,1,72,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"112",x2,"112",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"112",x2,"232",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"112",y,"96",w,"32",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"48",x2,"72",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"48",x2,"184",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 112 128 152 168 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Function = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"128",x2,"184",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,216H85.29a32,32,0,0,0,31.49-26.28L139.22,66.28A32,32,0,0,1,170.71,40H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlowArrow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"48",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 48 240 80 208 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,176c88,0,40-96,128-96h32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Question = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"180",r,"12"),s(p,d,"M128,144v-8c17.67,0,32-12.54,32-28s-14.33-28-32-28S96,92.54,96,108v4",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlagCheckered = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,176c64-55.43,112,55.43,176,0V56C160,111.43,112,.57,48,56V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,116c64-55.43,112,55.43,176,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"69.48",x2,"168",y2,"189.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"42.52",x2,"104",y2,"162.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lighthouse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"56",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56,64,215.24A8,8,0,0,0,72,224H184a8,8,0,0,0,8-8.76L176,56,133.12,17.85a8,8,0,0,0-10.24,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 88 208 112 48 112 48 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"68.77",y1,"168",x2,"187.23",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HeartHalf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224S24,168,24,102A54,54,0,0,1,78,48c22.59,0,41.94,12.31,50,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,80c6.84-16.71,21.81-27.67,40-31.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,57.09A54,54,0,0,1,231.67,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M223.3,136c-5.8,11.65-14.05,22.63-23.3,32.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,197.49A328.1,328.1,0,0,1,128,224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CornersOut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 48 208 48 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 208 48 208 48 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 168 208 208 168 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 88 48 48 88 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Browsers = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"80",w,"160",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,80V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V168a8,8,0,0,1-8,8H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"112",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendDoubleUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 152 32 104 80 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 152 80 104 128 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,200a96,96,0,0,0-96-96H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Presentation = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"184",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"184",x2,"64",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CarBattery = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"136",x2,"184",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"120",x2,"168",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"136",x2,"104",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"24",y,"80",w,"208",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,80V56a8,8,0,0,1,8-8H96a8,8,0,0,1,8,8V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,80V56a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8V80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCounterClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"24 56 24 104 72 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M67.59,192A88,88,0,1,0,65.77,65.77L24,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Headlights = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"168",y1,"80",x2,"240",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"176",x2,"240",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"112",x2,"240",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"144",x2,"240",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,200a72,72,0,0,1-72-72.55C16.3,87.75,49.2,56,88.9,56H128a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LineSegments = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"40",cy,"200",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"96",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"160",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"216",cy,"56",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"84.62",y1,"117.13",x2,"51.38",y2,"178.87",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"143.03",y1,"143.03",x2,"112.97",y2,"112.97",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"204.62",y1,"77.13",x2,"171.38",y2,"138.87",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MouseScroll = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 88 128 64 104 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 168 128 192 104 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Martini = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"24 40 232 40 128 144 24 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"216",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"72",x2,"200",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CookingPot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"16",x2,"96",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"16",x2,"160",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,80H216V184a24,24,0,0,1-24,24H64a24,24,0,0,1-24-24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"216",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"96",x2,"40",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Invoice = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,56H40A16,16,0,0,0,24,72h0A16,16,0,0,0,40,88H56a16,16,0,0,1,16,16h0a16,16,0,0,1-16,16H28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"48",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"120",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,56H224V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"104",x2,"168",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Diamond = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"52.13",y,"52.13",w,"151.73",h,"151.73",rx,"7.95",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThermometerHot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"160",x2,"120",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"120",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,48a32,32,0,0,1,64,0v90a56,56,0,1,1-64,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,76.4c22.91-14.92,33.09,14.12,56-.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,108.4c22.91-14.92,33.09,14.12,56-.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UploadSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"144",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 144 216 208 40 208 40 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 72 128 32 168 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignBottom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"216",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"116",y,"100",w,"112",h,"56",rx,"8",t,"translate(44 300) rotate(-90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"56",y,"32",w,"56",h,"152",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GoodreadsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,88a56,56,0,0,1,112,0v24a56,56,0,0,1-112,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,32V168a56,56,0,0,1-56,56c-19,0-37.88-9.49-48-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowURightDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"120 176 168 224 216 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,176V88a56,56,0,0,1,56-56h0a56,56,0,0,1,56,56V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryChargingVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"128 168 144 136 112 136 128 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Leaf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M63.81,192.19c-47.89-79.81,16-159.62,151.64-151.64C223.43,176.23,143.62,240.08,63.81,192.19Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ExcludeSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"96",y,"96",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"216",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"160",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"40",x2,"152",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"96",x2,"96",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MouseMiddleClick = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"112",y,"80",w,"32",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"112",x2,"112",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"112",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Brandy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"176",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"224",x2,"168",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M201.77,40A88,88,0,1,1,54.23,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinuxLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,208S64,168,64,88a64,64,0,0,1,128,0c0,80,32,120,32,120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"100",cy,"100",r,"12"),s(c,cx,"156",cy,"100",r,"12"),s(py,ps,"160 136 128 152 96 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,208c8-14.35,22.91-24,40-24s32,9.65,40,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleDoubleRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 160 120 128 88 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 160 176 128 144 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Egg = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UmbrellaSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,200a24,24,0,0,1-48,0V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,136a8,8,0,0,1-8-8.71,104.37,104.37,0,0,1,207.94,0,8,8,0,0,1-8,8.71Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CrosshairSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"72",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceTabletSpeaker = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"64",x2,"160",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MagicWand = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"128",x2,"216",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"152",x2,"240",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"40",x2,"80",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"64",x2,"104",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"184",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"200",x2,"184",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"80",x2,"176",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"21.49",y,"105.37",w,"213.02",h,"45.25",rx,"8",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Barcode = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"184 48 224 48 224 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 208 32 208 32 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 168 224 208 184 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 88 32 48 72 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"88",x2,"176",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"88",x2,"144",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"88",x2,"112",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SunDim = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"64",x2,"56",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"192",x2,"56",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"64",x2,"200",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"192",x2,"200",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"32",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignLeftSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"56",x2,"32",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"88",w,"168",h,"80",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Axe = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M164.47,189.65a8,8,0,0,1-13.6-4.68c-7.09-53.14-42.41-87.8-59.45-99.76A8,8,0,0,1,90.33,73L129,34.33a8,8,0,0,1,12.2,1.09c12,17,46.62,52.36,99.76,59.45a8,8,0,0,1,4.68,13.6Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M151.78,48.22,171,29a17,17,0,0,1,24,0h0a17,17,0,0,1,0,24L177.7,70.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M126.3,121.7,37,211a17,17,0,0,1-24,0h0a17,17,0,0,1,0-24l91.25-91.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GlobeHemisphereWest = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M75.88,123.26,89.2,100a8,8,0,0,1,6.94-4h16.71a7.9,7.9,0,0,0,3.86-1L129,88.24a7.12,7.12,0,0,0,1.49-1.07l26.92-24.33A8,8,0,0,0,159,53l-10.5-18.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M67.78,53.23,56,81.08A8,8,0,0,0,55.88,87l11.5,30.67a8,8,0,0,0,5.81,5l21.43,4.61a8,8,0,0,1,5.52,4.33l3.8,7.87a8,8,0,0,0,7.2,4.51h13.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M213.09,172.48l-52.38-32.22a8.11,8.11,0,0,0-3.12-1.11l-22.82-3.08a8,8,0,0,0-8.38,4.67l-13.7,30.74a8,8,0,0,0,1.44,8.69l19.74,20.33a8,8,0,0,1,2,6.95l-3.17,16.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CompassRose = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 8 104 104 128 128 152 104 128 8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 248 104 152 128 128 152 152 128 248",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 104 248 128 152 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 104 8 128 104 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40.37,119.91a88,88,0,0,1,79.54-79.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M119.91,215.63a88,88,0,0,1-79.54-79.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M215.63,136.09a88,88,0,0,1-79.54,79.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136.09,40.37a88,88,0,0,1,79.54,79.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandSwipeRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,216,34.68,166a20,20,0,0,1,34.64-20L88,176V68a20,20,0,0,1,40,0v56a20,20,0,0,1,40,0v16a20,20,0,0,1,40,0v36c0,24-8,40-8,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 24 248 56 216 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"56",x2,"248",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"100",cy,"100",r,"12"),s(c,cx,"156",cy,"100",r,"12"),s(c,cx,"100",cy,"156",r,"12"),s(c,cx,"156",cy,"156",r,"12"))
+
+export const MaskSad = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,184c-7.6-5.05-14.19-8-24-8s-16.4,2.95-24,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,48a8,8,0,0,0-10.89-7.47C190,46.41,160.89,55.71,128,55.71s-62-9.3-77.11-15.16A8,8,0,0,0,40,48v55.77C40,174.6,79.4,232,128,232s88-57.4,88-128.21Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,120c4.39,4.91,12.89,8,20,8s15.61-3.09,20-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,120c4.39,4.91,12.89,8,20,8s15.61-3.09,20-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LessThan = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 56 48 128 200 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Atom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"128",rx,"44.13",ry,"116.33",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"128",cy,"128",rx,"116.33",ry,"44.13",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"12"))
+
+export const MoneyWavy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M240,186.79c-91.64,44.77-132.36-42.35-224,2.42v-120c91.64-44.77,132.36,42.35,224-2.42Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"96",x2,"48",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"112",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClockCounterClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"128 80 128 128 168 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 104 32 104 32 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M67.6,192A88,88,0,1,0,65.77,65.77C54,77.69,44.28,88.93,32,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"224",x2,"128",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 144 128 72 200 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"216",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Paperclip = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,80,76.69,164.69a16,16,0,0,0,22.63,22.62L198.63,86.63a32,32,0,0,0-45.26-45.26L54.06,142.06a48,48,0,0,0,67.88,67.88L204,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SelectionInverse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"216",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216H48a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,216h24a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"42.34",y1,"42.34",x2,"213.66",y2,"213.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaperPlaneTilt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"108",y1,"148",x2,"160",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M223.69,42.18a8,8,0,0,0-9.87-9.87l-192,58.22a8,8,0,0,0-1.25,14.93L108,148l42.54,87.42a8,8,0,0,0,14.93-1.25Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"192 224 192 80 48 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 128 48 80 96 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 224 192 80 48 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Golf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"100",r,"12"),s(c,cx,"132",cy,"132",r,"12"),s(c,cx,"128",cy,"96",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"128",y2,"248",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,200c-12.42,4.75-25.91,8-40,8s-27.58-3.25-40-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GlobeHemisphereEast = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184.42,205.68l-9.36-9.37a8,8,0,0,0-3.63-2.09L150,188.59a8,8,0,0,1-5.88-8.9l2.38-16.2a8,8,0,0,1,4.85-6.22l30.45-12.66a8,8,0,0,1,8.47,1.49L215,168.71",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.49,184.65l9.92-6.52A8,8,0,0,0,64,171.49l.21-36.23a8.06,8.06,0,0,1,1.35-4.41l20.94-31.3a8,8,0,0,1,11.34-2l19.81,13a8.06,8.06,0,0,0,5.77,1.45l31.46-4.26a8,8,0,0,0,5-2.71L182.06,79.2A8,8,0,0,0,184,74V50",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotOutline = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sl,"10",sw,"16"))
+
+export const UserGear = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"108",cy,"100",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200c20.55-24.45,49.56-40,84-40s63.45,15.55,84,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"224",cy,"136",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"120",x2,"224",y2,"108",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"210.14",y1,"128",x2,"199.75",y2,"122",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"210.14",y1,"144",x2,"199.75",y2,"150",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"152",x2,"224",y2,"164",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"237.86",y1,"144",x2,"248.25",y2,"150",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"237.86",y1,"128",x2,"248.25",y2,"122",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartScatter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"224 208 32 208 32 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"132",cy,"148",r,"12"),s(c,cx,"108",cy,"92",r,"12"),s(c,cx,"76",cy,"164",r,"12"),s(c,cx,"172",cy,"116",r,"12"),s(c,cx,"196",cy,"76",r,"12"),s(c,cx,"188",cy,"164",r,"12"))
+
+export const Panorama = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M16,64a8,8,0,0,1,10.05-7.74C43.35,60.89,81.44,72,128,72S212.65,60.89,230,56.27A8,8,0,0,1,240,64V192a8,8,0,0,1-10.06,7.73C212.63,195.08,174.55,184,128,184S43.37,195.08,26.06,199.72A8,8,0,0,1,16,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"204",cy,"108",r,"12"),s(p,d,"M16,160.69l54.34-54.35a8,8,0,0,1,11.32,0l79.46,79.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M131.31,156,157,130.34a8,8,0,0,1,11.31,0l68.25,68.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrainRegional = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M70.11,32H185.89a8,8,0,0,1,7.72,5.9L216,120l-22.39,82.1a8,8,0,0,1-7.72,5.9H70.11a8,8,0,0,1-7.72-5.9L40,120,62.39,37.9A8,8,0,0,1,70.11,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 120 128 136 216 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"88",x2,"160",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"208",x2,"72",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"184",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GridFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ToggleLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"224",h,"128",rx,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatTeardropText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"112",x2,"164",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"164",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M132,216H48a8,8,0,0,1-8-8V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Handbag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M209.67,72H46.33a8.06,8.06,0,0,0-8,7.07l-14.25,120a8,8,0,0,0,8,8.93H223.92a8,8,0,0,0,8-8.93l-14.25-120A8.06,8.06,0,0,0,209.67,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,104V64a40,40,0,0,1,80,0v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const City = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 216 96 40 32 40 32 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 216 224 88 160 88 160 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"136",x2,"96",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"72",x2,"64",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"120",x2,"64",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"64",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"168",x2,"192",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"120",x2,"192",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Columns = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"-4",y,"100",w,"176",h,"56",rx,"8",t,"translate(212 44) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"84",y,"100",w,"176",h,"56",rx,"8",t,"translate(300 -44) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CircleHalf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"56.45",x2,"192",y2,"199.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"37.47",x2,"160",y2,"218.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNotesSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"180",cy,"164",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"196",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 196 80 56 208 24 208 164",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudSnow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"76",cy,"196",r,"12"),s(c,cx,"116",cy,"212",r,"12"),s(c,cx,"164",cy,"196",r,"12"),s(c,cx,"68",cy,"236",r,"12"),s(c,cx,"156",cy,"236",r,"12"),s(p,d,"M88,88a68.06,68.06,0,1,1,68,72H76A44,44,0,1,1,90.2,74.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PictureInPicture = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"56",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 200 136 128 224 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlagPennant = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 168 240 104 56 40 56 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ColumnsPlusRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"-20",y,"108",w,"176",h,"40",rx,"8",t,"translate(196 60) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"52",y,"108",w,"176",h,"40",rx,"8",t,"translate(268 -12) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"128",x2,"240",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"104",x2,"216",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Unite = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"98.52",y1,"122.52",x2,"133.48",y2,"157.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"122.52",y1,"98.52",x2,"157.48",y2,"133.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"96",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"160",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164.91",y1,"116.91",x2,"228.91",y2,"180.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"146.91",y1,"146.91",x2,"210.91",y2,"210.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"116.91",y1,"164.91",x2,"180.91",y2,"228.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"75.09",y1,"27.09",x2,"139.09",y2,"91.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"45.09",y1,"45.09",x2,"109.09",y2,"109.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"27.08",y1,"75.08",x2,"91.08",y2,"139.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 192 200 152 192 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31L98.34,213.66A8,8,0,0,1,92.69,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40.51",y1,"160.51",x2,"95.49",y2,"215.49",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Repeat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 88 224 64 200 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,128A64,64,0,0,1,96,64H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 168 32 192 56 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,128a64,64,0,0,1-64,64H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EnvelopeSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,56H224a0,0,0,0,1,0,0V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V56A0,0,0,0,1,32,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 56 128 144 32 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DribbbleLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M71,205.27A159.93,159.93,0,0,1,208,128c5.39,0,10.73.27,16,.79",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M188,53.09A159.69,159.69,0,0,1,64,112a161.14,161.14,0,0,1-30.16-2.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M85.93,41.69a159.91,159.91,0,0,1,79,138,160.45,160.45,0,0,1-4.73,38.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(0 256) rotate(-90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 96 160 96 160 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleSwim = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"176",cy,"72",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,193.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,153.61c72-59.69,104,56.47,176-3.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M189.58,165.58l-57.46-57.46A96,96,0,0,0,64.24,80H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"79.96",y1,"136.04",x2,"118.91",y2,"97.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Buildings = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M136,216V32a8,8,0,0,0-12.44-6.65l-80,53.33A8,8,0,0,0,40,85.35V216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,88h72a8,8,0,0,1,8,8V216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"112",x2,"104",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"112",x2,"72",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"168",x2,"72",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"168",x2,"104",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextOutdent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 56 32 96 72 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 152 32 104 80 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,200a96,96,0,0,0-96-96H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"104",x2,"128",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"80",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"152",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"200",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"56",w,"192",h,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrophoneSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"200",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"208",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M172.32,184.75A72,72,0,0,1,56,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,128a71.7,71.7,0,0,1-7.29,31.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M150.68,161A39.77,39.77,0,0,1,128,168h0a40,40,0,0,1-40-40V92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M91.3,48.06A40,40,0,0,1,128,24h0a40,40,0,0,1,40,40v64a38.66,38.66,0,0,1-.22,4.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BookmarkSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Target = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"128",x2,"224",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M195.88,60.12a95.88,95.88,0,1,0,18.77,26.49",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M161.94,94.06a48,48,0,1,0,14,31.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 208 80 128 160 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Palette = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,192a24,24,0,0,1,24-24h46.21a24,24,0,0,0,23.4-18.65A96.48,96.48,0,0,0,224,127.17c-.45-52.82-44.16-95.7-97-95.17a96,96,0,0,0-95,96c0,41.81,26.73,73.44,64,86.61A24,24,0,0,0,128,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"76",r,"12"),s(c,cx,"84",cy,"100",r,"12"),s(c,cx,"84",cy,"156",r,"12"),s(c,cx,"172",cy,"100",r,"12"))
+
+export const CastleTurret = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,224V112l13.66-13.66A8,8,0,0,0,208,92.69V48a8,8,0,0,0-8-8H176V72H144V40H112V72H80V40H56a8,8,0,0,0-8,8V92.69a8,8,0,0,0,2.34,5.65L64,112V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,224V168a24,24,0,0,1,48,0v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"224",x2,"216",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GpsFix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"240",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChalkboardTeacher = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"104",cy,"144",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M53.39,208a56,56,0,0,1,101.22,0H216a8,8,0,0,0,8-8V56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V200a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 176 192 176 192 80 64 80 64 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilSimpleLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"216",x2,"96",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Intersect = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"96",cy,"96",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"160",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"98.52",y1,"122.52",x2,"133.48",y2,"157.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"122.52",y1,"98.52",x2,"157.48",y2,"133.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"40",x2,"40",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"72",y,"56",w,"112",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"72",y,"144",w,"152",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLineDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"32 136 128 232 224 136 176 136 176 72 80 72 80 136 32 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"80",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 128 216 176 168 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 32 72 176 216 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Exclude = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"96",cy,"96",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"160",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164.91",y1,"116.91",x2,"228.91",y2,"180.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"146.91",y1,"146.91",x2,"210.91",y2,"210.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"116.91",y1,"164.91",x2,"180.91",y2,"228.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"75.09",y1,"27.09",x2,"139.09",y2,"91.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"45.09",y1,"45.09",x2,"109.09",y2,"109.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"27.08",y1,"75.08",x2,"91.08",y2,"139.08",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 128 48 176 96 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 32 192 176 48 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextItalic = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"56",x2,"104",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"200",x2,"144",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"56",x2,"192",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cherries = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"88",cy,"160",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,136s-8,8-24,8-24-8-24-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,120s-8,8-24,8-24-8-24-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,128C168,16,56,32,56,32c48,32,32,112,32,112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M123.81,107a64,64,0,1,1,16.41,90.12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BookUser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,112a32,32,0,0,1,32-32h72V200H160a32,32,0,0,0-32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200H96a32,32,0,0,1,32,32V112A32,32,0,0,0,96,80H24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,48a40,40,0,0,1,64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128,67.2,82.4A8,8,0,0,1,64,76V40a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8V75.64A8,8,0,0,1,188.82,82L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128,67.2,173.6A8,8,0,0,0,64,180v36a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V180.36a8,8,0,0,0-3.18-6.38L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"64",x2,"192",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BabyCarriage = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112H232a0,0,0,0,1,0,0v0a72,72,0,0,1-72,72H120a72,72,0,0,1-72-72v0A0,0,0,0,1,48,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,112V48a8,8,0,0,1,8-8h8a72,72,0,0,1,72,72h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,80a32,32,0,0,1,32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"224",r,"16"),s(c,cx,"192",cy,"224",r,"16"),s(l,x1,"144",y1,"112",x2,"209.43",y2,"59.65",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tram = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"208",x2,"72",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"184",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"56",w,"160",h,"152",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"172",r,"12"),s(c,cx,"172",cy,"172",r,"12"),s(l,x1,"88",y1,"16",x2,"168",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberNine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"96",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"208",x2,"169.57",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrainSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"208",x2,"72",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"184",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"32",w,"160",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"172",r,"12"),s(c,cx,"172",cy,"172",r,"12"))
+
+export const NyTimesLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"172",cy,"148",r,"12"),s(l,x1,"96",y1,"129.07",x2,"96",y2,"217.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48.66 154.31 128 112 128 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M204.34,168A80,80,0,1,1,120.23,64.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64.19,95.74A28,28,0,0,1,68,40L188,96a28,28,0,0,0,0-56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Taxi = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"112",x2,"240",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,176v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,176v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"144",x2,"80",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,112,194.3,60a8,8,0,0,0-6.94-4H68.64a8,8,0,0,0-6.94,4L32,112v64H224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,56,146,21a8,8,0,0,0-7.43-5H117.42A8,8,0,0,0,110,21L96,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextSuperscript = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M240,144H192l43.17-57.56A24,24,0,1,0,193.37,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"80",x2,"144",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"80",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretUpDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 176 128 224 176 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 80 128 32 176 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretDoubleUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 200 128 120 208 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 120 128 40 208 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNoteSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"88",cy,"184",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 184 128 40 208 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"204",r,"12"),s(p,d,"M168,165a68,68,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShuffleAngular = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32 72 88 72 168 184 232 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 48 232 72 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 160 232 184 208 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"147.66 100.47 168 72 232 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 184 88 184 108.34 155.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyGbp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"128",x2,"136",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,208H60a36,36,0,0,0,36-36V84a44,44,0,0,1,72-33.95",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SquareHalf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"48",w,"160",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"208",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"208",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"208",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"176",x2,"208",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CompassTool = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"80",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"141",y1,"109.25",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"224",x2,"115",y2,"109.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,120c-14.57,28.49-45.8,48-80,48a87.71,87.71,0,0,1-35.75-7.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TreeStructure = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"104",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"152",y,"40",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"152",y,"152",w,"64",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"128",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,184H128a16,16,0,0,1-16-16V88a16,16,0,0,1,16-16h24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileHtml = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,120V40a8,8,0,0,1,8-8h96l56,56v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"160",x2,"24",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60",y1,"160",x2,"60",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"100",y1,"160",x2,"100",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"116",y1,"160",x2,"84",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60",y1,"184",x2,"24",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"140 208 140 160 164 192 188 160 188 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 160 216 208 244 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"95.49",y1,"215.49",x2,"40.51",y2,"160.51",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.67,157.33,98.34,213.66A8,8,0,0,1,92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65l59-59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M124,76l41.67-41.67a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31l-44.34,44.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"68",y2,"188",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164",y1,"92",x2,"150.65",y2,"105.35",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cube = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32.7 76.92 128 129.08 223.3 76.92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M131.84,25l88,48.18a8,8,0,0,1,4.16,7v95.64a8,8,0,0,1-4.16,7l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18A8,8,0,0,1,131.84,25Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"129.09",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileZip = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,192h16a20,20,0,0,0,0-40H168v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 152 88 152 56 208 88 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gradient = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"104",x2,"112",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"144",x2,"72",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"144",x2,"224",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"56",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"184",x2,"112",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"184",x2,"168",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"184",x2,"224",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"64",x2,"224",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GearFine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"76",y2,"37.93",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"76",y2,"218.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.72",y1,"88",x2,"37.93",y2,"76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"24",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.72",y1,"168",x2,"37.93",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"208",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"197.28",x2,"180",y2,"218.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"197.28",y1,"168",x2,"218.07",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"197.28",y1,"88",x2,"218.07",y2,"76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"58.72",x2,"180",y2,"37.93",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatsTeardrop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,176H32a8,8,0,0,1-8-8V104A72,72,0,0,1,96,32h0a72,72,0,0,1,72,72h0A72,72,0,0,1,96,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.1,176A72,72,0,0,0,160,224h64a8,8,0,0,0,8-8V152a72,72,0,0,0-68.06-71.89",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HouseSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,216H216V120a8,8,0,0,0-2.34-5.66l-80-80a8,8,0,0,0-11.32,0l-80,80A8,8,0,0,0,40,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const IdentificationBadge = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"136",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,192a60,60,0,0,1,96,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"64",x2,"160",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sphere = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,32c17.67,0,32,43,32,96s-14.33,96-32,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,128c0,17.67-43,32-96,32s-96-14.33-96-32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileMagnifyingGlass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"124",cy,"148",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"143.8",y1,"167.8",x2,"160",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cricket = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"68.12",y,"74.75",w,"167.76",h,"90.51",rx,"8",t,"translate(-40.33 142.63) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"40",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 104 168 104 168 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"60",cy,"60",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendLeftDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 176 104 224 56 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,32a96,96,0,0,0-96,96v96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleZero = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(e,cx,"128",cy,"128",rx,"36",ry,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CopySimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"72",w,"144",h,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 40 216 40 216 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PauseCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(l,x1,"104",y1,"96",x2,"104",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"96",x2,"152",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 160 128 80 208 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gps = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"240",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Park = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"200",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"136",x2,"56",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"136",x2,"112",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"168",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"136",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"200",x2,"192",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"192 32 224 160 160 160 192 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"116",cy,"68",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandDeposit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"128",x2,"120",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 48 120 16 152 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,128h0a82.38,82.38,0,0,1,40,70.65V240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,88H64a8,8,0,0,0-8,8V200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160.94,240l-22.26-34a20,20,0,0,1,34.64-20L184,202.31V96a8,8,0,0,0-8-8H160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128,67.2,82.4A8,8,0,0,1,64,76V40a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8V75.64A8,8,0,0,1,188.82,82L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128,67.2,173.6A8,8,0,0,0,64,180v36a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V180.36a8,8,0,0,0-3.18-6.38L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"184",x2,"192",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"216",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"168",x2,"192",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 56 192 56 192 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,208H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,128a80,80,0,1,1,144,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 176 152 208 184 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"152",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MinusCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"))
+
+export const ArrowElbowRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 80 232 80 232 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"24 96 120 192 232 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rectangle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Money = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"16",y,"64",w,"224",h,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,104a48.85,48.85,0,0,1-40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,192a48.85,48.85,0,0,1,40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,152a48.85,48.85,0,0,1,40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,64a48.85,48.85,0,0,1-40,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SteeringWheel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"140",r,"12"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M33.6,145.55a128,128,0,0,1,188.8,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M119.8,223.65,97.94,165.2a8,8,0,0,0-7.49-5.2h-53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136.15,223.66l21.9-58.47a8,8,0,0,1,7.5-5.19h53",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCircleCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M222.67,112A95.92,95.92,0,1,1,144,33.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 56 200 72 232 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimpleMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,88V200.89a7.11,7.11,0,0,1-7.11,7.11H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80h88A8,8,0,0,1,224,88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlowerTulip = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"232",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,56h0a80,80,0,0,1,80,80v40a0,0,0,0,1,0,0h0A80,80,0,0,1,48,96V56A0,0,0,0,1,48,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,56h0a0,0,0,0,1,0,0V96a80,80,0,0,1-80,80h0a0,0,0,0,1,0,0V136a80,80,0,0,1,80-80Z",t,"translate(336 232) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 208 128 232 176 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M86.77,66C100,38,128,24,128,24s28,14,41.23,42",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TagSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M194.37,196.44,240,128,194.37,59.56A8,8,0,0,0,187.72,56H40a8,8,0,0,0-8,8V192a8,8,0,0,0,8,8H187.72A8,8,0,0,0,194.37,196.44Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CellSignalX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"152",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"200",x2,"160",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"72",x2,"160",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"112",x2,"120",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"152",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MusicNotesPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"24",x2,"200",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"48",x2,"176",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"164",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"52",cy,"196",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 196 80 56 136 42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"112",x2,"208",y2,"164",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"84",x2,"80",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShoppingBag = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,88a40,40,0,0,1-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Door = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"224",x2,"232",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"132",r,"12"))
+
+export const ReplitLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144,40V216a8,8,0,0,1-8,8H72a8,8,0,0,1-8-8V168a8,8,0,0,1,8-8H216a8,8,0,0,0,8-8V104a8,8,0,0,0-8-8H72a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h64A8,8,0,0,1,144,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"224",y1,"56",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"104",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"204",r,"12"),s(p,d,"M168,165a68,68,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,56.19q-4-.19-8-.19A163.31,163.31,0,0,0,24,93.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,104.27q-4-.27-8-.27a115.51,115.51,0,0,0-72,25",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SelectionSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"40",x2,"112",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40h24a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"144",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216H48a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M136,32l96,96-96,96V176H48a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8h88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MinusSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsOutLineVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"128",x2,"40",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 48 128 16 160 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 208 128 240 96 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LetterCircleH = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"88",x2,"96",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"88",x2,"160",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LineVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"24",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M45.15,230.11A8,8,0,0,1,32,224V64a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"112",x2,"160",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FootballHelmet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"84",cy,"164",r,"12"),s(p,d,"M120,200a8,8,0,0,0,7.81-9.74l-15.62-52.52A8,8,0,0,1,120,128h96v-4a92,92,0,0,0-93.31-92C72.65,32.71,32,73.92,32,124a91.91,91.91,0,0,0,40.14,76Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M148,128l24.31,82.27A8,8,0,0,0,180,216h36a8,8,0,0,0,8-8V176a8,8,0,0,0-8-8H121.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SolarRoof = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"240 128 96 128 56 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"128",x2,"104",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"48",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"96",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,128v56a8,8,0,0,1-8,8H24a8,8,0,0,1-8-8V128L56,48H200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"76",y1,"88",x2,"220",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bomb = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,64h48a8,8,0,0,1,8,8V86.66a80,80,0,1,1-64,0V72A8,8,0,0,1,88,64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,64s0-40,32-40,40,56,72,56,32-40,32-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,208a49.52,49.52,0,0,1-40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SkipForward = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"40",x2,"200",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,47.88V208.12a8,8,0,0,0,12.19,6.65L196.3,134.65a7.83,7.83,0,0,0,0-13.3L68.19,41.23A8,8,0,0,0,56,47.88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SealPercent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"96",cy,"96",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"160",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"168",x2,"168",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyEur = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"112",x2,"136",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"120",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,197.67A72,72,0,0,1,64,144V112A72,72,0,0,1,184,58.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Network = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"104",y,"32",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"168",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"120",x2,"192",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"64",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"120",x2,"232",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MoonStars = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"120",x2,"208",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"96",x2,"184",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"32",x2,"160",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"48",x2,"144",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M210.69,158.18A96.78,96.78,0,0,1,192,160,96.08,96.08,0,0,1,97.82,45.31,88,88,0,1,0,210.69,158.18Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MouseLeftClick = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"112",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"81.21",y1,"33.21",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"59.77",y1,"59.77",x2,"112",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceMobileSpeaker = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"64",w,"208",h,"128",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"56",x2,"160",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandPalm = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,60a20,20,0,0,1,40,0v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,76V44a20,20,0,0,1,40,0v68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,176a40,40,0,0,1,40-40V116a20,20,0,0,1,40,0v36a80,80,0,0,1-160,0V76a20,20,0,0,1,40,0v44",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hamburger = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48.07,96a8,8,0,0,1-7.89-9.72C46.68,55.55,83.52,32,128,32s81.32,23.55,87.82,54.28A8,8,0,0,1,207.93,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"24 176 68 160 108 176 148 160 188 176 232 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,168.73V184a32,32,0,0,1-32,32H80a32,32,0,0,1-32-32V167.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleSeven = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 88 152 88 120 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"12"),s(p,d,"M88,88V56a40,40,0,0,1,80,0V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"136",x2,"160",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"168",x2,"160",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Keyboard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"128",x2,"200",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"200",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"160",x2,"64",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"160",x2,"200",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cloud = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,128a80,80,0,1,1,80,80H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Needle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"72",x2,"168",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M182.63,118.63l24-24a32,32,0,0,0-45.26-45.26l-24,24C128,128,40,216,40,216S128,128,182.63,118.63Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EggCrack = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,152a80,80,0,0,1-160,0C48,88,96,24,128,24S208,88,208,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 152 160 112 128 104 172.68 53.93",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneDisconnect = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M225.94,95.83c17.29,17.29,18.63,42.29,4,61.12a8,8,0,0,1-9.26,2.47L171.58,142a8,8,0,0,1-4.86-5.8l-6.21-29.74a7.94,7.94,0,0,0-5.14-5.9,84.39,84.39,0,0,0-55.1.13,7.93,7.93,0,0,0-5.12,6l-5.9,29.51A8,8,0,0,1,84.38,142L35.29,159.42A8,8,0,0,1,26,157c-14.6-18.83-13.26-43.83,4-61.12C83.17,42.72,172.83,42.72,225.94,95.83Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"200",x2,"216",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wind = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,192c3.39,9.15,13.67,16,24,16a24,24,0,0,0,0-48H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,64c3.39-9.15,13.67-16,24-16a24,24,0,0,1,0,48H24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,96c3.39-9.15,13.67-16,24-16a24,24,0,0,1,0,48H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gif = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"136",y1,"72",x2,"136",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 72 176 72 176 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"128",x2,"176",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,128H96v24a32,32,0,0,1-64,0V104A32,32,0,0,1,64,72c14.91,0,28.45,10.2,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareZero = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"128",rx,"36",ry,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Beanie = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"168",w,"192",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"168",x2,"72",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"168",x2,"184",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,168V144a88,88,0,0,1,176,0v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"36",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MegaphoneSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M226.24,145.68A8,8,0,0,0,232,138V102a8,8,0,0,0-5.76-7.68l-176-54A8,8,0,0,0,40,48V192a8,8,0,0,0,10.24,7.68Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,156.18V192a8,8,0,0,1-8,8H152a8,8,0,0,1-8-8V69.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Mailbox = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"152",x2,"56",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 144 160 24 192 24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,176V116a52,52,0,0,0-52-52H76a52,52,0,0,1,52,52v68h96A8,8,0,0,0,232,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224V184H32a8,8,0,0,1-8-8V116A52,52,0,0,1,76,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pinwheel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M94.68,27.15a52,52,0,0,1,35.57,97.73Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M27.15,145.32a52,52,0,0,1,97.73-35.57Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M145.32,212.85a52,52,0,1,1-35.57-97.73Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M212.85,94.68a52,52,0,1,1-97.73,35.57Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"164.48",y1,"164.48",x2,"224",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CornersIn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"208 96 160 96 160 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 160 96 160 96 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 208 160 160 208 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 48 96 96 48 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsThreeOutline = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"48",cy,"128",r,"24",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"208",cy,"128",r,"24",f,n,st,cc,sl,"10",sw,"16"))
+
+export const AsteriskSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"96",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"200",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"200",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"96",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassSimpleLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M50.36,53.66A8,8,0,0,1,56,40H200a8,8,0,0,1,5.66,13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.36,202.34A8,8,0,0,0,56,216H200a8,8,0,0,0,5.66-13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"178.13",y1,"176",x2,"77.87",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsThreeCircleVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"128",cy,"84",r,"12"),s(c,cx,"128",cy,"172",r,"12"))
+
+export const Bridge = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"56",x2,"64",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"56",x2,"192",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,115.35A64,64,0,0,0,64,56a64,64,0,0,0,128,0,64,64,0,0,0,40,59.35",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"115.35",x2,"152",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"115.35",x2,"104",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"168",x2,"232",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Calculator = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"80",y,"64",w,"96",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"148",r,"12"),s(c,cx,"128",cy,"148",r,"12"),s(c,cx,"168",cy,"148",r,"12"),s(c,cx,"88",cy,"188",r,"12"),s(c,cx,"128",cy,"188",r,"12"),s(c,cx,"168",cy,"188",r,"12"))
+
+export const ArrowUDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 120 32 168 80 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56h88a56,56,0,0,1,56,56h0a56,56,0,0,1-56,56H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rug = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"48",w,"144",h,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"48",x2,"56",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"48",x2,"104",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"48",x2,"200",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"232",x2,"56",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"232",x2,"104",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"48",x2,"152",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"232",x2,"152",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"232",x2,"200",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 88 104 128 128 168 152 128 128 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkSimpleHorizontalBreak = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,176H64a48,48,0,0,1,0-96h40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,80h40a48,48,0,0,1,48,48h0a48,48,0,0,1-48,48H152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"204",r,"12"),s(p,d,"M200,129a116,116,0,0,0-144,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,165a68,68,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Desk = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"72",x2,"24",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"72",x2,"232",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"72",x2,"248",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"136",x2,"232",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"104",x2,"88",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"104",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimplePlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,88V200.89a7.11,7.11,0,0,1-7.11,7.11H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80h88A8,8,0,0,1,224,88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const User = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"96",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,216c19.37-33.47,54.55-56,96-56s76.63,22.53,96,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"204",r,"12"),s(p,d,"M232,93.19a164,164,0,0,0-208,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,129a116,116,0,0,0-144,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,165a68,68,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 144 128 104 168 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MastodonLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,224H72a32,32,0,0,1-32-32V72A32,32,0,0,1,72,40H184a32,32,0,0,1,32,32v72a32,32,0,0,1-32,32H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,136V104a24,24,0,0,0-48,0v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,136V104a24,24,0,0,0-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 80 24 80 24 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 96 136 192 24 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaperclipHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,144H192a16,16,0,0,0,0-32H48a32,32,0,0,0,0,64H192a48,48,0,0,0,0-96H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VirtualReality = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"68 96 92 160 116 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"8",y,"56",w,"240",h,"144",rx,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,136h20a20,20,0,0,0,0-40H144v64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"160",x2,"169.8",y2,"135.15",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaintBrushHousehold = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"104",x2,"152",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"44",y1,"188",x2,"72",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"68",y1,"212",x2,"96",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156,124l16.69,16.69a16,16,0,0,1,0,22.62L96,240,16,160,92.69,83.31a16,16,0,0,1,22.62,0L132,100l59-69A24,24,0,0,1,225,65Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M193.45,200H80L45.15,230.11A8,8,0,0,1,32,224V64a8,8,0,0,1,8-8H62.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M105.79,56H216a8,8,0,0,1,8,8V186",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const At = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,208c-15.21,10.11-36.37,16-56,16a96,96,0,1,1,96-96c0,22.09-8,40-28,40s-28-17.91-28-40V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WifiNone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"204",r,"12"))
+
+export const BuildingApartment = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"216",x2,"240",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 216 224 72 176 72 176 40 80 40 80 104 32 104 32 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"72",x2,"136",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"104",x2,"136",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"104",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"136",x2,"80",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"136",x2,"136",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"136",x2,"192",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"168",x2,"192",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 216 112 168 144 168 144 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceRotate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,216H80a16,16,0,0,1-16-16V104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,40H176a16,16,0,0,1,16,16v96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 192 200 216 176 240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 16 56 40 80 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Flame = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,144c0-72-80-120-80-120S48,72,48,144a80,80,0,0,0,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,184a40,40,0,0,0,80,0c0-40-40-64-40-64S88,144,88,184Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"96 48 176 128 96 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Drop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,144c0-72-80-128-80-128S48,72,48,144a80,80,0,0,0,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,192c20-3.37,36.61-20,40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlipHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96.63,36.89C100,28.86,112,31.29,112,40V200a8,8,0,0,1-8,8H40a8,8,0,0,1-7.37-11.12Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M159.37,36.89C156,28.86,144,31.29,144,40V200a8,8,0,0,0,8,8h64a8,8,0,0,0,7.37-11.12Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Paragraph = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"48",x2,"184",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"48",x2,"144",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,160H96A56,56,0,0,1,96,48H208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BookOpenText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,88a32,32,0,0,1,32-32h72V200H160a32,32,0,0,0-32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200H96a32,32,0,0,1,32,32V88A32,32,0,0,0,96,56H24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"200",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"128",x2,"200",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"200",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrolleySuitcase = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"72",cy,"224",r,"16"),s(c,cx,"216",cy,"224",r,"16"),s(p,d,"M24,48,45.66,69.66A8,8,0,0,1,48,75.31V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"240",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"80",y,"64",w,"144",h,"88",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,64V40a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SolarPanel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"104",x2,"56",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"65.77",y1,"41.77",x2,"77.09",y2,"53.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"16",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"190.23",y1,"41.77",x2,"178.91",y2,"53.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"104",x2,"200",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,104a40,40,0,0,1,80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"24 216 64.7 144 191.3 144 232 216 24 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"46.61",y1,"176",x2,"209.39",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152.35",y1,"144",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"216",x2,"103.65",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hand = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,76a20,20,0,0,1,40,0v76a80,80,0,0,1-80,80c-44.18,0-60.75-21.28-93.32-90a20,20,0,0,1,34.64-20L88,152V60a20,20,0,0,1,40,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120V44a20,20,0,0,1,40,0v76",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileImage = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"152 224 104 152 76.36 193.46 60 168 24 224 152 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,224h8a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,88V200.89a7.11,7.11,0,0,1-7.11,7.11H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80h88A8,8,0,0,1,224,88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlayCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(pl,ps,"172 128 108 88 108 168 172 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GasPump = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,216V56A16,16,0,0,1,72,40h80a16,16,0,0,1,16,16V216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"216",x2,"192",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,112h24a16,16,0,0,1,16,16v40a16,16,0,0,0,16,16h0a16,16,0,0,0,16-16V86.63a16,16,0,0,0-4.69-11.32L216,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"112",x2,"88",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyMelting = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"140",r,"12"),s(c,cx,"116",cy,"92",r,"12"),s(p,d,"M56.44,192A95.67,95.67,0,0,1,32,126.06C33,74.58,75.15,32.73,126.63,32a96,96,0,0,1,72.93,160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,240a16,16,0,0,1,0-32h56a16,16,0,0,0,0-32H136c-26.51,0-56-21.49-56-48a49,49,0,0,1,.66-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AppStoreLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"146.58",y1,"104.07",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"32",x2,"128",y2,"72.62",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"57.45",y1,"192",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"32",x2,"76.36",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"179.64",y1,"160",x2,"232",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"160",x2,"142.47",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShareFat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M30.93,198.72C47.39,181.19,90.6,144,152,144v48l80-80L152,32V80C99.2,80,31.51,130.45,24,195.54A4,4,0,0,0,30.93,198.72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BluetoothConnected = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 32 192 80 128 128 128 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 128 192 176 128 224 128 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"80",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"176",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"60",cy,"128",r,"12"),s(c,cx,"204",cy,"128",r,"12"))
+
+export const Recycle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 232 128 208 152 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"194.63 75.19 185.84 107.98 153.06 99.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"78.96 140.77 70.16 108 37.39 116.77",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M70.16,108l-44,76A16,16,0,0,0,40,208H88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,208h88a16,16,0,0,0,13.84-24l-23.14-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M185.84,108l-44-76a16,16,0,0,0-27.7,0L91,72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 211.16 176 176 128 72 80 176 80 211.16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,192a24,24,0,0,1,48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224V192a24,24,0,0,0-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"102.15",y1,"128",x2,"153.85",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CassetteTape = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 200 88 168 168 168 192 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"112",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"112",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"176",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"136",x2,"80",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lego = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"160",x2,"80",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"80",cy,"100",rx,"32",ry,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"160",cy,"60",rx,"32",ry,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"16 128 80 160 240 80 191.23 55.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"132.19",y1,"69.9",x2,"101.56",y2,"85.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"240 80 240 144 80 224 16 192 16 128 52.19 109.9",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListChecks = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 64 56 80 88 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 128 56 144 88 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 192 56 208 88 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkSimpleHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"128",x2,"176",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,176H64a48,48,0,0,1,0-96h40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,80h40a48,48,0,0,1,48,48h0a48,48,0,0,1-48,48H152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ghost = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"100",cy,"116",r,"12"),s(c,cx,"156",cy,"116",r,"12"),s(p,d,"M216,216l-29.33-24-29.34,24L128,192,98.67,216,69.33,192,40,216V120a88,88,0,0,1,176,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkBreak = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,120l12.28-11.72a40,40,0,0,0-56.56-56.56L136,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,136,51.72,147.72a40,40,0,0,0,56.56,56.56L120,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"160",x2,"216",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"96",x2,"64",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"192",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"40",x2,"96",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Thermometer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"212",cy,"84",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"160",x2,"120",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"120",cy,"184",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,48a32,32,0,0,1,64,0v90a56,56,0,1,1-64,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CallBell = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"176",x2,"232",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"208",x2,"232",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,32h48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,176V152a88,88,0,0,1,176,0v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,40,208,216H48a8,8,0,0,1-8-8V48A8,8,0,0,1,48,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M91.25,40H208a8,8,0,0,1,8,8V177.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"134.88",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"91.64",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Chalkboard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,200V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"200",x2,"240",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 200 120 168 192 168 192 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 200 64 80 192 80 192 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Boot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"120",x2,"112",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"88",x2,"112",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,168v32a8,8,0,0,1-8,8H205.89a8.08,8.08,0,0,1-3.58-.84l-12.62-6.32a8.08,8.08,0,0,0-3.58-.84H169.89a8.08,8.08,0,0,0-3.58.84l-12.62,6.32a8.08,8.08,0,0,1-3.58.84H121.89a8.08,8.08,0,0,1-3.58-.84l-12.62-6.32a8.08,8.08,0,0,0-3.58-.84H85.89a8.08,8.08,0,0,0-3.58.84l-12.62,6.32a8.08,8.08,0,0,1-3.58.84H40a8,8,0,0,1-8-8V168c9.22-32.06,12-88.65,0-120H144a8,8,0,0,1,8,8v64h40A48,48,0,0,1,240,168Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"168",x2,"240",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Circuitry = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"168",cy,"104",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"168",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 216 152 160 88 96 88 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"152",x2,"88",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 40 136 72 156.69 92.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Path = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"200",cy,"200",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,56h96a32,32,0,0,1,0,64H72a40,40,0,0,0,0,80H176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Export = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,104h24a8,8,0,0,1,8,8v96a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V112a8,8,0,0,1,8-8H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 64 128 24 168 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryVerticalMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bookmark = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,224l-64-40L64,224V48a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 176 127.99 136 64 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MaskHappy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,48a8,8,0,0,0-10.89-7.47C190,46.41,160.89,55.71,128,55.71s-62-9.3-77.11-15.16A8,8,0,0,0,40,48v55.77C40,174.6,79.4,232,128,232s88-57.4,88-128.21Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,128c4.39-4.91,12.89-8,20-8s15.61,3.09,20,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,128c4.39-4.91,12.89-8,20-8s15.61,3.09,20,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M162.36,168a44.89,44.89,0,0,1-68.72,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FigmaLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"168",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,96h32a32,32,0,0,0,0-64H136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,32H96a32,32,0,0,0,0,64h40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,96H96a32,32,0,0,0,0,64h40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,160H100a36,36,0,1,0,36,36Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClockUser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 104 128 128 128 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224a96,96,0,1,1,96-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,224c3.67-13.8,16.6-24,32-24s28.33,10.2,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Warning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M142.41,40.22l87.46,151.87C236,202.79,228.08,216,215.46,216H40.54C27.92,216,20,202.79,26.13,192.09L113.59,40.22C119.89,29.26,136.11,29.26,142.41,40.22Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"128",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"180",r,"12"))
+
+export const MagnetStraight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"96",x2,"104",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"96",x2,"208",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,144a24,24,0,0,0,48,0V56a8,8,0,0,1,8-8h40a8,8,0,0,1,8,8v87c0,44.11-35.28,80.67-79.39,81A80,80,0,0,1,48,144V56a8,8,0,0,1,8-8H96a8,8,0,0,1,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarDots = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"132",r,"12"),s(c,cx,"172",cy,"132",r,"12"),s(c,cx,"84",cy,"172",r,"12"),s(c,cx,"128",cy,"172",r,"12"),s(c,cx,"172",cy,"172",r,"12"))
+
+export const ApplePodcastsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M131.56,224h-7.12a16.2,16.2,0,0,1-15.76-12.12l-12.19-48A16.06,16.06,0,0,1,112.25,144h31.5a16.06,16.06,0,0,1,15.76,19.88l-12.19,48A16.2,16.2,0,0,1,131.56,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M66.33,145.18a64,64,0,1,1,123.34,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74.63,207.81a96,96,0,1,1,106.74,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCircleDots = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"84",cy,"128",r,"12"),s(c,cx,"172",cy,"128",r,"12"),s(p,d,"M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HardDrive = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"72",w,"208",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"128",r,"12"))
+
+export const Translate = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"240 216 184 104 128 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"184",x2,"224",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"32",x2,"96",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"56",x2,"160",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,56a96,96,0,0,1-96,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M69.47,88A96,96,0,0,0,160,152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLineLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"120 32 24 128 120 224 120 176 184 176 184 80 120 80 120 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"176",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PushPinSimpleSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"91.25",y1,"40",x2,"192",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"176",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"196.42",y2,"155.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"171.64",y1,"176",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"176",x2,"74.8",y2,"69.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"224",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,104a72,72,0,0,1,144,0c0,35.82,8.3,64.6,14.9,76A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PushPinSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"176",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"40",x2,"192",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"216",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"176",x2,"80",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"200",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gavel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"50.75",y,"44.69",w,"106.51",h,"38.63",rx,"8",t,"translate(-14.79 92.28) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"138.75",y,"132.69",w,"106.51",h,"38.63",rx,"8",t,"translate(-51.24 180.28) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"145.66",y1,"49.66",x2,"206.34",y2,"110.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"89.66",y1,"105.66",x2,"150.34",y2,"166.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M132,148,61,219a17,17,0,0,1-24,0h0a17,17,0,0,1,0-24l71-71",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CigaretteSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"184",x2,"88",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,104s-18-8,0-40,0-40,0-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,104s-18-8,0-40,0-40,0-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M178.52,136H224a8,8,0,0,1,8,8v32a8,8,0,0,1-8,8h-1.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M178.91,184H32a8,8,0,0,1-8-8V144a8,8,0,0,1,8-8H135.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Signpost = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200.44,152H40a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8H200.44a8,8,0,0,1,5.94,2.65L240,112l-33.62,37.35A8,8,0,0,1,200.44,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StackOverflowLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 152 48 216 208 216 208 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"176",x2,"168",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"94.95",y1,"123.2",x2,"172.23",y2,"143.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"115.33",y1,"74",x2,"184.61",y2,"114",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"147.75",y1,"31.75",x2,"204.32",y2,"88.32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Perspective = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,208a8,8,0,0,1-9.43,7.87l-160-29.09A8,8,0,0,1,40,178.91V77.09a8,8,0,0,1,6.57-7.87l160-29.09A8,8,0,0,1,216,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"128",x2,"240",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SnapchatLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M167.77,223.44c-12.08,3.09-26.72-7.56-39.77-7.56s-27.69,10.65-39.77,7.56c-12.5-3.2-18.53-22.69-29.57-28.76-11.21-6.17-33.4-2.09-42.66-10.78,0,0,56-20,56-103.93a56,56,0,0,1,112,0c0,83.89,56,103.93,56,103.93-9.26,8.69-31.45,4.61-42.66,10.78C186.3,200.75,180.27,220.24,167.77,223.44Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"66.31",y1,"122.53",x2,"40",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"189.69",y1,"122.53",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryPlusVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"100",y1,"140",x2,"156",y2,"140",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216.89,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8V200.89A7.11,7.11,0,0,1,216.89,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Popcorn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,80,62.55,209.83A8,8,0,0,0,70.34,216H185.66a8,8,0,0,0,7.79-6.17L224,80,168,96,131,81.19a8,8,0,0,0-5.94,0L88,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"96",x2,"104",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"152",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,82.3a36,36,0,0,0-52.82-30.11,36,36,0,0,0-70.28,0A36,36,0,0,0,40,82.29",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Shower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"52",cy,"236",r,"12"),s(c,cx,"84",cy,"204",r,"12"),s(c,cx,"20",cy,"204",r,"12"),s(c,cx,"52",cy,"172",r,"12"),s(p,d,"M248,40H216L184,72,161.91,201.31a8,8,0,0,1-13.54,4.34l-98-98a8,8,0,0,1,4.34-13.54L184,72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellSimpleRinging = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"224",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,24a102.71,102.71,0,0,1,36.29,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M35.71,64A102.71,102.71,0,0,1,72,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,112a72,72,0,0,1,144,0c0,35.82,8.3,56.6,14.9,68A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,147.81,56,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 104 32 152 80 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,56a96,96,0,0,1-96,96H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Notebook = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"112",x2,"176",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"144",x2,"176",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"40",x2,"80",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GridNine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"56",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"56",x2,"96",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"56",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,208V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6L128,80h72a8,8,0,0,1,8,8v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,208l30.18-90.53A8,8,0,0,1,69.77,112H232a8,8,0,0,1,7.59,10.53L211.09,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileMd = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,224V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,152v56h16a28,28,0,0,0,0-56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 208 96 152 68 192 40 152 40 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAlignCenter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"104",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"184",x2,"192",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RedditLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"184",cy,"32",r,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 72 136 24 168.29 28.97",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M59.41,89.88C77.72,78.75,101.72,72,128,72s50.28,6.75,68.59,17.88h0a24,24,0,1,1,31.62,34.79h0A51.6,51.6,0,0,1,232,144c0,39.76-46.56,72-104,72S24,183.76,24,144a51.6,51.6,0,0,1,3.79-19.33h0A24,24,0,1,1,59.41,89.88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"128",r,"16"),s(c,cx,"168",cy,"128",r,"16"),s(p,d,"M160,176a68,68,0,0,1-64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartPie = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"211.14",y1,"80",x2,"44.86",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileJpg = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,192h16a20,20,0,0,0,0-40H104v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,184h8v16.87A22.12,22.12,0,0,1,192,208c-13.25,0-24-12.54-24-28s10.75-28,24-28a21.28,21.28,0,0,1,12,3.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M36,190a18,18,0,0,0,36,0V152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"208 96 128 176 48 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextStrikethrough = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M76.33,96a25.71,25.71,0,0,1-1.22-8c0-22.09,22-40,52.89-40,23,0,40.24,9.87,48,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,168c0,22.09,25.07,40,56,40s56-17.91,56-40c0-23.77-21.62-33-45.6-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrendDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"232 192 136 96 96 136 24 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 128 232 192 168 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pentagram = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M60.75,205.49a8,8,0,0,0,12.31,8.95l155.63-112A8,8,0,0,0,224,88H32a8,8,0,0,0-4.71,14.47l155.63,112a8,8,0,0,0,12.31-8.95L135.61,21.68a7.94,7.94,0,0,0-15.22,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Train = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"128",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"72",x2,"208",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"208",x2,"72",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"184",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"32",w,"160",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"84",cy,"172",r,"12"),s(c,cx,"172",cy,"172",r,"12"))
+
+export const Barn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M240,128,200,72,132.44,25.34a8,8,0,0,0-8.88,0L56,72,16,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"200",x2,"240",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 200 72 120 184 120 184 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"120",x2,"72",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"120",x2,"184",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"88",x2,"144",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"105.6",x2,"32",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"105.6",x2,"224",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lectern = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,136a8,8,0,0,1-7.16-11.58l40-80A8,8,0,0,1,64,40H192a8,8,0,0,1,7.16,4.42l40,80A8,8,0,0,1,232,136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"184",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"136",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"216",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Building = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"232",x2,"232",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"24",x2,"56",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"232",x2,"200",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"64",x2,"112",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"64",x2,"160",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"104",x2,"112",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"160",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"144",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 232 104 184 152 184 152 232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"24",x2,"216",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M240,208H192l43.17-57.56A24,24,0,1,0,193.37,128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 136 32 88 80 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,200h88a56,56,0,0,0,56-56h0a56,56,0,0,0-56-56H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eyes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"56",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"152",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"176",cy,"128",rx,"48",ry,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"80",cy,"128",rx,"48",ry,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Alarm = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"136",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"32",x2,"24",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"232",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 80 128 136 184 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"184 168 64 168 160 48 160 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SelectionBackground = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"128",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"40",x2,"144",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,40h8a8,8,0,0,1,8,8v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"112",x2,"216",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,168h8a8,8,0,0,0,8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,40H96a8,8,0,0,0-8,8v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wrench = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,126.94a64,64,0,0,1,80-90.29L144,80l5.66,26.34L176,112l43.35-40a64,64,0,0,1-90.29,80L73,217A24,24,0,0,1,39,183Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Flashlight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,24H184a8,8,0,0,1,8,8V77.33a8,8,0,0,1-1.6,4.8l-20.8,27.74a8,8,0,0,0-1.6,4.8V224a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8V114.67a8,8,0,0,0-1.6-4.8L65.6,82.13a8,8,0,0,1-1.6-4.8V32A8,8,0,0,1,72,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"64",x2,"192",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceMobileCamera = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"64",w,"208",h,"128",rx,"16",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"60",r,"12"))
+
+export const CheckFat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,147.43l98.34-97.09a8,8,0,0,1,11.32,0l24,23.6a8,8,0,0,1,0,11.32l-128.4,128.4a8,8,0,0,1-11.32,0l-71.6-72a8,8,0,0,1,0-11.31l24-24a8,8,0,0,1,11.32,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tilde = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,130.42c72-89.55,104,84.71,176-4.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Memory = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,64H232a8,8,0,0,1,8,8V176a0,0,0,0,1,0,0H16a0,0,0,0,1,0,0V72A8,8,0,0,1,24,64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"176",x2,"16",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"176",x2,"48",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"176",x2,"80",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"176",x2,"112",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"176",x2,"144",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"176",x2,"176",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"176",x2,"208",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"176",x2,"240",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"96",w,"64",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"144",y,"96",w,"64",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GoogleLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128h88a88,88,0,1,1-20.11-56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"148",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"103.75",y1,"134",x2,"136",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCpp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,200.87A22.12,22.12,0,0,1,64,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"108",y1,"180",x2,"148",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"180",x2,"216",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"196",y1,"160",x2,"196",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PottedPlant = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M144.28,111.72c-25.08-41.81,8.36-83.61,79.43-79.43C227.89,103.36,186.09,136.8,144.28,111.72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M98,114c18.24-30.41-6.08-60.81-57.77-57.77C37.17,107.9,67.57,132.22,98,114Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"152",x2,"200",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,152l-14.61,65.74a8,8,0,0,1-7.81,6.26H94.42a8,8,0,0,1-7.81-6.26L72,152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144.28",y1,"111.72",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"97.98",y1,"113.98",x2,"120",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BowlFood = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112a80,80,0,0,1,160,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M89.6,112A80,80,0,0,1,168,48a81.61,81.61,0,0,1,8.61.46",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M134.66,112A80.13,80.13,0,0,1,193,65.4",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,199.3A96,96,0,0,1,32,112H224a96,96,0,0,1-56,87.3V208a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowULeftDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"136 176 88 224 40 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,176V88a56,56,0,0,0-56-56h0A56,56,0,0,0,88,88V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DropSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M205.14,165.28A80.3,80.3,0,0,0,208,144c0-72-80-128-80-128A242.3,242.3,0,0,0,95.54,44.72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74.9,69.59C60.11,90.4,48,116,48,144a80,80,0,0,0,141.29,51.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLineRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"136 32 232 128 136 224 136 176 72 176 72 80 136 80 136 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"40",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryCharging = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"116 160 132 128 100 128 116 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAlignRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"104",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"184",x2,"216",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GoogleCardboardLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,192V64a8,8,0,0,1,8-8H224a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H160l-26.34-26.34a8,8,0,0,0-11.32,0L96,200H32A8,8,0,0,1,24,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GlobeX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,224a96,96,0,1,1,96-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,224s-40-32-40-96,40-96,40-96,40,32,40,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"37.46",y1,"96",x2,"218.54",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"37.46",y1,"160",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"168",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"168",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NetworkX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"104",y,"32",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"64",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"144",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"120",x2,"232",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"168",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"168",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandWithdraw = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"136",x2,"120",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,128h0a82.38,82.38,0,0,1,40,70.65V240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56H64a8,8,0,0,0-8,8V200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160.94,240l-22.26-34a20,20,0,0,1,34.64-20L184,202.31V64a8,8,0,0,0-8-8H160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 104 120 136 152 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Storefront = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 139.59 48 216 208 216 208 139.59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M54,40H202a8,8,0,0,1,7.69,5.8L224,96H32L46.34,45.8A8,8,0,0,1,54,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,96v16a32,32,0,0,1-64,0V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,96v16a32,32,0,0,1-64,0V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,96v16a32,32,0,0,1-64,0V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TwitterLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,176S32.85,144,40.78,56c0,0,39.66,40,87.22,48V88c0-22,18-40.27,40-40a40.74,40.74,0,0,1,36.67,24H240l-32,32c-4.26,66.84-60.08,120-128,120-32,0-40-12-40-12S72,200,88,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,192a32,32,0,0,0,64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.48,41.36A72,72,0,0,1,200,104c0,29.1,5.48,53.56,11.07,67.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M186.18,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104A71.65,71.65,0,0,1,68.85,62.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretDoubleRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 48 136 128 56 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 48 216 128 136 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RepeatOnce = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 88 224 64 200 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,128A64,64,0,0,1,96,64H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 168 32 192 56 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,128a64,64,0,0,1-64,64H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 111.99 136 104 136 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Shield = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PushPinSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96.29",y1,"159.71",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M185,143.14l44.65-44.8a8,8,0,0,0,0-11.31L169,26.34a8,8,0,0,0-11.31,0L116.43,67.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M84.32,80C73.54,79.16,58.53,81.32,43,93.85a8,8,0,0,0-.65,11.91l107.9,107.89a8,8,0,0,0,12-.83c5.21-6.93,12.27-18.39,14.12-31.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarDot = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"152",r,"16"))
+
+export const FolderDashed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,208H39.38A7.4,7.4,0,0,1,32,200.62V192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"208",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,152v48.89a7.11,7.11,0,0,1-7.11,7.11H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,80h48a8,8,0,0,1,8,8v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"120",x2,"32",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RewindCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"112 92 112 164 64 128 112 92",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"176 92 176 164 128 128 176 92",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleWalk = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"152",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,129s56-52.65,88-24.87C153.94,119.67,168,144,208,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 232 152 176 109.54 145.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"129.53",y1,"99.69",x2,"72",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsInCardinal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"24",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 64 128 96 96 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"232",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 192 128 160 96 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 160 160 128 192 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"96",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 160 96 128 64 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Visor = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112.8,173.45c-11.81,9.79-27.19,19.26-43.89,18.48A64,64,0,0,1,72,64H183.05c35.17,0,64.49,28,64.94,63.15A64,64,0,0,1,184,192c-15.48,0-29.68-9.35-40.75-18.5A23.91,23.91,0,0,0,112.8,173.45Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"96",x2,"176",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cards = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"80",w,"160",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,48H216a8,8,0,0,1,8,8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Warehouse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"192",x2,"240",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"240",y1,"48",x2,"16",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 192 72 128 184 128 184 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"160",x2,"184",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"92.57",x2,"32",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"51.43",x2,"224",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldChevron = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"201.97 171.78 128 120 54.03 171.78",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Handshake = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 152 160 192 96 176 40 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72.68 70.63 128 56 183.32 70.63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M34.37,60.42,8.85,111.48a8,8,0,0,0,3.57,10.73L40,136,72.68,70.63,45.11,56.85A8,8,0,0,0,34.37,60.42Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,136l27.58-13.79a8,8,0,0,0,3.57-10.73L221.63,60.42a8,8,0,0,0-10.74-3.57L183.32,70.63Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,72H144L98.34,116.29a8,8,0,0,0,1.38,12.42C117.23,139.9,141,139.13,160,120l40,32,16-16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"124.06 216 82.34 205.57 56 186.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FunnelSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"136",x2,"192",y2,"136",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"88",x2,"232",y2,"88",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"184",x2,"152",y2,"184",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NotMemberOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,48H128a80,80,0,0,0-80,80h0a80,80,0,0,0,80,80h72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StarFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M159.82,159.82l-24.34,66.94a8,8,0,0,1-15,0L96.18,159.82,29.24,135.48a8,8,0,0,1,0-15L96.18,96.18l24.34-66.94a8,8,0,0,1,15,0l24.34,66.94,66.94,24.34a8,8,0,0,1,0,15Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const JarLabel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"56",w,"160",h,"176",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56V32a8,8,0,0,1,8-8h80a8,8,0,0,1,8,8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"56",x2,"112",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"104",x2,"208",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"184",x2,"208",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaintBrushBroad = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"112",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,152a16,16,0,0,1-16-16V64A32,32,0,0,1,72,32H216V136a16,16,0,0,1-16,16H152a8,8,0,0,0-7.92,9.13L152,208a24,24,0,0,1-48,0l7.92-46.87A8,8,0,0,0,104,152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"32",x2,"184",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Printer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"64 80 64 40 192 40 192 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"152",w,"128",h,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,176H24V96c0-8.84,7.76-16,17.33-16H214.67C224.24,80,232,87.16,232,96v80H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"116",r,"12"))
+
+export const HandGrabbing = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,92a20,20,0,0,0-40,0v28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,108V92a20,20,0,0,0-40,0v28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,152V120H68a20,20,0,0,0-20,20v12a80,80,0,0,0,160,0V108a20,20,0,0,0-40,0v12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"128",x2,"184",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 56 184 128 112 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"40",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sun = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"64",x2,"48",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"192",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"64",x2,"208",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"192",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"16",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"216",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"128",x2,"240",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pizza = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M25.16,70.9a8,8,0,0,1,2.7-11,193.49,193.49,0,0,1,200.28,0,8,8,0,0,1,2.7,11l-96,157.26a8,8,0,0,1-13.7,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M37.9,91.76a160.1,160.1,0,0,1,180.2,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154,196.79a32,32,0,1,1,33.2-54.39",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M53.74,117.71a32,32,0,1,1,30.65,50",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Gift = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"80",w,"192",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,128v72a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176.79,31.21c9.34,9.34,9.89,25.06,0,33.82C159.88,80,128,80,128,80s0-31.88,15-48.79C151.73,21.32,167.45,21.87,176.79,31.21Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.21,31.21c-9.34,9.34-9.89,25.06,0,33.82C96.12,80,128,80,128,80s0-31.88-15-48.79C104.27,21.32,88.55,21.87,79.21,31.21Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 96 96 96 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Copyright = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,152a40,40,0,1,1,0-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M92.69,216H48a8,8,0,0,1-8-8V163.31a8,8,0,0,1,2.34-5.65L165.66,34.34a8,8,0,0,1,11.31,0L221.66,79a8,8,0,0,1,0,11.31L98.34,213.66A8,8,0,0,1,92.69,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"192",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,120l96-96,96,96H176v88a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DoorOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"224",x2,"232",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,224V40a8,8,0,0,1,8-8H192a8,8,0,0,1,8,8V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"132",cy,"132",r,"12"),s(l,x1,"168",y1,"32",x2,"168",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserCirclePlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.8,199.37a72,72,0,0,1,128.4,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"56",x2,"224",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"200",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M222.67,112A95.92,95.92,0,1,1,144,33.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CoatHanger = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,72a32,32,0,0,1,64,0L19.22,177.6A8,8,0,0,0,24,192H232a8,8,0,0,0,4.79-14.4L128,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCentered = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M105.07,192l16,28a8,8,0,0,0,13.9,0l16-28H216a8,8,0,0,0,8-8V56a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V184a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cross = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,24h32a8,8,0,0,1,8,8V80h48a8,8,0,0,1,8,8v32a8,8,0,0,1-8,8H152v96a8,8,0,0,1-8,8H112a8,8,0,0,1-8-8V128H56a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8h48V32A8,8,0,0,1,112,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bed = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,168V80H216a32,32,0,0,1,32,32v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"208",x2,"24",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"24 168 248 168 248 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"80",x2,"24",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,128a80,80,0,1,1,80,80H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"112",x2,"136",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"112",x2,"184",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Steps = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"16 200 72 200 72 152 128 152 128 104 184 104 184 56 240 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChalkboardSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,200V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"200",x2,"240",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 200 160 168 224 168 224 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleBike = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"52",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"56",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 112 152 112 120 80 88 112 128 152 128 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Equals = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"160",x2,"216",y2,"160",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"96",x2,"216",y2,"96",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"136",x2,"248",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"108",cy,"100",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200c20.55-24.45,49.56-40,84-40s63.45,15.55,84,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TennisBall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M127.83,32A96,96,0,0,1,32,127.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,128.17A96,96,0,0,0,128.17,224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 96 168 128 136 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyEth = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"16",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"216 128 128 168 40 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 16 216 128 128 240 40 128 128 16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Broadcast = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M181.67,80a71.94,71.94,0,0,1,0,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74.33,176a71.94,71.94,0,0,1,0-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,49.62a111.88,111.88,0,0,1,0,156.76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,206.38A111.88,111.88,0,0,1,48,49.62",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Television = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"72",w,"192",h,"136",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 24 128 72 176 24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"116",r,"12"),s(c,cx,"188",cy,"164",r,"12"),s(l,x1,"152",y1,"208",x2,"152",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Info = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,120a8,8,0,0,1,8,8v40a8,8,0,0,0,8,8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"124",cy,"84",r,"12"))
+
+export const Armchair = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"136",x2,"176",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,96V72A32,32,0,0,1,80,40h96a32,32,0,0,1,32,32V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,168V128a32,32,0,1,0-32,32h0v40a8,8,0,0,0,8,8H200a8,8,0,0,0,8-8V160h0a32,32,0,1,0-32-32v40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"192",x2,"192",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 64 192 64 192 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilePpt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"152",x2,"176",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"196",y1,"152",x2,"196",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,192H64a20,20,0,0,0,0-40H48v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M116,192h16a20,20,0,0,0,0-40H116v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitFork = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,88v24a16,16,0,0,0,16,16h96a16,16,0,0,0,16-16V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"64",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TShirt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M192,120h28.34a8.44,8.44,0,0,0,7.5-4.42l19.27-36.81a7.81,7.81,0,0,0-3.33-10.52L192,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,120H35.66a8.44,8.44,0,0,1-7.5-4.42L8.89,78.77a7.81,7.81,0,0,1,3.33-10.52L64,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,40a32,32,0,0,1-64,0H64V208a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignTopSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"32",x2,"200",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"88",y,"64",w,"80",h,"168",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M193.89,200.49A79.66,79.66,0,0,1,160,208H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112.63,63.52A80,80,0,0,1,219.68,181.28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,128A79.68,79.68,0,0,1,91.07,87.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryVerticalEmpty = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"128",x2,"96",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"112",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"184 174.54 213.67 192 205.6 159.41 232 137.61 197.35 134.94 184 104 170.65 134.94 136 137.61 162.4 159.41 154.33 192 184 174.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LinkedinLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"32",w,"192",h,"192",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"112",x2,"120",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"112",x2,"88",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,140a28,28,0,0,1,56,0v36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"88",cy,"84",r,"12"))
+
+export const Selection = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"40",x2,"112",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"216",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40h24a8,8,0,0,1,8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"144",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,216h24a8,8,0,0,0,8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"40",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,216H48a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,40H48a8,8,0,0,0-8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SupersetOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"200",x2,"56",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,48h96a56,56,0,0,1,0,112H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Metronome = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,216a8,8,0,0,1-7.63-10.43l50.91-160A8,8,0,0,1,106.91,40h42.18a8,8,0,0,1,7.62,5.57l50.91,160A8,8,0,0,1,200,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"208",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.34",y1,"168",x2,"195.66",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HeartBreak = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,75.63,116.18,63.82A54,54,0,0,0,24,102c0,66,104,122,104,122s104-56,104-122a54,54,0,0,0-92.18-38.18L112,91.63l30.18,30.19L120,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"216",y1,"40",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"72",y,"56",w,"112",h,"56",rx,"8",t,"translate(256 168) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"144",w,"152",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scooter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"44",cy,"172",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"212",cy,"172",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 40 168 40 203.14 145.43",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"188.66 101.97 128 176 72 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Backpack = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,48h64a48,48,0,0,1,48,48V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V96A48,48,0,0,1,96,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,224V152a16,16,0,0,1,16-16h64a16,16,0,0,1,16,16v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,48V32a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"88",x2,"144",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"168",x2,"176",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"168",x2,"144",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Barbell = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"56",w,"40",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"160",y,"56",w,"40",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,80h24a8,8,0,0,1,8,8v80a8,8,0,0,1-8,8H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,176H32a8,8,0,0,1-8-8V88a8,8,0,0,1,8-8H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"128",x2,"248",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"128",x2,"24",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandsClapping = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"168",y1,"8",x2,"168",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"21.02",x2,"200",y2,"34.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"235.66",y1,"56",x2,"220.62",y2,"60.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M83.54,99,77.81,89a18,18,0,1,0-31.18,18l19,32.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M109.55,144l-26-45a18,18,0,1,1,31.17-18l36.45,63",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M102,59,96.28,49A18,18,0,1,0,65.1,67L77.81,89",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M114.71,81,102,59a18,18,0,1,1,31.17-18l37,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M199,187.76a72,72,0,0,0,10.7-86.19L188.61,65a18,18,0,0,0-31.18,18",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M81.81,168,61.59,133a18,18,0,0,0-31.18,18L40,167.59,65.63,212a72,72,0,0,0,124.71-72l-20.2-35A18,18,0,1,0,139,123",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,208H16a8,8,0,0,1-8-8V160a8,8,0,0,1,8-8H48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,160h32l67-15.41a16.61,16.61,0,0,1,21,16h0a16.59,16.59,0,0,1-9.18,14.85L184,192l-64,16H48V152l25-25a24,24,0,0,1,17-7H140a20,20,0,0,1,20,20h0a20,20,0,0,1-20,20Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"24",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 56 192 24 224 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PenNibStraight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"132",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"248",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,72,40.83,127.43a8,8,0,0,0,.73,8.29L128,248l86.43-112.28a8,8,0,0,0,.73-8.29L184,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,72V32a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Angle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M104,72a96,96,0,0,1,96,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 32 72 200 240 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"72",x2,"72",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ear = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,216c-8.07,9.77-18.34,16-32,16a44,44,0,0,1-44-44c0-41.49-36-28-36-84a80,80,0,0,1,160,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M173.86,168A16,16,0,0,1,144,160c0-24,24-32,24-56a40,40,0,0,0-80,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpinnerGap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"32",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"128",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"195.88",x2,"173.25",y2,"173.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"224",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.12",y1,"195.88",x2,"82.75",y2,"173.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"64",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"60.12",y1,"60.12",x2,"82.75",y2,"82.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileJs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,224h24a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M135.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M36,190a18,18,0,0,0,36,0V152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldCheckered = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"232",x2,"128",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40.86",y1,"128",x2,"215.14",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BehanceLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"168",y1,"80",x2,"232",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,124H94a34,34,0,0,1,0,68H32V64H90a30,30,0,0,1,0,60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,176a40,40,0,1,1,8-24H160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrayArrowUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,160H76.69a8,8,0,0,1,5.65,2.34l19.32,19.32a8,8,0,0,0,5.65,2.34h41.38a8,8,0,0,0,5.65-2.34l19.32-19.32a8,8,0,0,1,5.65-2.34H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 104 128 72 160 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlusMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"56",x2,"56",y2,"200",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"72",x2,"112",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"32",x2,"72",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"184",x2,"224",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SidebarSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"48",x2,"88",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrendUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"232 56 136 152 96 112 24 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 120 232 56 168 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 96 216 96 216 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,96,187.72,67.72A88,88,0,0,0,64,67",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 160 40 160 40 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,160l28.28,28.28A88,88,0,0,0,192,189",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Infinity = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M106.63,152.13l-8.69,9.81a48,48,0,1,1,0-67.88l60.12,67.88a48,48,0,1,0,0-67.88l-8.69,9.81",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatTeardropSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M189.59,195.75A91.6,91.6,0,0,1,132,216H48a8,8,0,0,1-8-8V124A91.72,91.72,0,0,1,66.05,59.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M92.19,41A91.53,91.53,0,0,1,132,32h0a92,92,0,0,1,92,92h0a91.58,91.58,0,0,1-13.2,47.51",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NavigationArrow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,152,234.35,129a8,8,0,0,0,.27-15.21l-176-65.28A8,8,0,0,0,48.46,58.63l65.28,176a8,8,0,0,0,15.21-.27Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WindowsLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"208 216 128 201.46 128 201.46 128 144 208 144 208 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"96 195.64 32 184 32 144 96 144 96 195.64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"208 40 128 54.55 128 54.55 128 112 208 112 208 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"96 60.36 32 72 32 112 96 112 96 60.36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Confetti = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40.49,205.52,93,61.14a7.79,7.79,0,0,1,12.84-2.85l91.88,91.88A7.79,7.79,0,0,1,194.86,163L50.48,215.51A7.79,7.79,0,0,1,40.49,205.52Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,72s0-24,24-24,24-24,24-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"16",x2,"144",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"112",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"80",x2,"240",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"78.09",y1,"102.09",x2,"153.91",y2,"177.91",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"101.11",y1,"197.11",x2,"58.89",y2,"154.89",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowLeftDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"136 168 88 216 40 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 72 88 72 88 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileySad = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"),s(p,d,"M168,176c-8.3-14.35-22.23-24-40-24s-31.7,9.65-40,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThumbsUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,104H80a0,0,0,0,1,0,0V208a0,0,0,0,1,0,0H32a8,8,0,0,1-8-8V112A8,8,0,0,1,32,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,104l40-80a32,32,0,0,1,32,32V80h64a16,16,0,0,1,15.87,18l-12,96A16,16,0,0,1,204,208H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Crosshair = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"232",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"56",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"128",x2,"200",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SealQuestion = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"180",r,"12"),s(p,d,"M128,144v-8c17.67,0,32-12.54,32-28s-14.33-28-32-28S96,92.54,96,108v4",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 112 160 160 112 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandFist = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,104a24,24,0,0,1-48,0V64a24,24,0,0,1,48,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,64a24,24,0,0,1,48,0V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,176a40,40,0,0,1,40-40H152a24,24,0,0,1-24-24V96a8,8,0,0,1,8-8h64a24,24,0,0,1,24,24v16a96,96,0,0,1-192,0V88a24,24,0,0,1,48,0v16a24,24,0,0,1-48,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"60",cy,"92",r,"12"),s(c,cx,"128",cy,"92",r,"12"),s(c,cx,"196",cy,"92",r,"12"),s(c,cx,"60",cy,"164",r,"12"),s(c,cx,"128",cy,"164",r,"12"),s(c,cx,"196",cy,"164",r,"12"))
+
+export const DotsThreeVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"128",cy,"60",r,"12"),s(c,cx,"128",cy,"196",r,"12"))
+
+export const Cheese = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,160h7.46c13.45,0,24.79-11,24.54-24.46A24,24,0,0,0,32,112H24V88H232v96a8,8,0,0,1-8,8H24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,88,184,40a48,48,0,0,1,48,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,192v-8a32,32,0,0,1,64,0v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M195.72,88a32,32,0,1,1-55.44,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowRightDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"128 160 176 208 224 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 64 176 64 176 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Plug = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"64",x2,"184",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"72",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"144",x2,"112",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M212,132l-58.63,58.63a32,32,0,0,1-45.25,0L65.37,147.88a32,32,0,0,1,0-45.25L124,44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"86.75",y1,"169.25",x2,"32",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pill = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"10.98",y,"82.75",w,"234.04",h,"90.51",rx,"45.25",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"112",x2,"184",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"128 158.54 157.67 176 149.6 143.41 176 121.61 141.35 118.94 128 88 114.65 118.94 80 121.61 106.4 143.41 98.33 176 128 158.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Detective = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"8",y1,"120",x2,"248",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"76",cy,"180",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"180",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"103.72",y1,"184",x2,"152.28",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,120,89.89,51.29a8,8,0,0,1,12.7-.29l12.94,15a16,16,0,0,0,24.94,0l12.94-15a8,8,0,0,1,12.7.29L216,120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Receipt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"104",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"136",x2,"176",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,208V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V208l-32-16-32,16-32-16L96,208,64,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VideoCamera = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"64",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 112 248 80 248 176 200 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Planet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184.76,60.75c27.13-7.21,47.41-6.45,53.44,3.94,11,18.93-29.45,62.61-90.32,97.58s-119.1,48-130.08,29c-6.05-10.43,3.51-28.37,23.49-48.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudLightning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,88a68.06,68.06,0,1,1,68,72H76A44,44,0,1,1,90.2,74.34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 240 144 200 104 200 128 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CameraPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"104",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"136",x2,"160",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,64,93.63,43.56A8,8,0,0,1,100.28,40h55.44a8,8,0,0,1,6.65,3.56L176,64h32a16,16,0,0,1,16,16V192a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileRs = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M184,224h16a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,192H64a20,20,0,0,0,0-40H48v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"84",y1,"208",x2,"73.32",y2,"189.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M143.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatDots = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"84",cy,"128",r,"12"),s(c,cx,"172",cy,"128",r,"12"),s(p,d,"M45.15,230.11A8,8,0,0,1,32,224V64a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CardsThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"96",w,"176",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"64",x2,"200",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"32",x2,"184",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SneakerMove = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,80a56,56,0,0,1-56-56L35,82.41a8,8,0,0,0-.63,11.87L148.06,208H224a8,8,0,0,0,8-8V180.94a8,8,0,0,0-4.42-7.15L199,159.48a56,56,0,0,1-31-50.09Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M97.31,112,53.6,68.28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"176",x2,"70.8",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"102.8",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GoogleDriveLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M93.65,35.76A8,8,0,0,1,100.43,32h55.14a8,8,0,0,1,6.78,3.76l68.43,112.18a8,8,0,0,1,.17,8.21L203.62,204a8,8,0,0,1-6.94,4H59.32a8,8,0,0,1-6.94-4L25.05,156.15a8,8,0,0,1,.17-8.21Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"55.12",y1,"206.8",x2,"159.41",y2,"32.98",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200.88",y1,"206.8",x2,"96.59",y2,"32.98",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"152",x2,"232",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Camera = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,208H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64H80L96,40h64l16,24h32a16,16,0,0,1,16,16V192A16,16,0,0,1,208,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"132",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MetaLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M109.78,147.35C93.88,175.86,77.52,200,58.56,200-3.16,200,27.7,56,74,56s77.15,144,123.45,144C259.16,200,228.3,56,182,56c-12.62,0-24.1,10.7-35,26.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Spade = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,24S32,72,32,136a48,48,0,0,0,79.55,36.18L96,224h64l-15.55-51.82A48,48,0,0,0,224,136C224,72,128,24,128,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CircleHalfTilt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"60.12",x2,"60.12",y2,"195.88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"64",x2,"192",y2,"199.55",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"160",y2,"218.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"96",y2,"218.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FramerLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"56 104 56 168 128 240 128 168 200 168 56 40 200 40 200 104 56 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SealCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.46,201.54c-9.2-9.2-3.1-28.53-7.78-39.85C41.82,150,24,140.5,24,128s17.82-22,22.68-33.69C51.36,83,45.26,63.66,54.46,54.46S83,51.36,94.31,46.68C106.05,41.82,115.5,24,128,24S150,41.82,161.69,46.68c11.32,4.68,30.65-1.42,39.85,7.78s3.1,28.53,7.78,39.85C214.18,106.05,232,115.5,232,128S214.18,150,209.32,161.69c-4.68,11.32,1.42,30.65-7.78,39.85s-28.53,3.1-39.85,7.78C150,214.18,140.5,232,128,232s-22-17.82-33.69-22.68C83,204.64,63.66,210.74,54.46,201.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 136 112 160 168 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderLock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"152",y,"168",w,"72",h,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112.56,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,168V156a20,20,0,0,1,40,0v12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Textbox = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"48",x2,"112",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,72h88a8,8,0,0,1,8,8v96a8,8,0,0,1-8,8H144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,184H24a8,8,0,0,1-8-8V80a8,8,0,0,1,8-8h88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"112",x2,"80",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"112",x2,"64",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CarProfile = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"64",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"176",x2,"168",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,176h24a8,8,0,0,0,8-8V128a8,8,0,0,0-8-8H208L162.34,74.34A8,8,0,0,0,156.69,72H44.28a8,8,0,0,0-6.65,3.56L8,120v48a8,8,0,0,0,8,8H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"120",x2,"8",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsIn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"192 104 152 104 152 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"48",x2,"152",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 152 104 152 104 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 192 152 152 192 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"208",x2,"152",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 64 104 104 64 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"48",x2,"104",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLinesLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"120 32 24 128 120 224 120 176 152 176 152 80 120 80 120 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"176",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"176",x2,"184",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Notepad = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,40H208a0,0,0,0,1,0,0V200a24,24,0,0,1-24,24H72a24,24,0,0,1-24-24V40A0,0,0,0,1,48,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"24",x2,"128",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Disc = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"128",x2,"160",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"195.88",y1,"60.12",x2,"150.63",y2,"105.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Swatches = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"76",cy,"180",r,"12"),s(p,d,"M110.84,186.25a35.71,35.71,0,0,1-41.34,29.2h0a36,36,0,0,1-28.95-41.71l25-143.13a8,8,0,0,1,9.19-6.49l54.67,9.73a8,8,0,0,1,6.44,9.26Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,156.19V208a8,8,0,0,1-8,8H76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M121.42,125.76l80.79-29.28a8,8,0,0,1,10.22,4.75l19.09,52.21a7.93,7.93,0,0,1-4.77,10.17L88.16,213.84A35.07,35.07,0,0,1,76,216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Belt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"128",x2,"184",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"104",y,"80",w,"80",h,"96",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"88",x2,"8",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"168",x2,"8",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"88",x2,"184",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"168",x2,"184",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"80",x2,"56",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonArmsSpread = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"40",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M39,102.9C27.31,97.5,31.15,80,44,80H212c12.87,0,16.71,17.5,5,22.9L160,128l22.87,86.93a12,12,0,0,1-21.75,10.14L128,168,94.88,225.07a12,12,0,0,1-21.75-10.14L96,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MicrosoftWordLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"96",x2,"208",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"160",x2,"208",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,72V40a8,8,0,0,1,8-8H200a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H72a8,8,0,0,1-8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 104 76 152 92 120 108 152 120 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"72",w,"120",h,"112",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileDoc = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M36,152v56H52a28,28,0,0,0,0-56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,200.87A22.12,22.12,0,0,1,200,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"128",cy,"180",rx,"24",ry,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MouseRightClick = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"112",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"174.79",y1,"33.21",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"196.23",y1,"59.77",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"184",x2,"128",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"240",x2,"168",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80.09,32h95.82l21.79,73.93a55.84,55.84,0,0,1-15.22,56.56,79.76,79.76,0,0,1-109,0A55.86,55.86,0,0,1,58.3,105.93Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M59.86,100.62C72.49,95.21,95.2,91.4,128,108c35.86,18.16,59.67,11.89,71.42,5.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PingPong = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M134.58,206.59A31.78,31.78,0,0,1,106,215.41C63.4,207,31.38,167.92,32,122.69c.69-49.55,41.13-90,90.68-90.68,45.23-.63,84.27,31.39,92.72,74a31.78,31.78,0,0,1-8.82,28.58L183,158.21l45.69,32.64a8,8,0,0,1,1,12.16L203,229.66a8,8,0,0,1-12.16-1L158.21,183Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"206.6",y1,"81.4",x2,"81.4",y2,"206.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCircleSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M212.57,173.46a96,96,0,0,0-121.79-134",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M63.42,57a96,96,0,0,0-18.53,119.1h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47h0A96,96,0,0,0,192.58,199",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Square = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SupersetProperOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M64,208h72a80,80,0,0,0,0-160H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAlignLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"168",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"168",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ClockAfternoon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 128 128 128 168 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Fan = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104.31,124.14a52,52,0,1,1,47.69-92l-18.17,72.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136.5,150.45A52,52,0,1,1,33,155.13l71.91-20.54",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M143.19,109.41A52,52,0,1,1,199,196.7l-53.74-52",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Circle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tray = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,160H76.69a8,8,0,0,1,5.65,2.34l19.32,19.32a8,8,0,0,0,5.65,2.34h41.38a8,8,0,0,0,5.65-2.34l19.32-19.32a8,8,0,0,1,5.65-2.34H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,128a80,80,0,1,1,80,80H72A56,56,0,1,1,85.92,97.74",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 136 144 160 192 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Wallet = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,56V184a16,16,0,0,0,16,16H216a8,8,0,0,0,8-8V80a8,8,0,0,0-8-8H56A16,16,0,0,1,40,56h0A16,16,0,0,1,56,40H192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"132",r,"12"))
+
+export const ClosedCaptioning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,155.72a32,32,0,1,1,0-55.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,155.72a32,32,0,1,1,0-55.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 48 72 48 72 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"48",x2,"184",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BugDroid = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112a80,80,0,0,1,160,0v40a80,80,0,0,1-160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"92",r,"12"),s(c,cx,"100",cy,"92",r,"12"),s(l,x1,"200",y1,"32",x2,"180.43",y2,"51.57",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"32",x2,"75.57",y2,"51.57",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"184 104 232 104 232 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M188.4,192a88,88,0,1,1,1.83-126.23L232,104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ProhibitInset = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"))
+
+export const Tent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"72 48 8 192 136 192 72 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 192 248 192 184 48 72 48 72 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TwitchLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M165.1,200H120L72,240V200H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8V156.25a8,8,0,0,1-2.88,6.15l-42.89,35.75A8.05,8.05,0,0,1,165.1,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"88",x2,"168",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"88",x2,"120",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirTrafficControl = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"72",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,24h48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 72 152 160 152 232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 72 104 160 104 232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M66.19,160a8,8,0,0,1-7.52-5.27l-26.18-72A8,8,0,0,1,40,72H216a8,8,0,0,1,7.52,10.73l-26.18,72a8,8,0,0,1-7.52,5.27Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,176H104l43.17-57.56A24,24,0,1,0,105.37,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MedalMilitary = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"192",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,152l82.72-37.6a9,9,0,0,0,5.28-8.2V57a9,9,0,0,0-9-9H49a9,9,0,0,0-9,9v49.2a9,9,0,0,0,5.28,8.2Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"48",x2,"168",y2,"133.82",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"48",x2,"88",y2,"133.82",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShareNetwork = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"64",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"200",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"56",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"149.09",y1,"73.3",x2,"90.91",y2,"110.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"90.91",y1,"145.3",x2,"149.09",y2,"182.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lasso = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"112",rx,"104",ry,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,225.6c32,16.7,80,0,80-41.77,0-53.66-60.64-62.5-70.62-24.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"224 208 32 208 32 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 96 160 152 96 104 32 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Rabbit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"100",cy,"164",r,"12"),s(c,cx,"156",cy,"164",r,"12"),s(py,ps,"144 200 128 213.31 112 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.56,98.73C152.16,72.39,167,16,190.94,16c28.22,0,18.27,65.06-6.91,113",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M109.44,98.73C103.84,72.39,89,16,65.06,16,36.84,16,46.79,81.06,72,129",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M191.71,153.82A44,44,0,1,1,128,213.3a44,44,0,1,1-63.71-59.48,64,64,0,0,1,127.42,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ForkKnife = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"40",x2,"80",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"128",x2,"80",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,168H152s0-104,56-128V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,40,40,88a40,40,0,0,0,80,0l-8-48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hurricane = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M148.62,50.68A80,80,0,0,1,208,128c0,96-112,120-112,120l11.38-42.68A80,80,0,0,1,48,128C48,32,160,8,160,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneTransfer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"144",y1,"72",x2,"216",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 40 216 72 184 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CheckSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 136 112 160 168 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"232",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"80",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"176",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,177.94a63.72,63.72,0,0,0,41.66,14c33.93-.86,62.43-30.22,62.34-64.16a64,64,0,0,0-40.13-59.2,68,68,0,0,0-127.74,0A64,64,0,0,0,24,127.82c-.09,33.94,28.42,63.3,62.35,64.16A63.71,63.71,0,0,0,128,177.94Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PoliceCar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"112",x2,"240",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,176v24a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,176v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"144",x2,"80",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,112,194.3,60a8,8,0,0,0-6.94-4H68.64a8,8,0,0,0-6.94,4L32,112v64H224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"24",x2,"152",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlagBannerFold = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 224 232 48 152 48 112 136 192 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 136 101.09 160 28 160 68 116 28 72 141.09 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CheckCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 136 112 160 168 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RoadHorizon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"64",x2,"24",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"64",x2,"232",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"120",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"176",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"64",x2,"232",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"248 184 176 184 232 112 232 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"92",r,"12"),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"164",cy,"164",r,"12"))
+
+export const FacebookLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,88H152a24,24,0,0,0-24,24V224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cylinder = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"60",rx,"64",ry,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,60V196c0,19.88,28.65,36,64,36s64-16.12,64-36V60",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BracketsSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 40 40 40 40 216 80 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 40 216 40 216 216 176 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ReceiptX = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,208V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V208l-32-16-32,16-32-16L96,208,64,192Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"96",x2,"104",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"96",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UniteSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"96 216 216 216 216 96 160 96 160 40 40 40 40 160 96 160 96 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"40",x2,"216",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"152",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Radio = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,72H216a8,8,0,0,1,8,8V192a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V72A0,0,0,0,1,32,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"72",x2,"192",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"160",cy,"136",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"104",x2,"96",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"136",x2,"96",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"96",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MouseSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"24",w,"144",h,"208",rx,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Prescription = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,128h52a44,44,0,0,0,0-88H72V192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"128",x2,"200",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"160",x2,"144",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsInSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"144 64 144 112 192 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"48",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 144 112 144 112 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"208",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TelegramLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,134.87,170.26,214a8,8,0,0,0,13.09-4.21L224,33.22a1,1,0,0,0-1.34-1.15L20,111.38A6.23,6.23,0,0,0,21,123.3Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"134.87",x2,"223.41",y2,"32.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M124.37,173.78,93.76,205.54A8,8,0,0,1,80,200V134.87",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextB = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,120h80a40,40,0,0,1,0,80H80V48h68a36,36,0,0,1,0,72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Check = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"40 144 96 200 224 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 56 216 128 144 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bird = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"68",r,"12"),s(p,d,"M104,99.52V76.89c0-28.77,23-52.75,51.74-52.89a52,52,0,0,1,50.59,38.89L232,80,208,96v24a96,96,0,0,1-96,96H24a8,8,0,0,1-6.25-13Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"54.67",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextHThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"116",x2,"40",y2,"116",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,112h48l-28,40a28,28,0,1,1-20,47.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SkypeLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,152c0,13.25,14.33,24,32,24s32-10.75,32-24c0-32-62.22-20-62.22-48,0-13.25,12.55-24,30.22-24,13.25,0,23.63,6,28,14.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M214,146.69A48,48,0,0,1,146.69,214,88.07,88.07,0,0,1,42,109.31,48,48,0,0,1,109.31,42,88.07,88.07,0,0,1,214,146.69Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowLineDownLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"48",x2,"224",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"208",x2,"184",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 112 72 208 168 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CraneTower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"216",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"88",x2,"240",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"152",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,88v96a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 216 48 40 80 40 104 88 104 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyWink = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(l,x1,"152",y1,"108",x2,"176",y2,"108",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,152c-8.3,14.35-22.23,24-40,24s-31.7-9.65-40-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"196",cy,"128",r,"12"),s(c,cx,"60",cy,"128",r,"12"))
+
+export const CaretLineUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 192 128 112 208 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"72",x2,"208",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NotePencil = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 160 96 160 96 128 192 32 224 64 128 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"56",x2,"200",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,128v80a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8h80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextColumns = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"64",x2,"112",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"112",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"144",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"112",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"104",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"184",x2,"216",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareOne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"132 176 132 80 108 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const OrangeSlice = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M248,88A120,120,0,0,1,8,88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,88A88,88,0,0,1,40,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"190.23",y2,"150.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"65.77",y2,"150.23",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileyMeh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(l,x1,"88",y1,"160",x2,"168",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"))
+
+export const Moon = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M108.11,28.11A96.09,96.09,0,0,0,227.89,147.89,96,96,0,1,1,108.11,28.11Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CodesandboxLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M131.84,25l88,48.18a8,8,0,0,1,4.16,7v95.64a8,8,0,0,1-4.16,7l-88,48.18a8,8,0,0,1-7.68,0l-88-48.18a8,8,0,0,1-4.16-7V80.18a8,8,0,0,1,4.16-7l88-48.18A8,8,0,0,1,131.84,25Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32.03 125.73 80 152 80 206.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 125.72 176 152 176 206.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"83.14 47.44 128 72 172.86 47.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"33.14 76.06 128 128 222.86 76.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SubsetOf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"208",x2,"48",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,56H104a56,56,0,0,0,0,112h96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderTransgender = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"96",cy,"160",r,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"141.25",y1,"114.75",x2,"216",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 40 216 40 216 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"64",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VinylRecord = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,128a64,64,0,0,1,64-64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,128a64,64,0,0,1-64,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderUser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"192",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,224c3.67-13.8,16.6-24,32-24s28.33,10.2,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120.56,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiamondsFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"99.72",y,"35.72",w,"56.57",h,"56.57",t,"translate(-7.76 109.25) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"99.72",y,"163.72",w,"56.57",h,"56.57",t,"translate(-98.27 146.75) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"163.72",y,"99.72",w,"56.57",h,"56.57",t,"translate(-34.27 173.25) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"35.72",y,"99.72",w,"56.57",h,"56.57",t,"translate(-71.76 82.75) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatTeardropDots = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M132,216H48a8,8,0,0,1-8-8V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"132",cy,"128",r,"12"),s(c,cx,"88",cy,"128",r,"12"),s(c,cx,"176",cy,"128",r,"12"))
+
+export const PersonSimpleTaiChi = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"104",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 104 128 144 48 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 144 184 168 184 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SketchLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"72 40 184 40 240 104 128 224 16 104 72 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"176 104 128 224 80 104 128 40 176 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"104",x2,"240",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendRightDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"104 176 152 224 200 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,32a96,96,0,0,1,96,96v96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ExclamationMark = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"200",r,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FadersHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"80",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"80",x2,"152",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"176",x2,"216",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"88",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"56",x2,"152",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"152",x2,"88",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Garage = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"200",x2,"240",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,200V98.67A8,8,0,0,0,220.44,92l-88-58.67a8,8,0,0,0-8.88,0L35.56,92A8,8,0,0,0,32,98.67V200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 200 72 136 184 136 184 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"136",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"168",x2,"184",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareSeven = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 88 152 88 120 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Password = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"56",x2,"40",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"96",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"81.57",y1,"118.11",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"93.19",y1,"153.89",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"130.81",y1,"153.89",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"142.43",y1,"118.11",x2,"112",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"96",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"177.57",y1,"118.11",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"189.19",y1,"153.89",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"226.81",y1,"153.89",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"238.43",y1,"118.11",x2,"208",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M91.33,72a40,40,0,1,1,68.61,40.07L88,208h80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SuitcaseSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"64",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,64V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"152",x2,"224",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HighDefinition = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,176h24a48,48,0,0,0,0-96H152Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"80",x2,"120",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"80",x2,"48",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"48",x2,"224",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"128",x2,"120",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Towel = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216,152V48a16,16,0,0,0-16-16h0a16,16,0,0,0-16,16V216a8,8,0,0,1-8,8H64a8,8,0,0,1-8-8V48A16,16,0,0,1,72,32H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"192",x2,"184",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldStar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"96",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"120",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"168",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"168",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"120",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextAUnderline = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"192 168 128 32 64 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"173.18",y1,"128",x2,"82.82",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"216",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CaretCircleRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 88 152 128 112 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 96 24 128 56 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 96 232 128 200 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"128",x2,"232",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Asterisk = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"80",x2,"208",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"176",x2,"208",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Jar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"48",y,"56",w,"160",h,"176",rx,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,56V32a8,8,0,0,1,8-8h80a8,8,0,0,1,8,8V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"56",x2,"112",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"56",x2,"144",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CodeSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 64 16 128 88 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 64 240 128 168 192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirplaneTakeoff = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"216",x2,"168",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,116.51,58.65,88a8,8,0,0,1,2.2-13.3L68,72l57.53,21.17,54.84-32.75a32,32,0,0,1,41,7.32L240,91.64l-147.41,88a32,32,0,0,1-38-4.32L18.53,140a8,8,0,0,1,2.32-13.19L24,125.27,55.79,136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WarningCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(l,x1,"128",y1,"136",x2,"128",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"172",r,"12"))
+
+export const ArrowElbowUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 128 216 80 168 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 224 72 80 216 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShoppingCart = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M188,184H91.17a16,16,0,0,1-15.74-13.14L48.73,24H24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"204",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"204",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M70.55,144H196.1a16,16,0,0,0,15.74-13.14L224,64H56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Tornado = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"40",x2,"224",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"72",x2,"176",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"104",x2,"160",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"136",x2,"176",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"168",x2,"184",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"232",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsThreeOutlineVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"24",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"48",r,"24",f,n,st,cc,sl,"10",sw,"16"),s(c,cx,"128",cy,"208",r,"24",f,n,st,cc,sl,"10",sw,"16"))
+
+export const NumberSquareFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 152 88 152 144 80 144 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stamp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"224",x2,"216",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M114.32,136,96.54,53A24,24,0,0,1,120,24h16a24,24,0,0,1,23.47,29l-17.78,83",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"136",w,"176",h,"56",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Cake = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"72",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,96H208a16,16,0,0,1,16,16v23.33c0,17.44-13.67,32.18-31.1,32.66A32,32,0,0,1,160,136a32,32,0,0,1-64,0,32,32,0,0,1-32.9,32C45.67,167.51,32,152.77,32,135.33V112A16,16,0,0,1,48,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,156.9V200a16,16,0,0,1-16,16H56a16,16,0,0,1-16-16V156.9",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,48a24,24,0,0,1-48,0c0-24,24-40,24-40S152,24,152,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockSimpleOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,40-40c19.35,0,36.29,13.74,40,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pants = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M186,32a8,8,0,0,1,7.94,7l22,176a8,8,0,0,1-7.94,9H167.31a8,8,0,0,1-7.76-6.06L128,96,96.45,217.94A8,8,0,0,1,88.69,224H48a8,8,0,0,1-7.94-9l22-176A8,8,0,0,1,70,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"58.94",y1,"64",x2,"197.06",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,64a40,40,0,0,1-40,40c-.69,0-1.37,0-2,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M202.06,104c-.68,0-1.37,0-2.06,0a40,40,0,0,1-40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CloudSun = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"87.66",y1,"56.73",x2,"83.5",y2,"33.09",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56.69",y1,"76.46",x2,"37.03",y2,"62.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48.73",y1,"112.31",x2,"25.09",y2,"116.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"123.52",y1,"64.69",x2,"137.28",y2,"45.03",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,144a68.06,68.06,0,1,1,68,72H84a44,44,0,1,1,14.2-85.66",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M59.65,135.35a48,48,0,1,1,80.19-50.94",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Swap = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,160H208a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 136 80 160 104 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,96H48a8,8,0,0,0-8,8V208a8,8,0,0,0,8,8H160a8,8,0,0,0,8-8v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 120 176 96 152 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCode = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 128 176 152 152 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 128 80 152 104 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,224a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8V216a8,8,0,0,0,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Clover = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,120s90-96,0-96S128,120,128,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120s-96-90-96,0S128,120,128,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120s-90,96,0,96S128,120,128,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120s96,90,96,0S128,120,128,120Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,120s64,56,80,120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MagnifyingGlassPlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"80",y1,"112",x2,"144",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"112",cy,"112",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168.57",y1,"168.57",x2,"224",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"80",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Trolley = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"72",cy,"224",r,"16"),s(c,cx,"216",cy,"224",r,"16"),s(p,d,"M24,48,45.66,69.66A8,8,0,0,1,48,75.31V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"184",x2,"240",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Knife = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M146,90l54,54s-72,92-176,68L198.2,37.8a19.8,19.8,0,0,1,28,0h0a19.8,19.8,0,0,1,0,28L174,118",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Waveform = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"96",x2,"48",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"32",x2,"88",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"168",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"80",x2,"208",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyCircleDollar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"72",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,168h36a20,20,0,0,0,0-40H116a20,20,0,0,1,0-40h36",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HardHat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"160",w,"208",h,"40",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,160V40a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8V160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,160V136a88,88,0,0,0-64-84.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,160V136a88,88,0,0,1,64-84.69",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LightbulbFilament = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"232",x2,"168",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"200",x2,"128",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 112 128 144 160 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M78.7,167A79.87,79.87,0,0,1,48,104.45C47.76,61.09,82.72,25,126.07,24a80,80,0,0,1,51.34,142.9A24.3,24.3,0,0,0,168,186v6a8,8,0,0,1-8,8H96a8,8,0,0,1-8-8v-6A24.11,24.11,0,0,0,78.7,167Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TerminalWindow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 96 120 128 80 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"160",x2,"176",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatTeardrop = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M132,216H48a8,8,0,0,1-8-8V124a92,92,0,0,1,92-92h0a92,92,0,0,1,92,92h0A92,92,0,0,1,132,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyKrw = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"24 72 76 200 128 72 180 200 232 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"136",x2,"240",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowArcRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"168 152 232 152 232 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,184a96,96,0,0,1,163.88-67.88L232,152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignCenterHorizontalSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"80",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandEye = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,76V44a20,20,0,0,1,40,0v60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,60a20,20,0,0,1,40,0v60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,120v-4a20,20,0,0,1,40,0v36a80,80,0,0,1-160,0V76a20,20,0,0,1,40,0v36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"168",r,"12"),s(p,d,"M80,168s16-32,48-32,48,32,48,32-16,32-48,32S80,168,80,168Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Coins = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"96",cy,"84",rx,"80",ry,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,84v40c0,19.88,35.82,36,80,36s80-16.12,80-36V84",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"117",x2,"64",y2,"157",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,96.72c36.52,3.34,64,17.86,64,35.28,0,19.88-35.82,36-80,36-19.6,0-37.56-3.17-51.47-8.44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,159.28V172c0,19.88,35.82,36,80,36s80-16.12,80-36V132",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"165",x2,"192",y2,"205",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"117",x2,"128",y2,"205",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LightningA = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"127.2 24 112 88 168 113.14 72.8 216 88 152 32 126.86 127.2 24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"232 216 196 144 160 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"220",y1,"192",x2,"172",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhosphorLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"72",y,"40",w,"72",h,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,168v72a72,72,0,0,1-72-72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"40",x2,"144",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,168h8a64,64,0,0,0,0-128h-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FirstAidKit = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"64",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,64V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"136",x2,"104",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sneaker = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,192a8,8,0,0,0,8,8H240a8,8,0,0,0,8-8V167.06a32,32,0,0,0-21.88-30.35l-60.73-20.25A32,32,0,0,1,146.27,99.1L123,44.75a8,8,0,0,0-10-4.27L37.27,68A8,8,0,0,0,32,75.54Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"168",x2,"248",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"104",x2,"144.55",y2,"95.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"80",x2,"133.51",y2,"69.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"128",x2,"166.61",y2,"116.87",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BezierCurve = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"80",x2,"104",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"80",x2,"240",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"80",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"40",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"216",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M151.78,83.25a88.12,88.12,0,0,1,62.78,68.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M41.44,152.05a88.13,88.13,0,0,1,62.78-68.8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Folder = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216.89,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8V200.89A7.11,7.11,0,0,1,216.89,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ruler = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"21.49",y,"82.75",w,"213.02",h,"90.51",rx,"8",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"160",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"128",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"128",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,208H16a8,8,0,0,1-8-8V160a8,8,0,0,1,8-8H48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,160h32l67-15.41a16.61,16.61,0,0,1,21,16h0a16.59,16.59,0,0,1-9.18,14.85L184,192l-64,16H48V152l25-25a24,24,0,0,1,17-7H140a20,20,0,0,1,20,20h0a20,20,0,0,1-20,20Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"24",x2,"192",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 72 192 104 160 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Upload = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,128h48a8,8,0,0,1,8,8v64a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8V136a8,8,0,0,1,8-8H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 72 128 24 176 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"188",cy,"168",r,"12"))
+
+export const ChartBarHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"216",x2,"48",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 56 176 56 176 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 104 224 104 224 152 48 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 152 144 200 48 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SmileySticker = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,152c-8.3,14.35-22.23,24-40,24s-31.7-9.65-40-24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.22,219.79a95.9,95.9,0,1,1,63.57-63.58Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"108",r,"12"),s(c,cx,"164",cy,"108",r,"12"))
+
+export const Windmill = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M148.1,61.86l-76-44.75a8,8,0,0,0-11,2.83l-12,20.34a8,8,0,0,0,2.84,11l152.1,89.52a8,8,0,0,1,2.84,11l-12,20.34a8,8,0,0,1-11,2.83l-76-44.75",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M93.86,75.9l-44.75,76a8,8,0,0,0,2.83,11l20.34,12a8,8,0,0,0,11-2.84L172.76,20a8,8,0,0,1,11-2.84l20.34,12a8,8,0,0,1,2.83,11l-44.75,76",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"232",x2,"224",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"166.36",y1,"164.55",x2,"176",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"90.27",y1,"160.11",x2,"80",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Airplane = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,96l80,40v32l-80-16v32l16,16v32l-40-16L88,232V200l16-16V152L24,168V136l80-40V48a24,24,0,0,1,48,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListNumbers = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"104",y1,"128",x2,"216",y2,"128",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"64",x2,"216",y2,"64",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"192",x2,"216",y2,"192",st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"56 104 56 40 40 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,208H40l28.68-38.37a15.69,15.69,0,0,0-3.24-22.41,16.78,16.78,0,0,0-23.06,3.15,15.85,15.85,0,0,0-2.38,4.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSeven = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 48 168 48 120 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Headphones = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,128H192a16,16,0,0,0-16,16v40a16,16,0,0,0,16,16h16a16,16,0,0,0,16-16V128a96,96,0,1,0-192,0v56a16,16,0,0,0,16,16H64a16,16,0,0,0,16-16V144a16,16,0,0,0-16-16H32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendRightUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"104 80 152 32 200 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,224a96,96,0,0,0,96-96V32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Watch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"72",f,n,st,cc,sl,"10",sw,"16"),s(p,d,"M88,68.13l6.81-37.56A8,8,0,0,1,102.68,24h50.64a8,8,0,0,1,7.87,6.57L168,68.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,187.87l6.81,37.56a8,8,0,0,0,7.87,6.57h50.64a8,8,0,0,0,7.87-6.57L168,187.87",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 88 128 128 168 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPin = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"104",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,104c0,72-80,128-80,128S48,176,48,104a80,80,0,0,1,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StackMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32 128 128 184 224 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"32 80 128 136 224 80 128 24 32 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"200",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"32 176 128 232 144 222.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Barricade = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"72",w,"208",h,"88",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"84",y1,"72",x2,"172",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"156",y1,"72",x2,"232",y2,"148",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"84",x2,"100",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"160",x2,"192",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"160",x2,"64",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hospital = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"32",y1,"216",x2,"248",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,216V48a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8V216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,120h64a8,8,0,0,1,8,8v88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"72",x2,"104",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"96",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 216 128 160 80 160 80 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Vignette = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(e,cx,"128",cy,"128",rx,"64",ry,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PicnicTable = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"64",x2,"192",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"8",y1,"136",x2,"248",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"64",x2,"32",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"64",x2,"224",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"96",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"96",x2,"56",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pipe = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,168V144a32,32,0,0,1,32-32h24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,48H144a96,96,0,0,0-96,96v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"168",y,"40",w,"32",h,"80",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"168",w,"80",h,"32",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"200",x2,"112",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"200",x2,"48",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"48",x2,"200",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"232",y1,"112",x2,"200",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const UserRectangle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"120",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M60.1,208a72,72,0,0,1,135.8,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LampPendant = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"16",x2,"128",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,176v8a32,32,0,0,0,64,0v-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8v8a104,104,0,0,1,64,96H24A104,104,0,0,1,88,80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Spiral = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M136,136a8,8,0,0,1,8,8,16,16,0,0,1-16,16,24,24,0,0,1-24-24,32,32,0,0,1,32-32,40,40,0,0,1,40,40,48,48,0,0,1-48,48,56,56,0,0,1-56-56,64,64,0,0,1,64-64,72,72,0,0,1,72,72,80,80,0,0,1-80,80,88,88,0,0,1-88-88,96,96,0,0,1,96-96A104,104,0,0,1,240,144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Blueprint = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M24,176V64A24,24,0,0,1,48,40H64V152H48a24,24,0,0,0,0,48H232V64H64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"96",x2,"128",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"96",x2,"168",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"112",x2,"192",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"192",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WheelchairMotion = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"176",cy,"48",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,168a56,56,0,1,1-56-56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,100.11a88,88,0,0,1,104-5.88L128,136h72l-16,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Eject = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"108",y,"92",w,"40",h,"176",rx,"8",t,"translate(-52 308) rotate(-90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M42.19,114.63l73.74-77.5a16.76,16.76,0,0,1,24.14,0l73.74,77.5c4.85,5.1,1.12,13.37-6,13.37H48.23C41.07,128,37.34,119.73,42.19,114.63Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Dress = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"160",y1,"35.22",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"8",x2,"96",y2,"35.22",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,224a8,8,0,0,0,7.35-11.15L160,112l22.86-35.88a8,8,0,0,0,0-8.24L160,35.22,153,44a32,32,0,0,1-50,0l-7-8.77L73.14,67.88a8,8,0,0,0,0,8.24L96,112,48.66,212.85A8,8,0,0,0,56,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"112",x2,"160",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandPeace = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,131.6a20,20,0,0,1,8-39.19l20.81,4a20,20,0,1,1-8,39.19Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,152.72V160a72,72,0,0,0,72.55,72c39.7-.3,71.45-33.2,71.45-72.9v-3.34a48,48,0,0,0-38.59-47.07L140,104.41a20,20,0,0,0-8,39.19l15.37,3.07A28,28,0,0,0,152,179.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,172.32a20,20,0,0,1,8-39.19l10,2a20,20,0,0,1-8,39.2Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M101.37,96.53,88.69,49.18a20,20,0,1,1,38.63-10.35l17.85,66.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M150.54,106.51l18.14-67.68a20,20,0,0,1,38.63,10.35l-19.88,74.19",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BracketsAngle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 40 24 128 80 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 40 232 128 176 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CirclesThreePlus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"80",cy,"80",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"80",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"176",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"144",x2,"176",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"176",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Campfire = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"168",x2,"216",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"168",x2,"40",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,136a24,24,0,0,1-48,0c0-24,24-40,24-40S152,112,152,136Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M180,108a52,52,0,0,1-104,0c0-44,52-76,52-76S180,64,180,108Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ThumbsDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,48H80a0,0,0,0,1,0,0V152a0,0,0,0,1,0,0H32a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,152l40,80a32,32,0,0,0,32-32V176h64a16,16,0,0,0,15.87-18l-12-96A16,16,0,0,0,204,48H80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleFour = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 152 88 152 144 80 144 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ComputerTower = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"160",y1,"72",x2,"96",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"96",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"56",w,"192",h,"144",rx,"8",t,"translate(256 0) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"180",r,"12"))
+
+export const Shuffle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,72H55.06a64,64,0,0,1,52.08,26.8l41.72,58.4A64,64,0,0,0,200.94,184H232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 48 232 72 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 160 232 184 208 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M147.66,100.47l1.2-1.67A64,64,0,0,1,200.94,72H232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,184H55.06a64,64,0,0,0,52.08-26.8l1.2-1.67",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const KeyReturn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 104 176 136 80 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 112 80 136 104 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BriefcaseMetal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"64",w,"192",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,64V48a16,16,0,0,0-16-16H104A16,16,0,0,0,88,48V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"168",x2,"224",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"104",x2,"224",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatsCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32.5,138A72,72,0,1,1,62,167.5l-27.76,8.16a8,8,0,0,1-9.93-9.93Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M163.94,80.11A72,72,0,0,1,223.5,186l8.16,27.76a8,8,0,0,1-9.93,9.93L194,215.5A72.05,72.05,0,0,1,92.06,175.89",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,224H56a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96l56,56V216A8,8,0,0,1,200,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"152",x2,"152",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bookmarks = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,224l-56-40L56,224V72a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,64V40a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8V192l-32-22.85",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlagBanner = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 224 232 56 40 56 88 104 40 152 186.29 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsCounterClockwise = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 96 40 96 40 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,96,68.28,67.72A88,88,0,0,1,192,67",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 160 216 160 216 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,160l-28.28,28.28A88,88,0,0,1,64,189",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsLeftRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 144 208 176 176 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"176",x2,"208",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"80 112 48 80 80 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"80",x2,"48",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Toolbox = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"72",w,"208",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"120",x2,"232",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"72",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"104",x2,"184",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,72V56a16,16,0,0,0-16-16H104A16,16,0,0,0,88,56V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EscalatorDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 80 200 104 224 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"48",x2,"200",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,48H88l96,104h40a8,8,0,0,1,8,8v40a8,8,0,0,1-8,8H168L72,104H32a8,8,0,0,1-8-8V56A8,8,0,0,1,32,48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Scales = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"216",x2,"152",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"88",x2,"200",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,168c0,17.67,20,24,32,24s32-6.33,32-24L56,88Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,136c0,17.67,20,24,32,24s32-6.33,32-24L200,56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CalendarCheck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"24",x2,"176",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"24",x2,"80",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"88",x2,"216",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"92 152 116 176 164 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Fire = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M136,192c20-3.37,36.61-20,40-40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,96l26.27-72C159.86,41.92,208,88.15,208,144a80,80,0,0,1-160,0c0-30.57,14.42-58.26,31-80Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DiceTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"108",cy,"108",r,"12"),s(c,cx,"148",cy,"148",r,"12"))
+
+export const SignOut = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"112 40 48 40 48 216 112 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"128",x2,"224",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 88 224 128 184 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Church = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,216h40V168a16,16,0,0,1,16-16h0a16,16,0,0,1,16,16v48h40V104L128,72,72,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"40",x2,"152",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"184 128 224 152 224 216 184 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"72 128 32 152 32 216 72 216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ToteSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M209.67,208H46.33a8.06,8.06,0,0,1-8-7.07l-14.25-120a8,8,0,0,1,8-8.93H223.92a8,8,0,0,1,8,8.93l-14.25,120A8.06,8.06,0,0,1,209.67,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72V64a40,40,0,0,1,80,0v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ReadCvLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"53.87",y,"34.21",w,"148.27",h,"187.59",rx,"8",t,"translate(24.22 -20.31) rotate(10.02)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"97.22",y1,"59.81",x2,"180.2",y2,"74.47",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"174.66",y1,"105.98",x2,"91.67",y2,"91.33",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"127.62",y1,"130.17",x2,"86.13",y2,"122.84",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlusCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sl,"10",sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChargingStation = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"112 168 128 128 96 128 112 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,216V56A16,16,0,0,1,72,40h80a16,16,0,0,1,16,16V216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"216",x2,"192",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,112h24a16,16,0,0,1,16,16v40a16,16,0,0,0,16,16h0a16,16,0,0,0,16-16V86.63a16,16,0,0,0-4.69-11.32L216,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Sword = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"75.02",y,"102.75",w,"33.96",h,"122.49",rx,"8.01",t,"translate(-89.02 113.09) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"96",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M68,164,34.34,197.66a8,8,0,0,0,0,11.31L47,221.66a8,8,0,0,0,11.32,0L92,188",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"82.44 130.43 152 40 216 40 216 104 125.57 173.56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Speedometer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"120",y1,"160",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56.44,160a73,73,0,0,1-.44-8,72.06,72.06,0,0,1,95-68.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M220.62,104.64a104.38,104.38,0,0,1,5.48,82,8,8,0,0,1-7.57,5.37H37.46a8.05,8.05,0,0,1-7.57-5.41A104.06,104.06,0,0,1,24,151.19C24.44,94,71.73,47.49,129,48a103.68,103.68,0,0,1,46.4,11.38",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Checkerboard = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"128",x2,"40",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"152",x2,"104",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"128",x2,"128",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"192",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"40",x2,"216",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HardDrives = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"144",w,"176",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"48",w,"176",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"80",r,"12"),s(c,cx,"180",cy,"176",r,"12"))
+
+export const ArrowFatLineUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"32 120 128 24 224 120 176 120 176 184 80 184 80 120 32 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"216",x2,"80",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellZ = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"112 96 144 96 112 144 144 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M96,192a32,32,0,0,0,64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,104a72,72,0,0,1,144,0c0,35.82,8.3,64.6,14.9,76A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Feather = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"184",y1,"72",x2,"32",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.34,189.66a8,8,0,0,1-5.65,2.34H64V115.31a8,8,0,0,1,2.34-5.65L136.4,40.4a56,56,0,0,1,79.2,79.2Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"64.52",x2,"112",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"120",x2,"215.2",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PlusSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Truck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M184,80h42.58A8,8,0,0,1,234,85l14,35",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"144",x2,"184",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"192",x2,"104",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,120h64v64a8,8,0,0,1-8,8H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,192H32a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8H184V169.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Peace = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"206.64",y2,"183.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"49.36",y2,"183.06",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArticleMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"56",x2,"40",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"56",x2,"136",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"136",x2,"48",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"136",x2,"136",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"104",x2,"232",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"136",x2,"232",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"168",x2,"232",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"200",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 136 40 56 80 120 120 56 120 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EyeSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M154.91,157.6a40,40,0,0,1-53.82-59.2",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M135.53,88.71a40,40,0,0,1,32.3,35.53",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208.61,169.1C230.41,149.58,240,128,240,128S208,56,128,56a126,126,0,0,0-20.68,1.68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M74,68.6C33.23,89.24,16,128,16,128s32,72,112,72a118.05,118.05,0,0,0,54-12.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellRinging = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,192a32,32,0,0,0,64,0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,24a102.71,102.71,0,0,1,36.29,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M35.71,64A102.71,102.71,0,0,1,72,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,112a72,72,0,0,1,144,0c0,35.82,8.3,56.6,14.9,68A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,147.81,56,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BookOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,88a32,32,0,0,1,32-32h72V200H160a32,32,0,0,0-32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,200H96a32,32,0,0,1,32,32V88A32,32,0,0,0,96,56H24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Shapes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"64 64 24 184 104 184 64 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"156",cy,"76",r,"44",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"136",y,"152",w,"88",h,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GenderNeuter = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"104",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"176",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryEmpty = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"200",h,"128",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"248",y1,"96",x2,"248",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RainbowCloud = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,200c-13.25,0-24-11.14-24-24.89s10.75-24.89,24-24.89a23.33,23.33,0,0,1,8.81,1.73h0A40,40,0,1,1,200,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,176V160A96,96,0,0,1,178.93,91.17",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,176V160a64,64,0,0,1,101.87-51.6",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,176V160a32,32,0,0,1,39.42-31.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Crown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"52",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"220",cy,"80",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"36",cy,"80",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120.02 70.35 88 144 48.61 95.52",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"207.39 95.52 168 144 135.98 70.35",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M39.29,99.73l15.6,93.59A8,8,0,0,0,62.78,200H193.22a8,8,0,0,0,7.89-6.68l15.6-93.59",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SubtractSquare = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 96 216 96 216 216 96 216 96 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"216",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"160",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SlackLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,56h24a0,0,0,0,1,0,0v72a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24V80A24,24,0,0,1,80,56Z",t,"translate(184 24) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,80H104A24,24,0,0,1,80,56h0a24,24,0,0,1,24-24h0a24,24,0,0,1,24,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M152,32h24a0,0,0,0,1,0,0v72a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24V56a24,24,0,0,1,24-24Z",t,"translate(304 160) rotate(-180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,128V104a24,24,0,0,1,24-24h0a24,24,0,0,1,24,24h0a24,24,0,0,1-24,24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,104h24a0,0,0,0,1,0,0v72a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24V128a24,24,0,0,1,24-24Z",t,"translate(24 328) rotate(-90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,176h24a24,24,0,0,1,24,24h0a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,128h24a0,0,0,0,1,0,0v72a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24V152a24,24,0,0,1,24-24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,128v24a24,24,0,0,1-24,24h0a24,24,0,0,1-24-24h0a24,24,0,0,1,24-24Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BellSimpleZ = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"224",x2,"160",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 96 144 96 112 144 144 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,104a72,72,0,0,1,144,0c0,35.82,8.3,64.6,14.9,76A8,8,0,0,1,208,192H48a8,8,0,0,1-6.88-12C47.71,168.6,56,139.81,56,104Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CubeTransparent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"96",y,"96",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"120",h,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"40",x2,"216",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"40",x2,"96",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"160",x2,"96",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"160",x2,"216",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BracketsRound = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,40S32,64,32,128s40,88,40,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,40s40,24,40,88-40,88-40,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaintBrush = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M16,216H92a52,52,0,1,0-52-52C40,200,16,216,16,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112.41,116.16C131.6,90.29,179.46,32,224,32c0,44.54-58.29,92.4-84.16,111.59",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M133,90.64a84.39,84.39,0,0,1,32.41,32.41",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPinLine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"56",y1,"232",x2,"200",y2,"232",st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"104",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,104c0,72-80,128-80,128S48,176,48,104a80,80,0,0,1,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SplitVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"48",y1,"152",x2,"208",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"104",x2,"208",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104",x2,"128",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"232",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 56 128 24 160 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 200 128 232 96 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NoteBlank = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M156.69,216H48a8,8,0,0,1-8-8V48a8,8,0,0,1,8-8H208a8,8,0,0,1,8,8V156.69a8,8,0,0,1-2.34,5.65l-51.32,51.32A8,8,0,0,1,156.69,216Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"215.28 159.99 160 159.99 160 215.27",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilePdf = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"216 152 184 152 184 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"184",x2,"184",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,192H64a20,20,0,0,0,0-40H48v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,152v56h16a28,28,0,0,0,0-56Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendDownRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 104 224 152 176 200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,56a96,96,0,0,0,96,96h96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberZero = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"128",rx,"64",ry,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const InstagramLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sl,"10",sw,"16"),s(rt,x,"32",y,"32",w,"192",h,"192",rx,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"180",cy,"76",r,"12"))
+
+export const Drone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"152",y1,"104",x2,"184",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"184",x2,"104",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"152",x2,"184",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"72",x2,"104",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.05,64A36,36,0,1,1,192,110",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,146.05A36,36,0,1,1,146.05,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M110,192A36,36,0,1,1,64,146.05",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M64,110A36,36,0,1,1,110,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"104",y,"104",w,"48",h,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const RadioButton = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitlabLogoSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M175.35,96,195,42.62a3.93,3.93,0,0,1,7.53.38l19.89,76.12a49,49,0,0,1-18.87,52.4l-73.26,51.76a3.91,3.91,0,0,1-4.52,0L52.48,171.52a49,49,0,0,1-18.87-52.4L53.5,43A3.93,3.93,0,0,1,61,42.62L80.65,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DropHalfBottom = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,144c0-72-80-128-80-128S48,72,48,144a80,80,0,0,0,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"49.3",y1,"128",x2,"206.7",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"49.6",y1,"160",x2,"206.4",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"192",x2,"192",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LessThanOrEqual = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 48 48 104 200 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"200",x2,"48",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Option = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,80H95.06a8,8,0,0,1,7.15,4.42l51.58,103.16a8,8,0,0,0,7.15,4.42H224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"80",x2,"224",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Subtitles = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"136",x2,"72",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"136",x2,"200",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"168",x2,"152",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"168",x2,"184",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyBtc = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"72",y1,"48",x2,"88",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"200",x2,"88",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"48",x2,"112",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"48",x2,"144",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"224",x2,"112",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"224",x2,"144",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,120h72a40,40,0,0,1,0,80H88V48h60a36,36,0,0,1,0,72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Webcam = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"104",r,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"104",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"176",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"208",x2,"224",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilmStrip = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"48",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"80",x2,"224",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"176",x2,"224",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"48",x2,"80",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"48",x2,"176",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"176",x2,"80",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"176",x2,"176",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Seat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"112",y1,"232",x2,"216",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104.84,76.42a8,8,0,0,0,0,7.16l31.78,64a8,8,0,0,0,7.16,4.42H208a8,8,0,0,1,8,8v32a8,8,0,0,1-8,8H114.11a8,8,0,0,1-7.15-4.42l-58.12-116a8,8,0,0,1,0-7.16L71,28.42a8,8,0,0,1,10.73-3.57l33.89,14.31a8,8,0,0,1,3.57,10.73Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Airplay = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"128 160 176 216 80 216 128 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,192H48a16,16,0,0,1-16-16V64A16,16,0,0,1,48,48H208a16,16,0,0,1,16,16V176a16,16,0,0,1-16,16h-8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MathOperations = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"72",x2,"104",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"152",x2,"72",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"104",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"168",x2,"216",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"200",x2,"216",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"48",x2,"208",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"48",x2,"160",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Notification = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,128v80a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V56a8,8,0,0,1,8-8h80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"196",cy,"60",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Trademark = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"104",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"104",x2,"88",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 152 128 104 156 136 184 104 184 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const X = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"56",x2,"56",y2,"200",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"200",x2,"56",y2,"56",st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PencilRuler = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"152",y,"40",w,"64",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"88",x2,"184",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"128",x2,"184",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152",y1,"168",x2,"184",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,64,72,32l32,32V208a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"72",x2,"72",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"72",x2,"40",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"184",x2,"40",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandCoins = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"204",cy,"84",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,208H16a8,8,0,0,1-8-8V160a8,8,0,0,1,8-8H48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,160h32l67-15.41a16.61,16.61,0,0,1,21,16h0a16.59,16.59,0,0,1-9.18,14.85L184,192l-64,16H48V152l25-25a24,24,0,0,1,17-7H140a20,20,0,0,1,20,20h0a20,20,0,0,1-20,20Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,85.29A28,28,0,1,1,192,58.71",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pi = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,64H72a48,48,0,0,0-48,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"64",x2,"88",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,172a28,28,0,0,1-56,0V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CowboyHat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M40,128c40,64,88,64,88,64s48,0,88-64a32,32,0,0,1,0,64H40a32,32,0,0,1,0-64Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M65.47,160.18,85.54,54.53A8,8,0,0,1,98.4,49.76L123,70.25a8,8,0,0,0,10,0l24.6-20.49a8,8,0,0,1,12.86,4.77l20.07,105.65",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"70.06",y1,"136",x2,"185.94",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowArcLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"88 152 24 152 24 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,184A96,96,0,0,0,60.12,116.12L24,152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowFatLinesDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"32 136 128 232 224 136 176 136 176 104 80 104 80 136 32 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"40",x2,"80",y2,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"72",x2,"80",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FilePy = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,224h32a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,192H64a20,20,0,0,0,0-40H48v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"108 152 128 184 148 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"184",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileCss = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,200.87A22.12,22.12,0,0,1,64,208c-13.26,0-24-12.54-24-28s10.74-28,24-28a22.12,22.12,0,0,1,16,7.13",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M139.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M203.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Stethoscope = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"208",cy,"160",r,"12"),s(c,cx,"208",cy,"160",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,144v48a40,40,0,0,0,40,40h24a40,40,0,0,0,40-40h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M136,40h24V87.17c0,30.77-24.48,56.43-55.26,56.83A56,56,0,0,1,48,88V40H72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CircleNotch = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,40a97,97,0,0,1,56,88,96,96,0,0,1-192,0A97,97,0,0,1,88,40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TextUnderline = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"64",y1,"224",x2,"192",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,56v80a56,56,0,0,1-112,0V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Medal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"96",r,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"96",r,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 160 176 240 127.99 216 80 240 80 160.01",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleSki = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"172",cy,"60",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152.94",y1,"112.94",x2,"40",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 120 160 120 128 88 114.32 101.68",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"88 128 144 144 104.52 183.48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,197.6a61.94,61.94,0,0,1-51.69,7.92L24,160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Person = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"40",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M149.17,80a24,24,0,0,1,18,8.13l45.32,51.38a12,12,0,0,1-17,17L160,128l22.87,86.93a12,12,0,0,1-21.75,10.14L128,168,94.88,225.07a12,12,0,0,1-21.75-10.14L96,128,60.49,156.49a12,12,0,0,1-17-17L88.83,88.13a24,24,0,0,1,18-8.13Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PixLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"52.13",y,"52.13",w,"151.73",h,"151.73",rx,"7.95",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"52.71 96 96 96 160 160 203.29 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"203.29 96 160 96 96 160 52.71 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowUpLeft = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"192",y1,"192",x2,"64",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"168 64 64 64 64 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MonitorPlay = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"144",rx,"16",t,"translate(256 240) rotate(180)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"224",x2,"96",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"160 120 112 88 112 152 160 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BoundingBox = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"168",y,"40",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"40",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"168",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"64",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"192",x2,"88",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"88",x2,"192",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"64",x2,"168",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Champagne = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"240",x2,"144",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M97.7,16h44.6s52,160-22.3,160S97.7,16,97.7,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"120",y1,"176",x2,"120",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"220",cy,"52",r,"12"),s(c,cx,"196",cy,"20",r,"12"),s(c,cx,"196",cy,"100",r,"12"),s(l,x1,"84.2",y1,"72",x2,"155.8",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareIn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"120 200 119.99 136.01 56 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"216",x2,"120",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,184h48a8,8,0,0,0,8-8V48a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8V96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TiktokLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,102a95.55,95.55,0,0,0,56,18V80a56,56,0,0,1-56-56H128V156a28,28,0,1,1-40-25.31V88c-31.83,5.67-56,34.54-56,68a68,68,0,0,0,136,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Coin = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(e,cx,"128",cy,"104",rx,"104",ry,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"152",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,104v48c0,24,40,48,104,48s104-24,104-48V104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"142.11",x2,"192",y2,"190.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"142.11",x2,"64",y2,"190.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hoodie = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,184v24a8,8,0,0,0,8,8h26.57a8,8,0,0,0,7.71-5.9l21.44-78.59a8,8,0,0,0-1.06-6.54L176.38,43.56A8,8,0,0,0,169.73,40H86.27a8,8,0,0,0-6.65,3.56L25.34,125a8,8,0,0,0-1.06,6.54L45.72,210.1a8,8,0,0,0,7.71,5.9H80a8,8,0,0,0,8-8V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,88l56-33V176a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V55Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"78.57",x2,"144",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"78.57",x2,"112",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Lockers = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"40",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"72",x2,"184",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"184",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"72",x2,"96",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"104",x2,"96",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,40H208a8,8,0,0,1,8,8V200a0,0,0,0,1,0,0H40a0,0,0,0,1,0,0V48a8,8,0,0,1,8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"200",x2,"40",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"216",y1,"200",x2,"216",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EnvelopeSimpleOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,96V200a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V96L128,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 96 145.46 152 110.55 152 32 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HashStraight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"96",x2,"216",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"160",x2,"216",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"40",x2,"160",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"40",x2,"96",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Union = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,64v80a72,72,0,0,1-144,0V64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Pause = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"152",y,"40",w,"56",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"48",y,"40",w,"56",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryVerticalHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"120",x2,"160",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const IntersectThree = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"92",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"164",cy,"156",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"92",cy,"156",r,"60",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Bicycle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,80a16,16,0,0,0-16-16H152l56,96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"208",cy,"160",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"48",cy,"160",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 64 76 64 132 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"170.67 96 94.67 96 48 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BracketsCurly = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,40c-64,0,0,88-64,88,64,0,0,88,64,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M176,40c64,0,0,88,64,88-64,0,0,88-64,88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowBendUpRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"176 152 224 104 176 56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,200a96,96,0,0,1,96-96h96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DotsNine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"60",cy,"60",r,"12"),s(c,cx,"128",cy,"60",r,"12"),s(c,cx,"196",cy,"60",r,"12"),s(c,cx,"60",cy,"128",r,"12"),s(c,cx,"128",cy,"128",r,"12"),s(c,cx,"196",cy,"128",r,"12"),s(c,cx,"60",cy,"196",r,"12"),s(c,cx,"128",cy,"196",r,"12"),s(c,cx,"196",cy,"196",r,"12"))
+
+export const ToggleRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"224",h,"128",rx,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"176",cy,"128",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FirstAid = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M96,160H40a8,8,0,0,1-8-8V104a8,8,0,0,1,8-8H96V40a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8V96h56a8,8,0,0,1,8,8v48a8,8,0,0,1-8,8H160v56a8,8,0,0,1-8,8H104a8,8,0,0,1-8-8V160Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimpleUser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,224c3.67-13.8,16.6-24,32-24s28.33,10.2,32,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"192",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M120,208H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6l27.74,20.8a8,8,0,0,0,4.8,1.6H216a8,8,0,0,1,8,8v32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Plus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"40",x2,"128",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GitDiff = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M200,168V110.63a16,16,0,0,0-4.69-11.32L144,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 144 48 192 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,88v57.37a16,16,0,0,0,4.69,11.32L112,208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"112 160 112 208 64 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"56",cy,"64",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"200",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileVideo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,224h8a8,8,0,0,0,8-8V88L152,32H56a8,8,0,0,0-8,8v72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"152",w,"80",h,"64",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"120 172 152 152 152 216 120 196",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Log = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"200",cy,"136",r,"12"),s(e,cx,"200",cy,"136",rx,"40",ry,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 72 136 32 168 32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,200H56c-22.09,0-40-28.65-40-64S33.91,72,56,72H200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"17.26",y1,"120",x2,"104",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"160",x2,"162.91",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SpeakerLow = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M80,168H32a8,8,0,0,1-8-8V96a8,8,0,0,1,8-8H80l72-56V224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"88",x2,"80",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,106.85a32,32,0,0,1,0,42.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowSquareRight = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",t,"translate(256) rotate(90)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"136 96 168 128 136 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const EscalatorUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M32,208H88l96-104h40a8,8,0,0,0,8-8V56a8,8,0,0,0-8-8H168L72,152H32a8,8,0,0,0-8,8v40A8,8,0,0,0,32,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"176 176 200 152 224 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"152",x2,"200",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BeerBottle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"208",y1,"16",x2,"240",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,24,152,72l-40,8L28.69,163.31a16,16,0,0,0,0,22.63l41.37,41.37a16,16,0,0,0,22.63,0L176,144l8-40,48-64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"96",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"216",x2,"40",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HighlighterCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"104 144 104 96 152 72 152 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,215.3V152a8,8,0,0,0-8-8H96a8,8,0,0,0-8,8v63.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Seatbelt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"68",r,"36",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 224 56 224 192 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M187.16,151A71.69,71.69,0,0,1,200,192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56.91,180.52a72,72,0,0,1,106.45-51.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrafficSign = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,152v-8a24,24,0,0,1,24-24h56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"46.3",y,"46.3",w,"163.41",h,"163.41",rx,"8.56",t,"translate(-53.02 128) rotate(-45)",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 168 120 144 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SlidersHorizontal = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"104",cy,"80",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"168",cy,"176",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"80",x2,"216",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"80",x2,"80",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"176",x2,"216",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"176",x2,"144",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Megaphone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M160,80V200.67a8,8,0,0,0,3.56,6.65l11,7.33a8,8,0,0,0,12.2-4.72L200,160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,200a8,8,0,0,0,13.15,6.12C105.55,162.16,160,160,160,160h40a40,40,0,0,0,0-80H160S105.55,77.84,53.15,33.89A8,8,0,0,0,40,40Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockKeyOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,40-40c19.35,0,36.29,13.74,40,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"140",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"160",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderMinus = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M216.89,208H39.38A7.4,7.4,0,0,1,32,200.62V80H216a8,8,0,0,1,8,8V200.89A7.11,7.11,0,0,1,216.89,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,80V56a8,8,0,0,1,8-8H92.69a8,8,0,0,1,5.65,2.34L128,80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"104",y1,"144",x2,"152",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const YoutubeLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"160 128 112 96 112 160 160 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const LockLaminatedOpen = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"120",x2,"216",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"152",x2,"216",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"184",x2,"216",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"88",w,"176",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,88V56a40,40,0,0,1,40-40c19.35,0,36.29,13.74,40,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShippingContainer = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"48",x2,"128",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,208l106.2-30.34A8,8,0,0,0,240,170V86a8,8,0,0,0-5.8-7.69L128,48,22.87,63A8,8,0,0,0,16,70.94V185.06A8,8,0,0,0,22.87,193Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"72",y1,"56",x2,"72",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CursorClick = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"16",x2,"96",y2,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"96",x2,"24",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"136",y2,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"128",x2,"16",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M162.35,138.35a8,8,0,0,1,2.46-13l46.41-17.82a8,8,0,0,0-.71-14.85L50.44,40.41a8,8,0,0,0-10,10L92.68,210.51a8,8,0,0,0,14.85.71l17.82-46.41a8,8,0,0,1,13-2.46l51.31,51.31a8,8,0,0,0,11.31,0L213.66,201a8,8,0,0,0,0-11.31Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DeviceMobile = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"64",y,"24",w,"128",h,"208",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"56",x2,"192",y2,"56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"200",x2,"192",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Ticket = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"56",x2,"96",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,160a32,32,0,0,0,0-64V64a8,8,0,0,1,8-8H224a8,8,0,0,1,8,8V96a32,32,0,0,0,0,64v32a8,8,0,0,1-8,8H32a8,8,0,0,1-8-8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Browser = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"96",x2,"224",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DropSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,144c0-72-80-128-80-128S48,72,48,144a80,80,0,0,0,160,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ShieldWarning = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"136",x2,"128",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"172",r,"12"),s(p,d,"M216,112V56a8,8,0,0,0-8-8H48a8,8,0,0,0-8,8v56c0,96,88,120,88,120S216,208,216,112Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TrayArrowDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"72",x2,"128",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M40,160H76.69a8,8,0,0,1,5.65,2.34l19.32,19.32a8,8,0,0,0,5.65,2.34h41.38a8,8,0,0,0,5.65-2.34l19.32-19.32a8,8,0,0,1,5.65-2.34H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 120 128 152 160 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CarSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"112",x2,"240",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M216,208H192a8,8,0,0,1-8-8V176H72v24a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V112L61.89,44.75A8,8,0,0,1,69.2,40H186.8a8,8,0,0,1,7.31,4.75L224,112v88A8,8,0,0,1,216,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Onigiri = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,224V168a8,8,0,0,1,8-8h64a8,8,0,0,1,8,8v56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M31.29,150.69C11.45,182.66,34.44,224,72.08,224H183.92c37.64,0,60.63-41.34,40.79-73.31l-55.93-96C150,24.44,106,24.44,87.22,54.69Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SuitcaseRolling = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"216",x2,"88",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"216",x2,"168",y2,"240",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"88",x2,"96",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"88",x2,"128",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"88",x2,"160",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"56",y,"56",w,"144",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,56V24A16,16,0,0,0,144,8H112A16,16,0,0,0,96,24V56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ListBullets = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"88",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"44",cy,"64",r,"12"),s(c,cx,"44",cy,"128",r,"12"),s(c,cx,"44",cy,"192",r,"12"))
+
+export const IceCream = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,96a72,72,0,0,1,144,0v8a16,16,0,0,1,0,32H56a16,16,0,0,1,0-32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"146.86",y1,"215",x2,"101.71",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"165.71",y1,"182",x2,"139.43",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192.07,136,135,236a8,8,0,0,1-13.9,0L63.93,136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FlipVertical = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M59.12,32.64A8,8,0,0,0,48,40v64a8,8,0,0,0,8,8H216c8.72,0,11.15-12,3.12-15.37Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M219.11,159.37c8-3.4,5.6-15.37-3.12-15.37H56a8,8,0,0,0-8,8v64a8,8,0,0,0,11.12,7.37Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberSquareNine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"40",w,"176",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"108",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152.25",y1,"122",x2,"120",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StarAndCrescent = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,206.4a88,88,0,0,1,0-156.8,88,88,0,1,0,0,156.8Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(pl,ps,"177.46 128 160 98.33 192.59 106.4 214.39 80 217.06 114.65 248 128 217.06 141.35 214.39 176 192.59 149.6 160 157.67 177.46 128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AlignCenterVerticalSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"88",y,"40",w,"80",h,"176",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"128",x2,"168",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"128",x2,"48",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CourtBasketball = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"24",y,"56",w,"208",h,"144",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"56",x2,"128",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M232,168H216a40,40,0,0,1,0-80h16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,168H40a40,40,0,0,0,0-80H24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassSimpleHigh = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M50.36,53.66A8,8,0,0,1,56,40H200a8,8,0,0,1,5.66,13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.36,202.34A8,8,0,0,0,56,216H200a8,8,0,0,0,5.66-13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"69.52",y1,"72",x2,"186.48",y2,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Mountains = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"164",cy,"52",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M8,200,81.1,75.94a8,8,0,0,1,13.8,0L168,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"50.35",y1,"128",x2,"125.65",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M146.61,163.71l33.06-55.79a8,8,0,0,1,13.76,0L248,200H168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChatCircleText = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"112",x2,"160",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"160",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const List = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"128",x2,"216",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"64",x2,"216",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"192",x2,"216",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaintRoller = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"56",w,"168",h,"80",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M208,96h24a8,8,0,0,1,8,8v50a8,8,0,0,1-5.8,7.69L133.8,190.34A8,8,0,0,0,128,198v34",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"96",x2,"16",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Jeep = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M224,168v32a8,8,0,0,1-8,8H192a8,8,0,0,1-8-8V168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M72,168v32a8,8,0,0,1-8,8H40a8,8,0,0,1-8-8V168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"16",y1,"96",x2,"240",y2,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"128",x2,"144",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"128",x2,"112",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M224,168H32V96L42.64,46.32A8,8,0,0,1,50.47,40H205.53a8,8,0,0,1,7.83,6.32L224,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"68",cy,"132",r,"12"),s(c,cx,"188",cy,"132",r,"12"))
+
+export const FileJsx = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M135.9,153.6s-29.43-7.78-31.8,11,38.43,10.12,35.78,30.72c-2.47,19.16-31.78,11-31.78,11",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M36,190a18,18,0,0,0,36,0V152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"152",x2,"208",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"152",x2,"168",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BatteryVerticalFull = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"8",x2,"160",y2,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"64",y,"40",w,"128",h,"200",rx,"16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"80",x2,"160",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"120",x2,"160",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"160",x2,"160",y2,"160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"200",x2,"160",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArticleNyTimes = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"104",x2,"232",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"136",x2,"232",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"168",x2,"232",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"200",x2,"232",y2,"200",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"128 72 128 56 32 56 32 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"136",x2,"96",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"56",x2,"80",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Heartbeat = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"32 136 72 136 88 112 120 160 136 136 160 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,104c0-.67,0-1.33,0-2A54,54,0,0,1,78,48c22.59,0,41.94,12.31,50,32,8.06-19.69,27.41-32,50-32a54,54,0,0,1,54,54c0,66-104,122-104,122s-42-22.6-72.58-56",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PinterestLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"128",y1,"88",x2,"96",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M66.7,152A80,80,0,1,1,216,112c0,44.18-32,72-64,72s-41.63-21.07-41.63-21.07",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CrownSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M54.71,200H201.29a8,8,0,0,0,7.88-6.61l22.7-104A8,8,0,0,0,218,82.76L176,128,135.26,36.65a8,8,0,0,0-14.52,0L80,128,38,82.76a8,8,0,0,0-13.9,6.66l22.7,104A8,8,0,0,0,54.71,200Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartBar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"48 208 48 136 96 136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"224",y1,"208",x2,"32",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 208 96 88 152 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 208 152 40 208 40 208 208",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Keyhole = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M112,139.72a32,32,0,1,1,32,0L160,176H96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Intersection = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M56,200V120a72,72,0,0,1,144,0v80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PhoneCall = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M152,48a78.61,78.61,0,0,1,56,56",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,80c16.52,4.42,27.58,15.48,32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M156.39,153.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,168,224,136,136,0,0,1,32,88,48.33,48.33,0,0,1,73.92,40.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L81.32,125a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ChartLineDown = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"200 168 128 96 96 128 32 64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"200 128 200 168 160 168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"224 208 32 208 32 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Motorcycle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"40",cy,"160",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"216",cy,"160",r,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 56 176 56 216 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M16,80s47.31,18.34,72.56,29.81a24,24,0,0,0,25.16-3.18C121.64,100.09,134.4,96,152,96h64a64,64,0,0,0-61.65,46.75,23.83,23.83,0,0,1-23,17.25H40",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const AirplaneTilt = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M88,224l24-24V176l24-24,48,72,24-24-32-88,33-31A24,24,0,0,0,175,47L144,80,56,48,32,72l72,48L80,144H56L32,168l40,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Control = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"56 120 128 48 200 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowElbowRightUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"120 96 168 48 216 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"24 192 168 192 168 48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Aperture = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"32",x2,"164.68",y2,"134.7",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"44.86",y1,"80",x2,"152.14",y2,"99.58",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"44.86",y1,"176",x2,"115.46",y2,"92.89",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"224",x2,"91.32",y2,"121.3",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"211.14",y1,"176",x2,"103.86",y2,"156.42",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"211.14",y1,"80",x2,"140.54",y2,"163.11",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const SprayBottle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M72,72H200a48,48,0,0,0-48-48H80a8,8,0,0,0-8,8V80a32,32,0,0,1-32,32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M160,72h0a263.14,263.14,0,0,1,40,139.47V224a8,8,0,0,1-8,8H88a8,8,0,0,1-8-8V167.38a32,32,0,0,1,12-25l16-12.78a32,32,0,0,0,12-25V72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HandbagSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M209.67,72H46.33a8.06,8.06,0,0,0-8,7.07l-14.25,120a8,8,0,0,0,8,8.93H223.92a8,8,0,0,0,8-8.93l-14.25-120A8.06,8.06,0,0,0,209.67,72Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M88,72V64a40,40,0,0,1,80,0v8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Popsicle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,16h0a64,64,0,0,1,64,64v96a8,8,0,0,1-8,8H72a8,8,0,0,1-8-8V80A64,64,0,0,1,128,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M144,184v48a16,16,0,0,1-16,16h0a16,16,0,0,1-16-16V184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"112",y1,"72",x2,"112",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"144",y1,"72",x2,"144",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PersonSimpleCircle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"80",r,"16"),s(l,x1,"80",y1,"112",x2,"176",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"160 184 128 136 96 184",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"112",x2,"128",y2,"136",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Files = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M168,224H56a8,8,0,0,1-8-8V72a8,8,0,0,1,8-8h80l40,40V216A8,8,0,0,1,168,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M80,64V40a8,8,0,0,1,8-8h80l40,40V184a8,8,0,0,1-8,8H176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"152",x2,"136",y2,"152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"184",x2,"136",y2,"184",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const VectorTwo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"224 192 80 192 80 40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"192 160 224 192 192 224",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"48 72 80 40 112 72",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const WebhooksLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"192",cy,"168",r,"16"),s(c,cx,"128",cy,"64",r,"16"),s(c,cx,"64",cy,"168",r,"16"),s(p,d,"M32,144a40,40,0,1,0,72,24h88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M164.66,48A40,40,0,1,0,107,98.07L64,168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M192,208a40,40,0,1,0-21-74.07L128,64",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Checks = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"16 130.29 54.4 168 144 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"125.96 144 150.4 168 240 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GasCan = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M123.31,32H200a8,8,0,0,1,8,8V216a8,8,0,0,1-8,8H56a8,8,0,0,1-8-8V107.31a8,8,0,0,1,2.34-5.65l67.32-67.32A8,8,0,0,1,123.31,32Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"64",x2,"176",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"120",x2,"176",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"120",x2,"80",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M66.34,85.66l-16-16a8,8,0,0,1,0-11.32l24-24a8,8,0,0,1,11.32,0l16,16",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FileVue = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"200",y1,"180",x2,"176",y2,"180",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"40 152 60 208 80 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M48,112V40a8,8,0,0,1,8-8h96l56,56v24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"152 32 152 88 208 88",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"208 208 176 208 176 152 208 152",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M108,152v38a18,18,0,0,0,36,0V152",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowsDownUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"112 176 80 208 48 176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"80",y1,"48",x2,"80",y2,"208",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 80 176 48 208 80",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"176",y1,"208",x2,"176",y2,"48",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const DevToLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"16",y,"64",w,"224",h,"128",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"144 96 120 96 120 160 144 160",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"136",y1,"128",x2,"120",y2,"128",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"172 96 190 160 208 96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,96h8a24,24,0,0,1,24,24v16a24,24,0,0,1-24,24H56a0,0,0,0,1,0,0V96A0,0,0,0,1,56,96Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const GearSix = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M130.05,206.11c-1.34,0-2.69,0-4,0L94,224a104.61,104.61,0,0,1-34.11-19.2l-.12-36c-.71-1.12-1.38-2.25-2-3.41L25.9,147.24a99.15,99.15,0,0,1,0-38.46l31.84-18.1c.65-1.15,1.32-2.29,2-3.41l.16-36A104.58,104.58,0,0,1,94,32l32,17.89c1.34,0,2.69,0,4,0L162,32a104.61,104.61,0,0,1,34.11,19.2l.12,36c.71,1.12,1.38,2.25,2,3.41l31.85,18.14a99.15,99.15,0,0,1,0,38.46l-31.84,18.1c-.65,1.15-1.32,2.29-2,3.41l-.16,36A104.58,104.58,0,0,1,162,224Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Hourglass = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,128,67.2,82.4A8,8,0,0,1,64,76V40a8,8,0,0,1,8-8H184a8,8,0,0,1,8,8V75.64A8,8,0,0,1,188.82,82L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,128,67.2,173.6A8,8,0,0,0,64,180v36a8,8,0,0,0,8,8H184a8,8,0,0,0,8-8V180.36a8,8,0,0,0-3.18-6.38L128,128h0",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FolderSimpleLock = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M112,208H40a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8H93.33a8,8,0,0,1,4.8,1.6l27.74,20.8a8,8,0,0,0,4.8,1.6H216a8,8,0,0,1,8,8v16",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"152",y,"168",w,"72",h,"40",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M168,168V156a20,20,0,0,1,40,0v12",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Signature = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"24",y1,"176",x2,"232",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M24,224S139.52,32,77.91,32C32.07,32,31.58,225.11,128,104.19c0,0,8.11,39.44,27.23,39.81,7.72.15,17.25-6.31,28.77-24,0,0,0,24,48,24",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NetworkSlash = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"40",y,"168",w,"48",h,"48",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"64",y1,"168",x2,"64",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M104,54V40a8,8,0,0,1,8-8h32a8,8,0,0,1,8,8V72a8,8,0,0,1-8,8H127.61",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"40",x2,"208",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"163.97",y1,"120",x2,"232",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"120",x2,"120.73",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"192",y1,"120",x2,"192",y2,"150.83",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const StackSimple = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(pl,ps,"16 104 128 168 240 104 128 40 16 104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"16 144 128 208 240 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MapPinArea = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"80",r,"16"),s(p,d,"M184,80c0,56-56,88-56,88S72,136,72,80a56,56,0,0,1,112,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M200,155.14c19.72,7.28,32,17.52,32,28.86,0,22.09-46.56,40-104,40S24,206.09,24,184c0-11.34,12.28-21.58,32-28.86",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Phone = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M164.39,145.34a8,8,0,0,1,7.59-.69l47.16,21.13a8,8,0,0,1,4.8,8.3A48.33,48.33,0,0,1,176,216,136,136,0,0,1,40,80,48.33,48.33,0,0,1,81.92,32.06a8,8,0,0,1,8.3,4.8l21.13,47.2a8,8,0,0,1-.66,7.53L89.32,117a7.93,7.93,0,0,0-.54,7.81c8.27,16.93,25.77,34.22,42.75,42.41a7.92,7.92,0,0,0,7.83-.59Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const BugBeetle = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(rt,x,"56",y,"40",w,"144",h,"192",rx,"72",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"144",x2,"224",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"144",x2,"56",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"176",x2,"57.78",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"32",y1,"112",x2,"224",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"144",x2,"128",y2,"232",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"198.22",y1,"176",x2,"224",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"200",y1,"32",x2,"174.75",y2,"57.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"56",y1,"32",x2,"81.25",y2,"57.25",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const TreePalm = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M128,104a65.47,65.47,0,0,1,17.84-45.25,58.87,58.87,0,0,1,86.16,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,104.52a64.26,64.26,0,0,1,87.42,23.26A63,63,0,0,1,221.81,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,104a65.47,65.47,0,0,0-17.84-45.25,58.87,58.87,0,0,0-86.16,0Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M128,104.52a64.26,64.26,0,0,0-87.42,23.26A63,63,0,0,0,34.19,176Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"104.52",x2,"128",y2,"224",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const NumberCircleNine = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"108",r,"28",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"152.25",y1,"122",x2,"120",y2,"176",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FireTruck = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"192",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"80",cy,"192",r,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"168",y1,"192",x2,"104",y2,"192",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"120",x2,"248",y2,"120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M184,80h42.58A8,8,0,0,1,234,85l14,35v64a8,8,0,0,1-8,8H216",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M56,192H32a8,8,0,0,1-8-8V136",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"104",x2,"152",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"24",y1,"64",x2,"152",y2,"64",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"48",y1,"64",x2,"48",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"88",y1,"64",x2,"88",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"64",x2,"128",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"184",y1,"64",x2,"184",y2,"169.37",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Horse = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M176,120a48,48,0,0,1-48,48",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"124",cy,"100",r,"12"),s(p,d,"M64,200c17.43,15.6,40.59,24.48,65.94,24,51.48-1,93.33-43.13,94.05-94.61A96,96,0,0,0,128,32h-8V64L16,128l13.79,22a24,24,0,0,0,23.51,9.62c17.47-3,48.06-7.64,74.7,8.34h0L92.13,217.32",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const PaintBucket = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M208,139.48l-79.83,79.83a16,16,0,0,1-22.63,0L20.69,134.46a16,16,0,0,1,0-22.63L116.52,16,232,131.48Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"124",cy,"116",r,"20",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"109.86",y1,"101.86",x2,"39.99",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M248,208a16,16,0,0,1-32,0c0-16,16-40,16-40S248,192,248,208Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const Newspaper = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"96",y1,"112",x2,"176",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"144",x2,"176",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,200a16,16,0,0,0,16-16V64a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V184a16,16,0,0,1-16,16Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M32,200a16,16,0,0,1-16-16V88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CableCar = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"16",y1,"72",x2,"240",y2,"32",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"40",y,"104",w,"176",h,"112",rx,"24",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"168",x2,"216",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"52",x2,"128",y2,"104",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"160",y1,"104",x2,"160",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"96",y1,"104",x2,"96",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const HourglassSimpleMedium = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(p,d,"M50.36,53.66A8,8,0,0,1,56,40H200a8,8,0,0,1,5.66,13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M50.36,202.34A8,8,0,0,0,56,216H200a8,8,0,0,0,5.66-13.66L128,128Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"128",x2,"128",y2,"168",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"178.13",y1,"80",x2,"77.87",y2,"80",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const ArrowCircleUp = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 120 128 88 160 120",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"128",y1,"168",x2,"128",y2,"88",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const CurrencyNgn = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"144",x2,"216",y2,"144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"112",x2,"216",y2,"112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"64 210 64 46 192 210 192 46",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const FrameCorners = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"160 80 192 80 192 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(py,ps,"96 176 64 176 64 144",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(rt,x,"32",y,"48",w,"192",h,"160",rx,"8",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const MessengerLogo = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(py,ps,"80 144 112 112 144 144 176 112",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(p,d,"M79.93,211.11a96,96,0,1,0-35-35h0L32.42,213.46a8,8,0,0,0,10.12,10.12l37.39-12.47Z",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
+
+export const YinYang = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(c,cx,"128",cy,"128",r,"96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"176",r,"12"),s(p,d,"M128,224a48,48,0,0,1,0-96,48,48,0,0,0,0-96",f,n,st,cc,sc,ro,sj,ro,sw,"16"),s(c,cx,"128",cy,"80",r,"12"))
+
+export const NotEquals = /** @__PURE__ */ () => _(vb,vd,s(rt,w,"256",h,"256",f,n),s(l,x1,"40",y1,"160",x2,"216",y2,"160",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"40",y1,"96",x2,"216",y2,"96",st,cc,sc,ro,sj,ro,sw,"16"),s(l,x1,"208",y1,"40",x2,"48",y2,"216",f,n,st,cc,sc,ro,sj,ro,sw,"16"))
