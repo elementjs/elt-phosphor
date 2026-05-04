@@ -5,7 +5,7 @@ css.replace(/* css */`
   vertical-align: -.155em;
 }
 
-.eltph > svg path[opacity] {
+.eltph > svg :is(path[opacity], circle:not([stroke])) {
   fill: var(--e-color-fg, currentColor);
 }
 `)
